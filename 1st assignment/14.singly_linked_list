@@ -1,78 +1,47 @@
 class Node:
-    """Represents a single node in the linked list."""
     def __init__(self, data):
-        self.data = data  # Store the data
-        self.next = None  # Pointer to the next node
+        self.data = data
+        self.next = None
 
-class SinglyLinkedList:
-    """A simple singly linked list implementation."""
+class LinkedList:
     def __init__(self):
-        self.head = None  # Initialize the head of the list
+        self.head = None
 
     def insert(self, data):
-        """Add a new node with the given data at the end of the list."""
-        new_node = Node(data)  # Create a new node
-        if not self.head:
-            self.head = new_node  # If the list is empty, set head to new node
-            return
-        
-        # Otherwise, find the last node
-        last = self.head
-        while last.next:
-            last = last.next  # Traverse to the last node
-        last.next = new_node  # Link the last node to the new node
+        new_node = Node(data)
+        new_node.next = self.head
+        self.head = new_node
 
-    def delete(self, key):
-        """Remove the first node that contains the specified key."""
-        current = self.head
-
-        # Check if the head node needs to be removed
-        if current and current.data == key:
-            self.head = current.next  # Move head to the next node
-            return
-
-        # Search for the key to be deleted
+    def delete(self, data):
+        temp = self.head
         prev = None
-        while current and current.data != key:
-            prev = current
-            current = current.next
 
-        # If the key wasn't found, let the user know
-        if not current:
-            print(f"Key {key} not found.")
+        while temp and temp.data != data:
+            prev = temp
+            temp = temp.next
+
+        if temp is None:
             return
 
-        # Unlink the node from the linked list
-        prev.next = current.next
-        current = None  # Optionally clear the current node
+        if prev is None:
+            self.head = temp.next
+        else:
+            prev.next = temp.next
 
     def traverse(self):
-        """Print all elements in the linked list."""
-        current = self.head
-        elements = []
-        while current:
-            elements.append(current.data)  # Collect data from each node
-            current = current.next
-        print("Linked List:", " -> ".join(map(str, elements)))
+        temp = self.head
+        while temp:
+            print(temp.data, end=" -> ")
+            temp = temp.next
+        print("None")
 
-# Example usage
 if __name__ == "__main__":
-    ll = SinglyLinkedList()
-    
-    # Insert elements into the linked list
-    print("Inserting values 10, 20, 30 into the linked list...")
-    ll.insert(10)
-    ll.insert(20)
-    ll.insert(30)
+    linked_list = LinkedList()
 
-    # Traverse and display the current state of the linked list
-    print("Current linked list:")
-    ll.traverse()
+    linked_list.insert(30)
+    linked_list.insert(20)
+    linked_list.insert(10)
 
-    # Now, let's delete an element
-    print("Deleting value 20 from the linked list...")
-    ll.delete(20)
+    linked_list.delete(20)
 
-    # Display the list again after deletion
-    print("Linked list after deletion:")
-    ll.traverse()
+    linked_list.traverse()
