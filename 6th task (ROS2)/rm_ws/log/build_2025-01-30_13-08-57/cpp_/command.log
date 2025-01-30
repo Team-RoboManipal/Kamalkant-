@@ -1,0 +1,4 @@
+Invoking command in '/root/rm_ws/build/cpp_': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/rm_ws/build/cpp_ -- -j8 -l8
+Invoked command in '/root/rm_ws/build/cpp_' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/rm_ws/build/cpp_ -- -j8 -l8
+Invoking command in '/root/rm_ws/build/cpp_': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/rm_ws/build/cpp_
+Invoked command in '/root/rm_ws/build/cpp_' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/rm_ws/build/cpp_

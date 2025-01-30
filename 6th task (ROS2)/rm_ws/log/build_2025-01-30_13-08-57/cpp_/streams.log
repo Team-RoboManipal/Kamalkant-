@@ -1,0 +1,52 @@
+[0.036s] Invoking command in '/root/rm_ws/build/cpp_': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/rm_ws/build/cpp_ -- -j8 -l8
+[0.332s] [35m[1mConsolidate compiler generated dependencies of target sub[0m
+[0.343s] [35m[1mConsolidate compiler generated dependencies of target server[0m
+[0.350s] [35m[1mConsolidate compiler generated dependencies of target client[0m
+[0.350s] [35m[1mConsolidate compiler generated dependencies of target pub[0m
+[0.446s] [ 25%] Built target sub
+[0.450s] [ 62%] Built target client
+[0.450s] [ 75%] Built target pub
+[0.454s] [ 87%] [32m[1mLinking CXX executable server[0m
+[0.804s] [100%] Built target server
+[0.846s] Invoked command in '/root/rm_ws/build/cpp_' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/rm_ws/build/cpp_ -- -j8 -l8
+[1.324s] Invoking command in '/root/rm_ws/build/cpp_': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/rm_ws/build/cpp_
+[1.371s] -- Install configuration: ""
+[1.373s] -- Installing: /root/rm_ws/install/cpp_/lib/cpp_/pub
+[1.377s] -- Set runtime path of "/root/rm_ws/install/cpp_/lib/cpp_/pub" to ""
+[1.377s] -- Installing: /root/rm_ws/install/cpp_/lib/cpp_/sub
+[1.379s] -- Set runtime path of "/root/rm_ws/install/cpp_/lib/cpp_/sub" to ""
+[1.379s] -- Installing: /root/rm_ws/install/cpp_/lib/cpp_/server
+[1.380s] -- Set runtime path of "/root/rm_ws/install/cpp_/lib/cpp_/server" to ""
+[1.380s] -- Installing: /root/rm_ws/install/cpp_/lib/cpp_/client
+[1.380s] -- Set runtime path of "/root/rm_ws/install/cpp_/lib/cpp_/client" to ""
+[1.381s] -- Installing: /root/rm_ws/install/cpp_/share/ament_index/resource_index/package_run_dependencies/cpp_
+[1.381s] -- Installing: /root/rm_ws/install/cpp_/share/ament_index/resource_index/parent_prefix_path/cpp_
+[1.381s] -- Installing: /root/rm_ws/install/cpp_/share/cpp_/environment/ament_prefix_path.sh
+[1.381s] -- Installing: /root/rm_ws/install/cpp_/share/cpp_/environment/ament_prefix_path.dsv
+[1.381s] -- Installing: /root/rm_ws/install/cpp_/share/cpp_/environment/path.sh
+[1.382s] -- Installing: /root/rm_ws/install/cpp_/share/cpp_/environment/path.dsv
+[1.382s] -- Installing: /root/rm_ws/install/cpp_/share/cpp_/local_setup.bash
+[1.382s] -- Installing: /root/rm_ws/install/cpp_/share/cpp_/local_setup.sh
+[1.382s] -- Installing: /root/rm_ws/install/cpp_/share/cpp_/local_setup.zsh
+[1.382s] -- Installing: /root/rm_ws/install/cpp_/share/cpp_/local_setup.dsv
+[1.382s] -- Installing: /root/rm_ws/install/cpp_/share/cpp_/package.dsv
+[1.382s] -- Installing: /root/rm_ws/install/cpp_/share/ament_index/resource_index/packages/cpp_
+[1.382s] -- Installing: /root/rm_ws/install/cpp_/share/cpp_/cmake/cpp_Config.cmake
+[1.383s] -- Installing: /root/rm_ws/install/cpp_/share/cpp_/cmake/cpp_Config-version.cmake
+[1.383s] -- Installing: /root/rm_ws/install/cpp_/share/cpp_/package.xml
+[1.388s] Invoked command in '/root/rm_ws/build/cpp_' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/rm_ws/build/cpp_
+[1.834s] Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 65, in build
+    has_install_target = await has_target(args.build_base, 'install')
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 57, in has_target
+    return target in await get_makefile_targets(path)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 77, in get_makefile_targets
+    output = await check_output([
+  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 129, in check_output
+    assert not rc, f'Expected {args} to pass: {stderr_data}'
+AssertionError: Expected ['/usr/bin/cmake', '--build', '/root/rm_ws/build/cpp_', '--target', 'help'] to pass: gmake: *** [Makefile:377: help] Illegal instruction
+

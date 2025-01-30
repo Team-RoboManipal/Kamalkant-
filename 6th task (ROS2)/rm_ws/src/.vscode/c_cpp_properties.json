@@ -1,0 +1,16 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/Users/kamal/miniconda3/envs/ros_env/include/**",
+        "/Users/kamal/rm_ws/src/chat/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

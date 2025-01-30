@@ -1,0 +1,712 @@
+[0.000000] (-) TimerEvent: {}
+[0.001226] (chat) JobQueued: {'identifier': 'chat', 'dependencies': OrderedDict()}
+[0.001333] (cpp_) JobQueued: {'identifier': 'cpp_', 'dependencies': OrderedDict()}
+[0.001357] (py_examples) JobQueued: {'identifier': 'py_examples', 'dependencies': OrderedDict()}
+[0.001390] (turtle_cpp) JobQueued: {'identifier': 'turtle_cpp', 'dependencies': OrderedDict()}
+[0.001430] (turtle_sim) JobQueued: {'identifier': 'turtle_sim', 'dependencies': OrderedDict()}
+[0.001452] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.001468] (polygon_cpp) JobQueued: {'identifier': 'polygon_cpp', 'dependencies': OrderedDict([('tutorial_interfaces', '/root/rm_ws/install/tutorial_interfaces')])}
+[0.001504] (polygon_turtle) JobQueued: {'identifier': 'polygon_turtle', 'dependencies': OrderedDict([('tutorial_interfaces', '/root/rm_ws/install/tutorial_interfaces')])}
+[0.001527] (chat) JobStarted: {'identifier': 'chat'}
+[0.037829] (chat) JobProgress: {'identifier': 'chat', 'progress': 'cmake'}
+[0.039085] (chat) JobProgress: {'identifier': 'chat', 'progress': 'build'}
+[0.039118] (chat) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/rm_ws/build/chat', '--', '-j8', '-l8'], 'cwd': '/root/rm_ws/build/chat', 'env': OrderedDict([('HOSTNAME', '409d20186cea'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/rm_ws/build/chat'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.100341] (-) TimerEvent: {}
+[0.202087] (-) TimerEvent: {}
+[0.302356] (-) TimerEvent: {}
+[0.403360] (-) TimerEvent: {}
+[0.414268] (chat) StdoutLine: {'line': b'[100%] Built target a\n'}
+[0.414613] (chat) StdoutLine: {'line': b'[100%] Built target b\n'}
+[0.455482] (chat) CommandEnded: {'returncode': 0}
+[0.506600] (-) TimerEvent: {}
+[0.608045] (-) TimerEvent: {}
+[0.708564] (-) TimerEvent: {}
+[0.806169] (chat) JobProgress: {'identifier': 'chat', 'progress': 'install'}
+[0.809328] (-) TimerEvent: {}
+[0.845137] (chat) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/rm_ws/build/chat'], 'cwd': '/root/rm_ws/build/chat', 'env': OrderedDict([('HOSTNAME', '409d20186cea'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/rm_ws/build/chat'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.890129] (chat) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.893171] (chat) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/chat/lib/chat/a\n'}
+[0.893859] (chat) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/chat/lib/chat/b\n'}
+[0.894068] (chat) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/chat/share/ament_index/resource_index/package_run_dependencies/chat\n'}
+[0.894226] (chat) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/chat/share/ament_index/resource_index/parent_prefix_path/chat\n'}
+[0.894336] (chat) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/chat/share/chat/environment/ament_prefix_path.sh\n'}
+[0.894416] (chat) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/chat/share/chat/environment/ament_prefix_path.dsv\n'}
+[0.894477] (chat) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/chat/share/chat/environment/path.sh\n'}
+[0.894538] (chat) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/chat/share/chat/environment/path.dsv\n'}
+[0.894678] (chat) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/chat/share/chat/local_setup.bash\n'}
+[0.894749] (chat) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/chat/share/chat/local_setup.sh\n'}
+[0.894798] (chat) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/chat/share/chat/local_setup.zsh\n'}
+[0.894836] (chat) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/chat/share/chat/local_setup.dsv\n'}
+[0.894871] (chat) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/chat/share/chat/package.dsv\n'}
+[0.895466] (chat) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/chat/share/ament_index/resource_index/packages/chat\n'}
+[0.895621] (chat) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/chat/share/chat/cmake/chatConfig.cmake\n'}
+[0.895673] (chat) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/chat/share/chat/cmake/chatConfig-version.cmake\n'}
+[0.895712] (chat) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/chat/share/chat/package.xml\n'}
+[0.900856] (chat) CommandEnded: {'returncode': 0}
+[0.910931] (-) TimerEvent: {}
+[1.012338] (-) TimerEvent: {}
+[1.114819] (-) TimerEvent: {}
+[1.215340] (-) TimerEvent: {}
+[1.259638] (chat) JobEnded: {'identifier': 'chat', 'rc': 0}
+[1.260130] (cpp_) JobStarted: {'identifier': 'cpp_'}
+[1.290247] (cpp_) JobProgress: {'identifier': 'cpp_', 'progress': 'cmake'}
+[1.291040] (cpp_) JobProgress: {'identifier': 'cpp_', 'progress': 'build'}
+[1.292572] (cpp_) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/rm_ws/build/cpp_', '--', '-j8', '-l8'], 'cwd': '/root/rm_ws/build/cpp_', 'env': OrderedDict([('HOSTNAME', '409d20186cea'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/rm_ws/build/cpp_'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.316801] (-) TimerEvent: {}
+[1.418096] (-) TimerEvent: {}
+[1.519522] (-) TimerEvent: {}
+[1.620408] (-) TimerEvent: {}
+[1.657203] (cpp_) StdoutLine: {'line': b'[ 37%] Built target pub\n'}
+[1.657693] (cpp_) StdoutLine: {'line': b'[ 50%] Built target sub\n'}
+[1.660093] (cpp_) StdoutLine: {'line': b'[ 75%] Built target server\n'}
+[1.665160] (cpp_) StdoutLine: {'line': b'[100%] Built target client\n'}
+[1.706416] (cpp_) CommandEnded: {'returncode': 0}
+[1.721819] (-) TimerEvent: {}
+[1.825816] (-) TimerEvent: {}
+[1.927797] (-) TimerEvent: {}
+[2.030065] (-) TimerEvent: {}
+[2.131317] (-) TimerEvent: {}
+[2.176296] (cpp_) JobProgress: {'identifier': 'cpp_', 'progress': 'install'}
+[2.178083] (cpp_) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/rm_ws/build/cpp_'], 'cwd': '/root/rm_ws/build/cpp_', 'env': OrderedDict([('HOSTNAME', '409d20186cea'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/rm_ws/build/cpp_'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.224788] (cpp_) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.227830] (cpp_) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/cpp_/lib/cpp_/pub\n'}
+[2.228523] (cpp_) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/cpp_/lib/cpp_/sub\n'}
+[2.228737] (cpp_) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/cpp_/lib/cpp_/server\n'}
+[2.228957] (cpp_) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/cpp_/lib/cpp_/client\n'}
+[2.229148] (cpp_) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/cpp_/share/ament_index/resource_index/package_run_dependencies/cpp_\n'}
+[2.229359] (cpp_) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/cpp_/share/ament_index/resource_index/parent_prefix_path/cpp_\n'}
+[2.229436] (cpp_) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/cpp_/share/cpp_/environment/ament_prefix_path.sh\n'}
+[2.229539] (cpp_) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/cpp_/share/cpp_/environment/ament_prefix_path.dsv\n'}
+[2.229588] (cpp_) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/cpp_/share/cpp_/environment/path.sh\n'}
+[2.229638] (cpp_) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/cpp_/share/cpp_/environment/path.dsv\n'}
+[2.229707] (cpp_) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/cpp_/share/cpp_/local_setup.bash\n'}
+[2.229755] (cpp_) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/cpp_/share/cpp_/local_setup.sh\n'}
+[2.229791] (cpp_) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/cpp_/share/cpp_/local_setup.zsh\n'}
+[2.229826] (cpp_) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/cpp_/share/cpp_/local_setup.dsv\n'}
+[2.229866] (cpp_) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/cpp_/share/cpp_/package.dsv\n'}
+[2.230438] (cpp_) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/cpp_/share/ament_index/resource_index/packages/cpp_\n'}
+[2.230500] (cpp_) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/cpp_/share/cpp_/cmake/cpp_Config.cmake\n'}
+[2.230545] (cpp_) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/cpp_/share/cpp_/cmake/cpp_Config-version.cmake\n'}
+[2.230644] (cpp_) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/cpp_/share/cpp_/package.xml\n'}
+[2.232560] (-) TimerEvent: {}
+[2.236218] (cpp_) CommandEnded: {'returncode': 0}
+[2.333826] (-) TimerEvent: {}
+[2.434743] (-) TimerEvent: {}
+[2.536251] (-) TimerEvent: {}
+[2.637487] (-) TimerEvent: {}
+[2.697673] (cpp_) JobEnded: {'identifier': 'cpp_', 'rc': 0}
+[2.698568] (py_examples) JobStarted: {'identifier': 'py_examples'}
+[2.738594] (-) TimerEvent: {}
+[2.840086] (-) TimerEvent: {}
+[2.945336] (-) TimerEvent: {}
+[3.046848] (-) TimerEvent: {}
+[3.147823] (-) TimerEvent: {}
+[3.252008] (-) TimerEvent: {}
+[3.301440] (py_examples) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_examples', 'build', '--build-base', '/root/rm_ws/build/py_examples/build', 'install', '--record', '/root/rm_ws/build/py_examples/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/rm_ws/src/py_examples', 'env': {'HOSTNAME': '409d20186cea', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': 'host.docker.internal:0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/root/rm_ws/build/py_examples', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/rm_ws/build/py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/rm_ws/install/py_examples/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[3.357334] (-) TimerEvent: {}
+[3.463073] (-) TimerEvent: {}
+[3.524383] (py_examples) StdoutLine: {'line': b'running egg_info\n'}
+[3.524996] (py_examples) StdoutLine: {'line': b'writing ../../build/py_examples/py_examples.egg-info/PKG-INFO\n'}
+[3.525213] (py_examples) StdoutLine: {'line': b'writing dependency_links to ../../build/py_examples/py_examples.egg-info/dependency_links.txt\n'}
+[3.525414] (py_examples) StdoutLine: {'line': b'writing entry points to ../../build/py_examples/py_examples.egg-info/entry_points.txt\n'}
+[3.525740] (py_examples) StdoutLine: {'line': b'writing requirements to ../../build/py_examples/py_examples.egg-info/requires.txt\n'}
+[3.525868] (py_examples) StdoutLine: {'line': b'writing top-level names to ../../build/py_examples/py_examples.egg-info/top_level.txt\n'}
+[3.527052] (py_examples) StdoutLine: {'line': b"reading manifest file '../../build/py_examples/py_examples.egg-info/SOURCES.txt'\n"}
+[3.527688] (py_examples) StdoutLine: {'line': b"writing manifest file '../../build/py_examples/py_examples.egg-info/SOURCES.txt'\n"}
+[3.527796] (py_examples) StdoutLine: {'line': b'running build\n'}
+[3.527848] (py_examples) StdoutLine: {'line': b'running build_py\n'}
+[3.528118] (py_examples) StdoutLine: {'line': b'running install\n'}
+[3.528358] (py_examples) StdoutLine: {'line': b'running install_lib\n'}
+[3.529289] (py_examples) StdoutLine: {'line': b'running install_data\n'}
+[3.529415] (py_examples) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.530404] (py_examples) StdoutLine: {'line': b"removing '/root/rm_ws/install/py_examples/lib/python3.10/site-packages/py_examples-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.530913] (py_examples) StdoutLine: {'line': b'Copying ../../build/py_examples/py_examples.egg-info to /root/rm_ws/install/py_examples/lib/python3.10/site-packages/py_examples-0.0.0-py3.10.egg-info\n'}
+[3.532930] (py_examples) StdoutLine: {'line': b'running install_scripts\n'}
+[3.555516] (py_examples) StdoutLine: {'line': b'Installing client script to /root/rm_ws/install/py_examples/lib/py_examples\n'}
+[3.555686] (py_examples) StdoutLine: {'line': b'Installing pub script to /root/rm_ws/install/py_examples/lib/py_examples\n'}
+[3.555860] (py_examples) StdoutLine: {'line': b'Installing srv script to /root/rm_ws/install/py_examples/lib/py_examples\n'}
+[3.555928] (py_examples) StdoutLine: {'line': b'Installing sub script to /root/rm_ws/install/py_examples/lib/py_examples\n'}
+[3.556161] (py_examples) StdoutLine: {'line': b"writing list of installed files to '/root/rm_ws/build/py_examples/install.log'\n"}
+[3.563555] (-) TimerEvent: {}
+[3.572223] (py_examples) CommandEnded: {'returncode': 0}
+[3.576493] (py_examples) JobEnded: {'identifier': 'py_examples', 'rc': 0}
+[3.577431] (turtle_cpp) JobStarted: {'identifier': 'turtle_cpp'}
+[3.607998] (turtle_cpp) JobProgress: {'identifier': 'turtle_cpp', 'progress': 'cmake'}
+[3.610054] (turtle_cpp) JobProgress: {'identifier': 'turtle_cpp', 'progress': 'build'}
+[3.610137] (turtle_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/rm_ws/build/turtle_cpp', '--', '-j8', '-l8'], 'cwd': '/root/rm_ws/build/turtle_cpp', 'env': OrderedDict([('HOSTNAME', '409d20186cea'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/rm_ws/build/turtle_cpp'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.664347] (-) TimerEvent: {}
+[3.765829] (-) TimerEvent: {}
+[3.866368] (-) TimerEvent: {}
+[3.967425] (-) TimerEvent: {}
+[4.004539] (turtle_cpp) StdoutLine: {'line': b'[ 20%] Built target controller\n'}
+[4.012596] (turtle_cpp) StdoutLine: {'line': b'[ 40%] Built target goal\n'}
+[4.016503] (turtle_cpp) StdoutLine: {'line': b'[ 60%] Built target d\n'}
+[4.030269] (turtle_cpp) StdoutLine: {'line': b'[ 80%] Built target draw_circle\n'}
+[4.037656] (turtle_cpp) StdoutLine: {'line': b'[100%] Built target polygon\n'}
+[4.069802] (-) TimerEvent: {}
+[4.078798] (turtle_cpp) CommandEnded: {'returncode': 0}
+[4.171595] (-) TimerEvent: {}
+[4.273292] (-) TimerEvent: {}
+[4.374817] (-) TimerEvent: {}
+[4.475833] (-) TimerEvent: {}
+[4.576793] (-) TimerEvent: {}
+[4.605690] (turtle_cpp) JobProgress: {'identifier': 'turtle_cpp', 'progress': 'install'}
+[4.607640] (turtle_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/rm_ws/build/turtle_cpp'], 'cwd': '/root/rm_ws/build/turtle_cpp', 'env': OrderedDict([('HOSTNAME', '409d20186cea'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/rm_ws/build/turtle_cpp'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.654230] (turtle_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.657300] (turtle_cpp) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/turtle_cpp/lib/turtle_cpp/goal\n'}
+[4.658012] (turtle_cpp) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/turtle_cpp/lib/turtle_cpp/polygon\n'}
+[4.658240] (turtle_cpp) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/turtle_cpp/lib/turtle_cpp/controller\n'}
+[4.658473] (turtle_cpp) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/turtle_cpp/lib/turtle_cpp/d\n'}
+[4.658697] (turtle_cpp) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/turtle_cpp/lib/turtle_cpp/draw_circle\n'}
+[4.658889] (turtle_cpp) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/turtle_cpp/share/ament_index/resource_index/package_run_dependencies/turtle_cpp\n'}
+[4.659020] (turtle_cpp) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/turtle_cpp/share/ament_index/resource_index/parent_prefix_path/turtle_cpp\n'}
+[4.659097] (turtle_cpp) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/turtle_cpp/share/turtle_cpp/environment/ament_prefix_path.sh\n'}
+[4.659166] (turtle_cpp) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/turtle_cpp/share/turtle_cpp/environment/ament_prefix_path.dsv\n'}
+[4.659300] (turtle_cpp) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/turtle_cpp/share/turtle_cpp/environment/path.sh\n'}
+[4.659388] (turtle_cpp) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/turtle_cpp/share/turtle_cpp/environment/path.dsv\n'}
+[4.659471] (turtle_cpp) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/turtle_cpp/share/turtle_cpp/local_setup.bash\n'}
+[4.659532] (turtle_cpp) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/turtle_cpp/share/turtle_cpp/local_setup.sh\n'}
+[4.659573] (turtle_cpp) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/turtle_cpp/share/turtle_cpp/local_setup.zsh\n'}
+[4.659611] (turtle_cpp) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/turtle_cpp/share/turtle_cpp/local_setup.dsv\n'}
+[4.659649] (turtle_cpp) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/turtle_cpp/share/turtle_cpp/package.dsv\n'}
+[4.660174] (turtle_cpp) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/turtle_cpp/share/ament_index/resource_index/packages/turtle_cpp\n'}
+[4.660299] (turtle_cpp) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/turtle_cpp/share/turtle_cpp/cmake/turtle_cppConfig.cmake\n'}
+[4.660344] (turtle_cpp) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/turtle_cpp/share/turtle_cpp/cmake/turtle_cppConfig-version.cmake\n'}
+[4.660380] (turtle_cpp) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/turtle_cpp/share/turtle_cpp/package.xml\n'}
+[4.665839] (turtle_cpp) CommandEnded: {'returncode': 0}
+[4.677624] (-) TimerEvent: {}
+[4.779045] (-) TimerEvent: {}
+[4.881171] (-) TimerEvent: {}
+[4.982361] (-) TimerEvent: {}
+[5.084089] (-) TimerEvent: {}
+[5.185566] (-) TimerEvent: {}
+[5.191320] (turtle_cpp) JobEnded: {'identifier': 'turtle_cpp', 'rc': 0}
+[5.192263] (turtle_sim) JobStarted: {'identifier': 'turtle_sim'}
+[5.291412] (-) TimerEvent: {}
+[5.392834] (-) TimerEvent: {}
+[5.493612] (-) TimerEvent: {}
+[5.594794] (-) TimerEvent: {}
+[5.698573] (-) TimerEvent: {}
+[5.784086] (turtle_sim) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/turtle_sim', 'build', '--build-base', '/root/rm_ws/build/turtle_sim/build', 'install', '--record', '/root/rm_ws/build/turtle_sim/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/rm_ws/src/turtle_sim', 'env': {'HOSTNAME': '409d20186cea', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': 'host.docker.internal:0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/root/rm_ws/build/turtle_sim', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/rm_ws/build/turtle_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/rm_ws/install/turtle_sim/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[5.802681] (-) TimerEvent: {}
+[5.904372] (-) TimerEvent: {}
+[6.005577] (-) TimerEvent: {}
+[6.011316] (turtle_sim) StdoutLine: {'line': b'running egg_info\n'}
+[6.012035] (turtle_sim) StdoutLine: {'line': b'writing ../../build/turtle_sim/turtle_sim.egg-info/PKG-INFO\n'}
+[6.012433] (turtle_sim) StdoutLine: {'line': b'writing dependency_links to ../../build/turtle_sim/turtle_sim.egg-info/dependency_links.txt\n'}
+[6.012497] (turtle_sim) StdoutLine: {'line': b'writing entry points to ../../build/turtle_sim/turtle_sim.egg-info/entry_points.txt\n'}
+[6.012920] (turtle_sim) StdoutLine: {'line': b'writing requirements to ../../build/turtle_sim/turtle_sim.egg-info/requires.txt\n'}
+[6.012993] (turtle_sim) StdoutLine: {'line': b'writing top-level names to ../../build/turtle_sim/turtle_sim.egg-info/top_level.txt\n'}
+[6.014086] (turtle_sim) StdoutLine: {'line': b"reading manifest file '../../build/turtle_sim/turtle_sim.egg-info/SOURCES.txt'\n"}
+[6.014693] (turtle_sim) StdoutLine: {'line': b"writing manifest file '../../build/turtle_sim/turtle_sim.egg-info/SOURCES.txt'\n"}
+[6.015089] (turtle_sim) StdoutLine: {'line': b'running build\n'}
+[6.015242] (turtle_sim) StdoutLine: {'line': b'running build_py\n'}
+[6.015421] (turtle_sim) StdoutLine: {'line': b'running install\n'}
+[6.015650] (turtle_sim) StdoutLine: {'line': b'running install_lib\n'}
+[6.016424] (turtle_sim) StdoutLine: {'line': b'running install_data\n'}
+[6.016846] (turtle_sim) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.017620] (turtle_sim) StdoutLine: {'line': b"removing '/root/rm_ws/install/turtle_sim/lib/python3.10/site-packages/turtle_sim-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.018128] (turtle_sim) StdoutLine: {'line': b'Copying ../../build/turtle_sim/turtle_sim.egg-info to /root/rm_ws/install/turtle_sim/lib/python3.10/site-packages/turtle_sim-0.0.0-py3.10.egg-info\n'}
+[6.019500] (turtle_sim) StdoutLine: {'line': b'running install_scripts\n'}
+[6.045807] (turtle_sim) StdoutLine: {'line': b'Installing controller script to /root/rm_ws/install/turtle_sim/lib/turtle_sim\n'}
+[6.046361] (turtle_sim) StdoutLine: {'line': b'Installing d script to /root/rm_ws/install/turtle_sim/lib/turtle_sim\n'}
+[6.046523] (turtle_sim) StdoutLine: {'line': b'Installing draw_circle script to /root/rm_ws/install/turtle_sim/lib/turtle_sim\n'}
+[6.046642] (turtle_sim) StdoutLine: {'line': b'Installing goal script to /root/rm_ws/install/turtle_sim/lib/turtle_sim\n'}
+[6.046756] (turtle_sim) StdoutLine: {'line': b'Installing polygon script to /root/rm_ws/install/turtle_sim/lib/turtle_sim\n'}
+[6.046867] (turtle_sim) StdoutLine: {'line': b"writing list of installed files to '/root/rm_ws/build/turtle_sim/install.log'\n"}
+[6.063905] (turtle_sim) CommandEnded: {'returncode': 0}
+[6.068466] (turtle_sim) JobEnded: {'identifier': 'turtle_sim', 'rc': 0}
+[6.069979] (tutorial_interfaces) JobStarted: {'identifier': 'tutorial_interfaces'}
+[6.103195] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'cmake'}
+[6.105468] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'build'}
+[6.105531] (-) TimerEvent: {}
+[6.105690] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/rm_ws/build/tutorial_interfaces', '--', '-j8', '-l8'], 'cwd': '/root/rm_ws/build/tutorial_interfaces', 'env': OrderedDict([('HOSTNAME', '409d20186cea'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/rm_ws/build/tutorial_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.206371] (-) TimerEvent: {}
+[6.307344] (-) TimerEvent: {}
+[6.378322] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_generator_c\x1b[0m\n'}
+[6.409285] (-) TimerEvent: {}
+[6.455706] (tutorial_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[6.462400] (tutorial_interfaces) StdoutLine: {'line': b'[ 12%] Built target tutorial_interfaces__rosidl_generator_c\n'}
+[6.491557] (tutorial_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_tutorial_interfaces\n'}
+[6.511463] (-) TimerEvent: {}
+[6.556241] (tutorial_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[6.556779] (tutorial_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.560419] (tutorial_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.612439] (-) TimerEvent: {}
+[6.713910] (-) TimerEvent: {}
+[6.815692] (-) TimerEvent: {}
+[6.918445] (-) TimerEvent: {}
+[7.009374] (tutorial_interfaces) StdoutLine: {'line': b'[ 22%] Built target tutorial_interfaces__cpp\n'}
+[7.020323] (-) TimerEvent: {}
+[7.030744] (tutorial_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[7.030899] (tutorial_interfaces) StdoutLine: {'line': b'creating tutorial_interfaces.egg-info\n'}
+[7.030952] (tutorial_interfaces) StdoutLine: {'line': b'writing tutorial_interfaces.egg-info/PKG-INFO\n'}
+[7.030998] (tutorial_interfaces) StdoutLine: {'line': b'writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt\n'}
+[7.031093] (tutorial_interfaces) StdoutLine: {'line': b'writing top-level names to tutorial_interfaces.egg-info/top_level.txt\n'}
+[7.031139] (tutorial_interfaces) StdoutLine: {'line': b"writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[7.031179] (tutorial_interfaces) StdoutLine: {'line': b"reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[7.031218] (tutorial_interfaces) StdoutLine: {'line': b"writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[7.118479] (tutorial_interfaces) StdoutLine: {'line': b'[ 22%] Built target ament_cmake_python_build_tutorial_interfaces_egg\n'}
+[7.120343] (-) TimerEvent: {}
+[7.129400] (tutorial_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.147109] (tutorial_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.152753] (tutorial_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[7.205358] (tutorial_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/srv/n_sides__type_support.cpp.o\x1b[0m\n'}
+[7.222273] (-) TimerEvent: {}
+[7.230172] (tutorial_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/detail/n_sides__type_support_c.cpp.o\x1b[0m\n'}
+[7.254744] (tutorial_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/srv/detail/n_sides__type_support.c.o\x1b[0m\n'}
+[7.325799] (-) TimerEvent: {}
+[7.428555] (-) TimerEvent: {}
+[7.532463] (-) TimerEvent: {}
+[7.593650] (tutorial_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking C shared library libtutorial_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.608824] (tutorial_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.633435] (-) TimerEvent: {}
+[7.713888] (tutorial_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/srv/n_sides__type_support.cpp.o\x1b[0m\n'}
+[7.734403] (-) TimerEvent: {}
+[7.758823] (tutorial_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/n_sides__type_support.cpp.o\x1b[0m\n'}
+[7.816011] (tutorial_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/n_sides__type_support.cpp.o\x1b[0m\n'}
+[7.835440] (-) TimerEvent: {}
+[7.839625] (tutorial_interfaces) StdoutLine: {'line': b'[ 58%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c\n'}
+[7.861589] (tutorial_interfaces) StdoutLine: {'line': b'[ 58%] Built target tutorial_interfaces__rosidl_typesupport_c\n'}
+[7.937171] (-) TimerEvent: {}
+[7.997312] (tutorial_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[8.037460] (-) TimerEvent: {}
+[8.138460] (-) TimerEvent: {}
+[8.239490] (-) TimerEvent: {}
+[8.284122] (tutorial_interfaces) StdoutLine: {'line': b'[ 61%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[8.340384] (-) TimerEvent: {}
+[8.387463] (tutorial_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[8.441847] (-) TimerEvent: {}
+[8.542744] (-) TimerEvent: {}
+[8.572677] (tutorial_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[8.574726] (tutorial_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[8.583646] (tutorial_interfaces) StdoutLine: {'line': b'[ 70%] Built target tutorial_interfaces__rosidl_typesupport_cpp\n'}
+[8.643818] (-) TimerEvent: {}
+[8.744445] (-) TimerEvent: {}
+[8.758045] (tutorial_interfaces) StdoutLine: {'line': b'[ 70%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[8.776650] (tutorial_interfaces) StdoutLine: {'line': b'[ 70%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[8.850336] (-) TimerEvent: {}
+[8.933762] (tutorial_interfaces) StdoutLine: {'line': b'[ 70%] Built target tutorial_interfaces\n'}
+[8.954823] (-) TimerEvent: {}
+[9.056096] (-) TimerEvent: {}
+[9.094335] (tutorial_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[9.157421] (-) TimerEvent: {}
+[9.258379] (-) TimerEvent: {}
+[9.364345] (-) TimerEvent: {}
+[9.465498] (-) TimerEvent: {}
+[9.553657] (tutorial_interfaces) StdoutLine: {'line': b'[ 74%] Built target tutorial_interfaces__py\n'}
+[9.567949] (-) TimerEvent: {}
+[9.668577] (-) TimerEvent: {}
+[9.713806] (tutorial_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/srv/_n_sides_s.c.o\x1b[0m\n'}
+[9.770062] (-) TimerEvent: {}
+[9.870559] (-) TimerEvent: {}
+[9.977330] (-) TimerEvent: {}
+[10.079376] (-) TimerEvent: {}
+[10.091187] (tutorial_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[10.182532] (-) TimerEvent: {}
+[10.283378] (-) TimerEvent: {}
+[10.285409] (tutorial_interfaces) StdoutLine: {'line': b'[ 80%] Built target tutorial_interfaces__rosidl_generator_py\n'}
+[10.384394] (-) TimerEvent: {}
+[10.466374] (tutorial_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[10.467290] (tutorial_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[10.472150] (tutorial_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[10.485764] (-) TimerEvent: {}
+[10.586403] (-) TimerEvent: {}
+[10.691852] (-) TimerEvent: {}
+[10.793230] (-) TimerEvent: {}
+[10.820376] (tutorial_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.820656] (tutorial_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.821831] (tutorial_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.893360] (-) TimerEvent: {}
+[10.994400] (-) TimerEvent: {}
+[11.004715] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[11.005881] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext\n'}
+[11.007997] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[11.051828] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[11.098638] (-) TimerEvent: {}
+[11.199822] (-) TimerEvent: {}
+[11.300734] (-) TimerEvent: {}
+[11.402479] (-) TimerEvent: {}
+[11.504399] (-) TimerEvent: {}
+[11.605349] (-) TimerEvent: {}
+[11.706537] (-) TimerEvent: {}
+[11.807559] (-) TimerEvent: {}
+[11.909405] (-) TimerEvent: {}
+[11.963062] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'install'}
+[11.965089] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/rm_ws/build/tutorial_interfaces'], 'cwd': '/root/rm_ws/build/tutorial_interfaces', 'env': OrderedDict([('HOSTNAME', '409d20186cea'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/rm_ws/build/tutorial_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[12.012255] (tutorial_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.012369] (-) TimerEvent: {}
+[12.014249] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces\n'}
+[12.015833] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[12.017039] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[12.017212] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[12.017355] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[12.017543] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/n_sides.h\n'}
+[12.017615] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[12.017675] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/n_sides__type_support.h\n'}
+[12.017799] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/n_sides__struct.h\n'}
+[12.018458] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/n_sides__functions.c\n'}
+[12.018824] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/n_sides__functions.h\n'}
+[12.019428] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh\n'}
+[12.020096] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv\n'}
+[12.021015] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so\n'}
+[12.023018] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/rm_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so" to ""\n'}
+[12.023130] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[12.023177] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[12.023217] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[12.023460] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[12.023539] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[12.023635] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/n_sides__rosidl_typesupport_fastrtps_c.h\n'}
+[12.023877] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[12.024290] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/rm_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[12.024394] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[12.024457] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[12.024526] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/n_sides.hpp\n'}
+[12.024631] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[12.024673] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/n_sides__struct.hpp\n'}
+[12.024710] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/n_sides__traits.hpp\n'}
+[12.024924] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/n_sides__builder.hpp\n'}
+[12.025037] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[12.025105] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[12.025188] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[12.025499] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[12.025558] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[12.025650] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/n_sides__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.025945] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/dds_fastrtps\n'}
+[12.026255] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[12.026453] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/rm_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[12.026566] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[12.026610] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[12.026647] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[12.027014] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[12.027066] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[12.027160] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/n_sides__type_support.c\n'}
+[12.027450] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/n_sides__rosidl_typesupport_introspection_c.h\n'}
+[12.027564] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[12.028081] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/rm_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[12.028171] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so\n'}
+[12.028489] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/rm_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[12.028583] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[12.028652] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[12.028697] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[12.028743] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/n_sides__type_support.cpp\n'}
+[12.029012] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/n_sides__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.029438] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[12.029757] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/rm_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[12.029849] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so\n'}
+[12.030168] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/rm_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[12.030259] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh\n'}
+[12.030396] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv\n'}
+[12.030789] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info\n'}
+[12.031443] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[12.031677] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[12.032082] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[12.032590] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[12.033111] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces\n'}
+[12.033235] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.033911] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[12.034072] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[12.034803] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py\n'}
+[12.035307] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so\n'}
+[12.035537] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[12.035661] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv\n'}
+[12.035792] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/__init__.py\n'}
+[12.036254] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_n_sides_s.c\n'}
+[12.036924] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_n_sides.py\n'}
+[12.037122] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.037856] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.118355] (-) TimerEvent: {}
+[12.156622] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces'...\n"}
+[12.156771] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py'...\n"}
+[12.156840] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv'...\n"}
+[12.156884] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/__init__.py'...\n"}
+[12.156925] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_n_sides.py'...\n"}
+[12.162353] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.162567] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[12.162691] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.163441] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[12.163592] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.164148] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[12.164283] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so\n'}
+[12.164423] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/rm_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so" to ""\n'}
+[12.164579] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/NSides.idl\n'}
+[12.164868] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/NSides.srv\n'}
+[12.165294] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/NSides_Request.msg\n'}
+[12.165694] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/NSides_Response.msg\n'}
+[12.165857] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces\n'}
+[12.166396] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces\n'}
+[12.166544] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh\n'}
+[12.166680] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv\n'}
+[12.166748] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh\n'}
+[12.167080] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv\n'}
+[12.167165] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash\n'}
+[12.167239] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh\n'}
+[12.167652] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh\n'}
+[12.167861] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv\n'}
+[12.168091] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv\n'}
+[12.168271] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces\n'}
+[12.168430] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport.cmake\n'}
+[12.168710] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[12.168825] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[12.169147] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[12.169242] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cppExport.cmake\n'}
+[12.169348] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[12.169449] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[12.169540] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[12.169614] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[12.169910] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[12.170473] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[12.170891] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[12.171289] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[12.171717] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[12.172135] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[12.172406] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport.cmake\n'}
+[12.172674] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[12.173010] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[12.173547] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.173804] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.174063] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[12.174638] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[12.175047] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.175316] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[12.175451] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake\n'}
+[12.175838] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake\n'}
+[12.176538] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.xml\n'}
+[12.186182] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[12.220874] (-) TimerEvent: {}
+[12.321547] (-) TimerEvent: {}
+[12.422540] (-) TimerEvent: {}
+[12.523383] (-) TimerEvent: {}
+[12.624374] (-) TimerEvent: {}
+[12.725802] (-) TimerEvent: {}
+[12.826782] (-) TimerEvent: {}
+[12.928358] (-) TimerEvent: {}
+[13.030759] (-) TimerEvent: {}
+[13.117289] (tutorial_interfaces) JobEnded: {'identifier': 'tutorial_interfaces', 'rc': 0}
+[13.117980] (polygon_cpp) JobStarted: {'identifier': 'polygon_cpp'}
+[13.133561] (-) TimerEvent: {}
+[13.171009] (polygon_cpp) JobProgress: {'identifier': 'polygon_cpp', 'progress': 'cmake'}
+[13.175256] (polygon_cpp) Command: {'cmd': ['/usr/bin/cmake', '/root/rm_ws/src/polygon_cpp', '-DCMAKE_INSTALL_PREFIX=/root/rm_ws/install/polygon_cpp'], 'cwd': '/root/rm_ws/build/polygon_cpp', 'env': OrderedDict([('HOSTNAME', '409d20186cea'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/rm_ws/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/rm_ws/install/tutorial_interfaces:/opt/ros/humble'), ('PWD', '/root/rm_ws/build/polygon_cpp'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/rm_ws/install/tutorial_interfaces:/opt/ros/humble')]), 'shell': False}
+[13.234824] (-) TimerEvent: {}
+[13.337545] (-) TimerEvent: {}
+[13.439333] (-) TimerEvent: {}
+[13.542562] (-) TimerEvent: {}
+[13.563846] (polygon_cpp) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[13.647545] (-) TimerEvent: {}
+[13.749561] (-) TimerEvent: {}
+[13.850389] (-) TimerEvent: {}
+[13.854351] (polygon_cpp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[13.878651] (polygon_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[13.952367] (-) TimerEvent: {}
+[14.054965] (-) TimerEvent: {}
+[14.156082] (-) TimerEvent: {}
+[14.256384] (-) TimerEvent: {}
+[14.362035] (-) TimerEvent: {}
+[14.370174] (polygon_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[14.384261] (polygon_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[14.384540] (polygon_cpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[14.384905] (polygon_cpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[14.388122] (polygon_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[14.462812] (-) TimerEvent: {}
+[14.563615] (-) TimerEvent: {}
+[14.664604] (-) TimerEvent: {}
+[14.766576] (-) TimerEvent: {}
+[14.854483] (polygon_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[14.867550] (-) TimerEvent: {}
+[14.867957] (polygon_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[14.868226] (polygon_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[14.868632] (polygon_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[14.875212] (polygon_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[14.973326] (-) TimerEvent: {}
+[15.074864] (-) TimerEvent: {}
+[15.175845] (-) TimerEvent: {}
+[15.277098] (-) TimerEvent: {}
+[15.379572] (-) TimerEvent: {}
+[15.459033] (polygon_cpp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[15.480532] (-) TimerEvent: {}
+[15.581358] (-) TimerEvent: {}
+[15.628986] (polygon_cpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[15.659704] (polygon_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[15.662789] (polygon_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[15.668728] (polygon_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[15.677406] (polygon_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[15.683518] (-) TimerEvent: {}
+[15.688934] (polygon_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[15.723892] (polygon_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[15.725912] (polygon_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[15.785313] (-) TimerEvent: {}
+[15.887558] (-) TimerEvent: {}
+[15.989809] (-) TimerEvent: {}
+[16.090377] (-) TimerEvent: {}
+[16.101084] (polygon_cpp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[16.132820] (polygon_cpp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[16.182557] (polygon_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[16.190128] (polygon_cpp) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[16.191347] (-) TimerEvent: {}
+[16.294574] (-) TimerEvent: {}
+[16.396071] (-) TimerEvent: {}
+[16.496572] (-) TimerEvent: {}
+[16.597869] (-) TimerEvent: {}
+[16.641360] (polygon_cpp) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[16.641695] (polygon_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[16.698362] (-) TimerEvent: {}
+[16.799612] (-) TimerEvent: {}
+[16.905345] (-) TimerEvent: {}
+[17.011337] (-) TimerEvent: {}
+[17.110148] (polygon_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[17.111079] (polygon_cpp) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[17.112587] (-) TimerEvent: {}
+[17.157164] (polygon_cpp) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[17.168726] (polygon_cpp) StdoutLine: {'line': b'-- Found tutorial_interfaces: 0.0.0 (/root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)\n'}
+[17.180943] (polygon_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[17.214381] (-) TimerEvent: {}
+[17.315821] (-) TimerEvent: {}
+[17.330653] (polygon_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[17.330953] (polygon_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[17.331025] (polygon_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[17.331974] (polygon_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[17.332560] (polygon_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[17.332621] (polygon_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[17.332874] (polygon_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[17.334754] (polygon_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[17.365114] (polygon_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[17.368337] (polygon_cpp) StdoutLine: {'line': b'-- Build files have been written to: /root/rm_ws/build/polygon_cpp\n'}
+[17.377838] (polygon_cpp) CommandEnded: {'returncode': 0}
+[17.378265] (polygon_cpp) JobProgress: {'identifier': 'polygon_cpp', 'progress': 'build'}
+[17.380227] (polygon_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/rm_ws/build/polygon_cpp', '--', '-j8', '-l8'], 'cwd': '/root/rm_ws/build/polygon_cpp', 'env': OrderedDict([('HOSTNAME', '409d20186cea'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/rm_ws/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/rm_ws/install/tutorial_interfaces:/opt/ros/humble'), ('PWD', '/root/rm_ws/build/polygon_cpp'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/rm_ws/install/tutorial_interfaces:/opt/ros/humble')]), 'shell': False}
+[17.417308] (-) TimerEvent: {}
+[17.519063] (-) TimerEvent: {}
+[17.620590] (-) TimerEvent: {}
+[17.721423] (-) TimerEvent: {}
+[17.722381] (polygon_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/poly.dir/src/polygon.cpp.o\x1b[0m\n'}
+[17.827347] (-) TimerEvent: {}
+[17.933332] (-) TimerEvent: {}
+[18.039324] (-) TimerEvent: {}
+[18.145442] (-) TimerEvent: {}
+[18.251340] (-) TimerEvent: {}
+[18.354083] (-) TimerEvent: {}
+[18.459364] (-) TimerEvent: {}
+[18.564522] (-) TimerEvent: {}
+[18.668372] (-) TimerEvent: {}
+[18.771873] (-) TimerEvent: {}
+[18.873331] (-) TimerEvent: {}
+[18.979451] (-) TimerEvent: {}
+[19.085392] (-) TimerEvent: {}
+[19.186455] (-) TimerEvent: {}
+[19.292265] (-) TimerEvent: {}
+[19.398403] (-) TimerEvent: {}
+[19.499924] (-) TimerEvent: {}
+[19.606411] (-) TimerEvent: {}
+[19.708801] (-) TimerEvent: {}
+[19.810415] (-) TimerEvent: {}
+[19.912436] (-) TimerEvent: {}
+[20.015877] (-) TimerEvent: {}
+[20.117832] (-) TimerEvent: {}
+[20.223417] (-) TimerEvent: {}
+[20.324887] (-) TimerEvent: {}
+[20.430363] (-) TimerEvent: {}
+[20.532609] (-) TimerEvent: {}
+[20.638422] (-) TimerEvent: {}
+[20.740869] (-) TimerEvent: {}
+[20.846400] (-) TimerEvent: {}
+[20.949834] (-) TimerEvent: {}
+[21.055389] (-) TimerEvent: {}
+[21.159874] (-) TimerEvent: {}
+[21.263909] (-) TimerEvent: {}
+[21.365070] (-) TimerEvent: {}
+[21.471408] (-) TimerEvent: {}
+[21.574270] (-) TimerEvent: {}
+[21.680473] (-) TimerEvent: {}
+[21.782351] (-) TimerEvent: {}
+[21.888379] (-) TimerEvent: {}
+[21.990443] (-) TimerEvent: {}
+[22.091646] (-) TimerEvent: {}
+[22.192959] (-) TimerEvent: {}
+[22.295101] (-) TimerEvent: {}
+[22.341213] (polygon_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable poly\x1b[0m\n'}
+[22.395362] (-) TimerEvent: {}
+[22.496411] (-) TimerEvent: {}
+[22.598863] (-) TimerEvent: {}
+[22.704340] (-) TimerEvent: {}
+[22.790007] (polygon_cpp) StdoutLine: {'line': b'[100%] Built target poly\n'}
+[22.805398] (-) TimerEvent: {}
+[22.839657] (polygon_cpp) CommandEnded: {'returncode': 0}
+[22.906338] (-) TimerEvent: {}
+[23.008287] (-) TimerEvent: {}
+[23.111125] (-) TimerEvent: {}
+[23.158923] (polygon_cpp) JobProgress: {'identifier': 'polygon_cpp', 'progress': 'install'}
+[23.159212] (polygon_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/rm_ws/build/polygon_cpp'], 'cwd': '/root/rm_ws/build/polygon_cpp', 'env': OrderedDict([('HOSTNAME', '409d20186cea'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/rm_ws/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/rm_ws/install/tutorial_interfaces:/opt/ros/humble'), ('PWD', '/root/rm_ws/build/polygon_cpp'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/rm_ws/install/tutorial_interfaces:/opt/ros/humble')]), 'shell': False}
+[23.208328] (polygon_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[23.210459] (polygon_cpp) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/polygon_cpp/lib/polygon_cpp/poly\n'}
+[23.211502] (-) TimerEvent: {}
+[23.214385] (polygon_cpp) StdoutLine: {'line': b'-- Set runtime path of "/root/rm_ws/install/polygon_cpp/lib/polygon_cpp/poly" to ""\n'}
+[23.214837] (polygon_cpp) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/polygon_cpp/share/ament_index/resource_index/package_run_dependencies/polygon_cpp\n'}
+[23.215092] (polygon_cpp) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/polygon_cpp/share/ament_index/resource_index/parent_prefix_path/polygon_cpp\n'}
+[23.215472] (polygon_cpp) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/polygon_cpp/share/polygon_cpp/environment/ament_prefix_path.sh\n'}
+[23.216543] (polygon_cpp) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/polygon_cpp/share/polygon_cpp/environment/ament_prefix_path.dsv\n'}
+[23.216721] (polygon_cpp) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/polygon_cpp/share/polygon_cpp/environment/path.sh\n'}
+[23.216852] (polygon_cpp) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/polygon_cpp/share/polygon_cpp/environment/path.dsv\n'}
+[23.217200] (polygon_cpp) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/polygon_cpp/share/polygon_cpp/local_setup.bash\n'}
+[23.217343] (polygon_cpp) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/polygon_cpp/share/polygon_cpp/local_setup.sh\n'}
+[23.217480] (polygon_cpp) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/polygon_cpp/share/polygon_cpp/local_setup.zsh\n'}
+[23.217629] (polygon_cpp) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/polygon_cpp/share/polygon_cpp/local_setup.dsv\n'}
+[23.217811] (polygon_cpp) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/polygon_cpp/share/polygon_cpp/package.dsv\n'}
+[23.217990] (polygon_cpp) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/polygon_cpp/share/ament_index/resource_index/packages/polygon_cpp\n'}
+[23.219049] (polygon_cpp) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/polygon_cpp/share/polygon_cpp/cmake/polygon_cppConfig.cmake\n'}
+[23.219366] (polygon_cpp) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/polygon_cpp/share/polygon_cpp/cmake/polygon_cppConfig-version.cmake\n'}
+[23.219835] (polygon_cpp) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/polygon_cpp/share/polygon_cpp/package.xml\n'}
+[23.229994] (polygon_cpp) CommandEnded: {'returncode': 0}
+[23.313338] (-) TimerEvent: {}
+[23.414557] (-) TimerEvent: {}
+[23.517038] (-) TimerEvent: {}
+[23.543470] (polygon_cpp) JobEnded: {'identifier': 'polygon_cpp', 'rc': 0}
+[23.543954] (polygon_turtle) JobStarted: {'identifier': 'polygon_turtle'}
+[23.618614] (-) TimerEvent: {}
+[23.724344] (-) TimerEvent: {}
+[23.830380] (-) TimerEvent: {}
+[23.932307] (-) TimerEvent: {}
+[24.034222] (-) TimerEvent: {}
+[24.135419] (-) TimerEvent: {}
+[24.226700] (polygon_turtle) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/polygon_turtle', 'build', '--build-base', '/root/rm_ws/build/polygon_turtle/build', 'install', '--record', '/root/rm_ws/build/polygon_turtle/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/rm_ws/src/polygon_turtle', 'env': {'HOSTNAME': '409d20186cea', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/root/rm_ws/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': 'host.docker.internal:0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/root/rm_ws/install/tutorial_interfaces:/opt/ros/humble', 'PWD': '/root/rm_ws/build/polygon_turtle', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/rm_ws/build/polygon_turtle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/rm_ws/install/polygon_turtle/lib/python3.10/site-packages:/root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/rm_ws/install/tutorial_interfaces'}, 'shell': False}
+[24.236799] (-) TimerEvent: {}
+[24.338573] (-) TimerEvent: {}
+[24.439821] (-) TimerEvent: {}
+[24.452245] (polygon_turtle) StdoutLine: {'line': b'running egg_info\n'}
+[24.452757] (polygon_turtle) StdoutLine: {'line': b'creating ../../build/polygon_turtle/polygon_turtle.egg-info\n'}
+[24.454410] (polygon_turtle) StdoutLine: {'line': b'writing ../../build/polygon_turtle/polygon_turtle.egg-info/PKG-INFO\n'}
+[24.454926] (polygon_turtle) StdoutLine: {'line': b'writing dependency_links to ../../build/polygon_turtle/polygon_turtle.egg-info/dependency_links.txt\n'}
+[24.455092] (polygon_turtle) StdoutLine: {'line': b'writing entry points to ../../build/polygon_turtle/polygon_turtle.egg-info/entry_points.txt\n'}
+[24.455615] (polygon_turtle) StdoutLine: {'line': b'writing requirements to ../../build/polygon_turtle/polygon_turtle.egg-info/requires.txt\n'}
+[24.455725] (polygon_turtle) StdoutLine: {'line': b'writing top-level names to ../../build/polygon_turtle/polygon_turtle.egg-info/top_level.txt\n'}
+[24.455891] (polygon_turtle) StdoutLine: {'line': b"writing manifest file '../../build/polygon_turtle/polygon_turtle.egg-info/SOURCES.txt'\n"}
+[24.457045] (polygon_turtle) StdoutLine: {'line': b"reading manifest file '../../build/polygon_turtle/polygon_turtle.egg-info/SOURCES.txt'\n"}
+[24.457184] (polygon_turtle) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[24.457600] (polygon_turtle) StdoutLine: {'line': b"writing manifest file '../../build/polygon_turtle/polygon_turtle.egg-info/SOURCES.txt'\n"}
+[24.457701] (polygon_turtle) StdoutLine: {'line': b'running build\n'}
+[24.457761] (polygon_turtle) StdoutLine: {'line': b'running build_py\n'}
+[24.457871] (polygon_turtle) StdoutLine: {'line': b'creating /root/rm_ws/build/polygon_turtle/build\n'}
+[24.458123] (polygon_turtle) StdoutLine: {'line': b'creating /root/rm_ws/build/polygon_turtle/build/lib\n'}
+[24.458377] (polygon_turtle) StdoutLine: {'line': b'creating /root/rm_ws/build/polygon_turtle/build/lib/polygon_turtle\n'}
+[24.458511] (polygon_turtle) StdoutLine: {'line': b'copying polygon_turtle/__init__.py -> /root/rm_ws/build/polygon_turtle/build/lib/polygon_turtle\n'}
+[24.458854] (polygon_turtle) StdoutLine: {'line': b'copying polygon_turtle/polygon_draw.py -> /root/rm_ws/build/polygon_turtle/build/lib/polygon_turtle\n'}
+[24.459001] (polygon_turtle) StdoutLine: {'line': b'running install\n'}
+[24.459233] (polygon_turtle) StdoutLine: {'line': b'running install_lib\n'}
+[24.459788] (polygon_turtle) StdoutLine: {'line': b'creating /root/rm_ws/install/polygon_turtle/lib/python3.10/site-packages/polygon_turtle\n'}
+[24.459916] (polygon_turtle) StdoutLine: {'line': b'copying /root/rm_ws/build/polygon_turtle/build/lib/polygon_turtle/__init__.py -> /root/rm_ws/install/polygon_turtle/lib/python3.10/site-packages/polygon_turtle\n'}
+[24.460442] (polygon_turtle) StdoutLine: {'line': b'copying /root/rm_ws/build/polygon_turtle/build/lib/polygon_turtle/polygon_draw.py -> /root/rm_ws/install/polygon_turtle/lib/python3.10/site-packages/polygon_turtle\n'}
+[24.461017] (polygon_turtle) StdoutLine: {'line': b'byte-compiling /root/rm_ws/install/polygon_turtle/lib/python3.10/site-packages/polygon_turtle/__init__.py to __init__.cpython-310.pyc\n'}
+[24.462436] (polygon_turtle) StdoutLine: {'line': b'byte-compiling /root/rm_ws/install/polygon_turtle/lib/python3.10/site-packages/polygon_turtle/polygon_draw.py to polygon_draw.cpython-310.pyc\n'}
+[24.465674] (polygon_turtle) StdoutLine: {'line': b'running install_data\n'}
+[24.465772] (polygon_turtle) StdoutLine: {'line': b'creating /root/rm_ws/install/polygon_turtle/share/ament_index\n'}
+[24.466052] (polygon_turtle) StdoutLine: {'line': b'creating /root/rm_ws/install/polygon_turtle/share/ament_index/resource_index\n'}
+[24.466115] (polygon_turtle) StdoutLine: {'line': b'creating /root/rm_ws/install/polygon_turtle/share/ament_index/resource_index/packages\n'}
+[24.466202] (polygon_turtle) StdoutLine: {'line': b'copying resource/polygon_turtle -> /root/rm_ws/install/polygon_turtle/share/ament_index/resource_index/packages\n'}
+[24.466250] (polygon_turtle) StdoutLine: {'line': b'copying package.xml -> /root/rm_ws/install/polygon_turtle/share/polygon_turtle\n'}
+[24.466348] (polygon_turtle) StdoutLine: {'line': b'running install_egg_info\n'}
+[24.467416] (polygon_turtle) StdoutLine: {'line': b'Copying ../../build/polygon_turtle/polygon_turtle.egg-info to /root/rm_ws/install/polygon_turtle/lib/python3.10/site-packages/polygon_turtle-0.0.0-py3.10.egg-info\n'}
+[24.469563] (polygon_turtle) StdoutLine: {'line': b'running install_scripts\n'}
+[24.491928] (polygon_turtle) StdoutLine: {'line': b'Installing poly script to /root/rm_ws/install/polygon_turtle/lib/polygon_turtle\n'}
+[24.492870] (polygon_turtle) StdoutLine: {'line': b"writing list of installed files to '/root/rm_ws/build/polygon_turtle/install.log'\n"}
+[24.508773] (polygon_turtle) CommandEnded: {'returncode': 0}
+[24.514401] (polygon_turtle) JobEnded: {'identifier': 'polygon_turtle', 'rc': 0}
+[24.515695] (-) EventReactorShutdown: {}

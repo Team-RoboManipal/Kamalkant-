@@ -1,0 +1,33 @@
+[35m[1mConsolidate compiler generated dependencies of target sub[0m
+[35m[1mConsolidate compiler generated dependencies of target server[0m
+[35m[1mConsolidate compiler generated dependencies of target client[0m
+[35m[1mConsolidate compiler generated dependencies of target pub[0m
+[ 25%] Built target sub
+[ 62%] Built target client
+[ 75%] Built target pub
+[ 87%] [32m[1mLinking CXX executable server[0m
+[100%] Built target server
+-- Install configuration: ""
+-- Installing: /root/rm_ws/install/cpp_/lib/cpp_/pub
+-- Set runtime path of "/root/rm_ws/install/cpp_/lib/cpp_/pub" to ""
+-- Installing: /root/rm_ws/install/cpp_/lib/cpp_/sub
+-- Set runtime path of "/root/rm_ws/install/cpp_/lib/cpp_/sub" to ""
+-- Installing: /root/rm_ws/install/cpp_/lib/cpp_/server
+-- Set runtime path of "/root/rm_ws/install/cpp_/lib/cpp_/server" to ""
+-- Installing: /root/rm_ws/install/cpp_/lib/cpp_/client
+-- Set runtime path of "/root/rm_ws/install/cpp_/lib/cpp_/client" to ""
+-- Installing: /root/rm_ws/install/cpp_/share/ament_index/resource_index/package_run_dependencies/cpp_
+-- Installing: /root/rm_ws/install/cpp_/share/ament_index/resource_index/parent_prefix_path/cpp_
+-- Installing: /root/rm_ws/install/cpp_/share/cpp_/environment/ament_prefix_path.sh
+-- Installing: /root/rm_ws/install/cpp_/share/cpp_/environment/ament_prefix_path.dsv
+-- Installing: /root/rm_ws/install/cpp_/share/cpp_/environment/path.sh
+-- Installing: /root/rm_ws/install/cpp_/share/cpp_/environment/path.dsv
+-- Installing: /root/rm_ws/install/cpp_/share/cpp_/local_setup.bash
+-- Installing: /root/rm_ws/install/cpp_/share/cpp_/local_setup.sh
+-- Installing: /root/rm_ws/install/cpp_/share/cpp_/local_setup.zsh
+-- Installing: /root/rm_ws/install/cpp_/share/cpp_/local_setup.dsv
+-- Installing: /root/rm_ws/install/cpp_/share/cpp_/package.dsv
+-- Installing: /root/rm_ws/install/cpp_/share/ament_index/resource_index/packages/cpp_
+-- Installing: /root/rm_ws/install/cpp_/share/cpp_/cmake/cpp_Config.cmake
+-- Installing: /root/rm_ws/install/cpp_/share/cpp_/cmake/cpp_Config-version.cmake
+-- Installing: /root/rm_ws/install/cpp_/share/cpp_/package.xml

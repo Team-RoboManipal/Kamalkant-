@@ -1,0 +1,38 @@
+[0.685s] Invoking command in '/root/rm_ws/src/polygon_turtle': AMENT_PREFIX_PATH=/root/rm_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/rm_ws/install/tutorial_interfaces LD_LIBRARY_PATH=/root/rm_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/rm_ws/build/polygon_turtle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/rm_ws/install/polygon_turtle/lib/python3.10/site-packages:/root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/polygon_turtle build --build-base /root/rm_ws/build/polygon_turtle/build install --record /root/rm_ws/build/polygon_turtle/install.log --single-version-externally-managed install_data
+[0.908s] running egg_info
+[0.909s] creating ../../build/polygon_turtle/polygon_turtle.egg-info
+[0.911s] writing ../../build/polygon_turtle/polygon_turtle.egg-info/PKG-INFO
+[0.911s] writing dependency_links to ../../build/polygon_turtle/polygon_turtle.egg-info/dependency_links.txt
+[0.911s] writing entry points to ../../build/polygon_turtle/polygon_turtle.egg-info/entry_points.txt
+[0.912s] writing requirements to ../../build/polygon_turtle/polygon_turtle.egg-info/requires.txt
+[0.912s] writing top-level names to ../../build/polygon_turtle/polygon_turtle.egg-info/top_level.txt
+[0.912s] writing manifest file '../../build/polygon_turtle/polygon_turtle.egg-info/SOURCES.txt'
+[0.913s] reading manifest file '../../build/polygon_turtle/polygon_turtle.egg-info/SOURCES.txt'
+[0.913s] adding license file 'LICENSE'
+[0.914s] writing manifest file '../../build/polygon_turtle/polygon_turtle.egg-info/SOURCES.txt'
+[0.914s] running build
+[0.914s] running build_py
+[0.914s] creating /root/rm_ws/build/polygon_turtle/build
+[0.914s] creating /root/rm_ws/build/polygon_turtle/build/lib
+[0.914s] creating /root/rm_ws/build/polygon_turtle/build/lib/polygon_turtle
+[0.915s] copying polygon_turtle/__init__.py -> /root/rm_ws/build/polygon_turtle/build/lib/polygon_turtle
+[0.915s] copying polygon_turtle/polygon_draw.py -> /root/rm_ws/build/polygon_turtle/build/lib/polygon_turtle
+[0.915s] running install
+[0.915s] running install_lib
+[0.916s] creating /root/rm_ws/install/polygon_turtle/lib/python3.10/site-packages/polygon_turtle
+[0.916s] copying /root/rm_ws/build/polygon_turtle/build/lib/polygon_turtle/__init__.py -> /root/rm_ws/install/polygon_turtle/lib/python3.10/site-packages/polygon_turtle
+[0.917s] copying /root/rm_ws/build/polygon_turtle/build/lib/polygon_turtle/polygon_draw.py -> /root/rm_ws/install/polygon_turtle/lib/python3.10/site-packages/polygon_turtle
+[0.917s] byte-compiling /root/rm_ws/install/polygon_turtle/lib/python3.10/site-packages/polygon_turtle/__init__.py to __init__.cpython-310.pyc
+[0.919s] byte-compiling /root/rm_ws/install/polygon_turtle/lib/python3.10/site-packages/polygon_turtle/polygon_draw.py to polygon_draw.cpython-310.pyc
+[0.922s] running install_data
+[0.922s] creating /root/rm_ws/install/polygon_turtle/share/ament_index
+[0.922s] creating /root/rm_ws/install/polygon_turtle/share/ament_index/resource_index
+[0.922s] creating /root/rm_ws/install/polygon_turtle/share/ament_index/resource_index/packages
+[0.922s] copying resource/polygon_turtle -> /root/rm_ws/install/polygon_turtle/share/ament_index/resource_index/packages
+[0.922s] copying package.xml -> /root/rm_ws/install/polygon_turtle/share/polygon_turtle
+[0.922s] running install_egg_info
+[0.923s] Copying ../../build/polygon_turtle/polygon_turtle.egg-info to /root/rm_ws/install/polygon_turtle/lib/python3.10/site-packages/polygon_turtle-0.0.0-py3.10.egg-info
+[0.926s] running install_scripts
+[0.948s] Installing poly script to /root/rm_ws/install/polygon_turtle/lib/polygon_turtle
+[0.949s] writing list of installed files to '/root/rm_ws/build/polygon_turtle/install.log'
+[0.965s] Invoked command in '/root/rm_ws/src/polygon_turtle' returned '0': AMENT_PREFIX_PATH=/root/rm_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/rm_ws/install/tutorial_interfaces LD_LIBRARY_PATH=/root/rm_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/rm_ws/build/polygon_turtle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/rm_ws/install/polygon_turtle/lib/python3.10/site-packages:/root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/polygon_turtle build --build-base /root/rm_ws/build/polygon_turtle/build install --record /root/rm_ws/build/polygon_turtle/install.log --single-version-externally-managed install_data

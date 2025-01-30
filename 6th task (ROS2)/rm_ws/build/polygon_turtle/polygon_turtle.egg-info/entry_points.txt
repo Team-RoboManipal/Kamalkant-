@@ -1,0 +1,3 @@
+[console_scripts]
+poly = polygon_turtle.polygon_draw:main
+

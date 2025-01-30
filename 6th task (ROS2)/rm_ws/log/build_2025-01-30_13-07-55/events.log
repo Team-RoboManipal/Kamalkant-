@@ -1,0 +1,513 @@
+[0.000000] (-) TimerEvent: {}
+[0.001558] (chat) JobQueued: {'identifier': 'chat', 'dependencies': OrderedDict()}
+[0.001639] (cpp_) JobQueued: {'identifier': 'cpp_', 'dependencies': OrderedDict()}
+[0.001660] (py_examples) JobQueued: {'identifier': 'py_examples', 'dependencies': OrderedDict()}
+[0.001679] (turtle_cpp) JobQueued: {'identifier': 'turtle_cpp', 'dependencies': OrderedDict()}
+[0.001696] (turtle_sim) JobQueued: {'identifier': 'turtle_sim', 'dependencies': OrderedDict()}
+[0.003079] (chat) JobStarted: {'identifier': 'chat'}
+[0.043041] (chat) JobProgress: {'identifier': 'chat', 'progress': 'cmake'}
+[0.043384] (chat) Command: {'cmd': ['/usr/bin/cmake', '/root/rm_ws/src/chat', '-DCMAKE_INSTALL_PREFIX=/root/rm_ws/install/chat'], 'cwd': '/root/rm_ws/build/chat', 'env': OrderedDict([('HOSTNAME', '409d20186cea'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/rm_ws/build/chat'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.103425] (-) TimerEvent: {}
+[0.204368] (-) TimerEvent: {}
+[0.310157] (-) TimerEvent: {}
+[0.411364] (-) TimerEvent: {}
+[0.488183] (chat) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.512583] (-) TimerEvent: {}
+[0.613862] (-) TimerEvent: {}
+[0.715178] (-) TimerEvent: {}
+[0.791887] (chat) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.816120] (-) TimerEvent: {}
+[0.824763] (chat) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.918453] (-) TimerEvent: {}
+[1.019858] (-) TimerEvent: {}
+[1.125114] (-) TimerEvent: {}
+[1.226844] (-) TimerEvent: {}
+[1.330674] (-) TimerEvent: {}
+[1.335358] (chat) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.349619] (chat) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.349958] (chat) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.350865] (chat) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.353509] (chat) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.433102] (-) TimerEvent: {}
+[1.534132] (-) TimerEvent: {}
+[1.635119] (-) TimerEvent: {}
+[1.737595] (-) TimerEvent: {}
+[1.808378] (chat) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.822297] (chat) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.822531] (chat) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.822924] (chat) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.834478] (chat) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.838200] (-) TimerEvent: {}
+[1.939641] (-) TimerEvent: {}
+[2.045151] (-) TimerEvent: {}
+[2.147482] (-) TimerEvent: {}
+[2.248690] (-) TimerEvent: {}
+[2.349372] (-) TimerEvent: {}
+[2.441639] (chat) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.450127] (-) TimerEvent: {}
+[2.553112] (-) TimerEvent: {}
+[2.615543] (chat) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.655848] (-) TimerEvent: {}
+[2.659429] (chat) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.663574] (chat) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.670525] (chat) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.683234] (chat) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.697084] (chat) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.737802] (chat) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.740176] (chat) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.756687] (-) TimerEvent: {}
+[2.857168] (-) TimerEvent: {}
+[2.958542] (-) TimerEvent: {}
+[3.061367] (-) TimerEvent: {}
+[3.159608] (chat) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.162660] (-) TimerEvent: {}
+[3.194747] (chat) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.248600] (chat) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.257424] (chat) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.263123] (-) TimerEvent: {}
+[3.364109] (-) TimerEvent: {}
+[3.464362] (-) TimerEvent: {}
+[3.565123] (-) TimerEvent: {}
+[3.667159] (-) TimerEvent: {}
+[3.708206] (chat) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.708551] (chat) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.769386] (-) TimerEvent: {}
+[3.870139] (-) TimerEvent: {}
+[3.972351] (-) TimerEvent: {}
+[4.073618] (-) TimerEvent: {}
+[4.179124] (-) TimerEvent: {}
+[4.190225] (chat) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.191169] (chat) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.249655] (chat) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.280845] (-) TimerEvent: {}
+[4.386144] (-) TimerEvent: {}
+[4.403671] (chat) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.404020] (chat) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[4.404110] (chat) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.405193] (chat) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.405799] (chat) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.405851] (chat) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.406159] (chat) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.408029] (chat) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.434835] (chat) StdoutLine: {'line': b'-- Generating done\n'}
+[4.436868] (chat) StdoutLine: {'line': b'-- Build files have been written to: /root/rm_ws/build/chat\n'}
+[4.449225] (chat) CommandEnded: {'returncode': 0}
+[4.449720] (chat) JobProgress: {'identifier': 'chat', 'progress': 'build'}
+[4.449756] (chat) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/rm_ws/build/chat', '--', '-j8', '-l8'], 'cwd': '/root/rm_ws/build/chat', 'env': OrderedDict([('HOSTNAME', '409d20186cea'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/rm_ws/build/chat'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.487835] (-) TimerEvent: {}
+[4.588332] (-) TimerEvent: {}
+[4.689596] (-) TimerEvent: {}
+[4.790134] (-) TimerEvent: {}
+[4.791302] (chat) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/a.dir/src/node_a.cpp.o\x1b[0m\n'}
+[4.793077] (chat) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/b.dir/src/node_b.cpp.o\x1b[0m\n'}
+[4.891650] (-) TimerEvent: {}
+[4.992265] (-) TimerEvent: {}
+[5.093321] (-) TimerEvent: {}
+[5.194364] (-) TimerEvent: {}
+[5.295219] (-) TimerEvent: {}
+[5.401166] (-) TimerEvent: {}
+[5.507169] (-) TimerEvent: {}
+[5.613182] (-) TimerEvent: {}
+[5.719166] (-) TimerEvent: {}
+[5.825187] (-) TimerEvent: {}
+[5.927147] (-) TimerEvent: {}
+[6.033514] (-) TimerEvent: {}
+[6.135466] (-) TimerEvent: {}
+[6.237385] (-) TimerEvent: {}
+[6.343224] (-) TimerEvent: {}
+[6.446919] (-) TimerEvent: {}
+[6.553233] (-) TimerEvent: {}
+[6.658370] (-) TimerEvent: {}
+[6.759298] (-) TimerEvent: {}
+[6.862195] (-) TimerEvent: {}
+[6.964143] (-) TimerEvent: {}
+[7.065264] (-) TimerEvent: {}
+[7.166388] (-) TimerEvent: {}
+[7.272162] (-) TimerEvent: {}
+[7.375018] (-) TimerEvent: {}
+[7.476342] (-) TimerEvent: {}
+[7.581189] (-) TimerEvent: {}
+[7.687160] (-) TimerEvent: {}
+[7.793131] (-) TimerEvent: {}
+[7.894351] (-) TimerEvent: {}
+[7.998162] (-) TimerEvent: {}
+[8.099462] (-) TimerEvent: {}
+[8.200870] (-) TimerEvent: {}
+[8.302296] (-) TimerEvent: {}
+[8.408194] (-) TimerEvent: {}
+[8.510403] (-) TimerEvent: {}
+[8.617167] (-) TimerEvent: {}
+[8.721446] (-) TimerEvent: {}
+[8.822485] (-) TimerEvent: {}
+[8.928162] (-) TimerEvent: {}
+[9.031005] (-) TimerEvent: {}
+[9.137182] (-) TimerEvent: {}
+[9.238241] (-) TimerEvent: {}
+[9.340414] (-) TimerEvent: {}
+[9.446171] (-) TimerEvent: {}
+[9.548577] (-) TimerEvent: {}
+[9.655205] (-) TimerEvent: {}
+[9.761220] (-) TimerEvent: {}
+[9.864968] (-) TimerEvent: {}
+[9.966196] (-) TimerEvent: {}
+[10.072173] (-) TimerEvent: {}
+[10.178496] (-) TimerEvent: {}
+[10.285410] (-) TimerEvent: {}
+[10.386297] (-) TimerEvent: {}
+[10.492191] (-) TimerEvent: {}
+[10.595255] (-) TimerEvent: {}
+[10.701184] (-) TimerEvent: {}
+[10.807143] (-) TimerEvent: {}
+[10.909417] (-) TimerEvent: {}
+[11.010293] (-) TimerEvent: {}
+[11.116174] (-) TimerEvent: {}
+[11.220070] (-) TimerEvent: {}
+[11.321615] (-) TimerEvent: {}
+[11.424885] (-) TimerEvent: {}
+[11.531173] (-) TimerEvent: {}
+[11.637200] (-) TimerEvent: {}
+[11.743145] (-) TimerEvent: {}
+[11.849150] (-) TimerEvent: {}
+[11.950895] (-) TimerEvent: {}
+[12.057207] (-) TimerEvent: {}
+[12.160227] (-) TimerEvent: {}
+[12.266167] (-) TimerEvent: {}
+[12.367790] (-) TimerEvent: {}
+[12.470054] (-) TimerEvent: {}
+[12.576207] (-) TimerEvent: {}
+[12.677173] (-) TimerEvent: {}
+[12.698227] (chat) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable b\x1b[0m\n'}
+[12.699109] (chat) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable a\x1b[0m\n'}
+[12.778131] (-) TimerEvent: {}
+[12.884150] (-) TimerEvent: {}
+[12.990140] (-) TimerEvent: {}
+[13.092594] (-) TimerEvent: {}
+[13.195076] (-) TimerEvent: {}
+[13.301140] (-) TimerEvent: {}
+[13.402377] (-) TimerEvent: {}
+[13.473075] (chat) StdoutLine: {'line': b'[100%] Built target b\n'}
+[13.474391] (chat) StdoutLine: {'line': b'[100%] Built target a\n'}
+[13.503886] (-) TimerEvent: {}
+[13.522992] (chat) CommandEnded: {'returncode': 0}
+[13.605408] (-) TimerEvent: {}
+[13.706127] (-) TimerEvent: {}
+[13.808524] (-) TimerEvent: {}
+[13.884712] (chat) JobProgress: {'identifier': 'chat', 'progress': 'install'}
+[13.909887] (-) TimerEvent: {}
+[13.927262] (chat) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/rm_ws/build/chat'], 'cwd': '/root/rm_ws/build/chat', 'env': OrderedDict([('HOSTNAME', '409d20186cea'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/rm_ws/build/chat'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[13.975346] (chat) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.977430] (chat) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/chat/lib/chat/a\n'}
+[13.982346] (chat) StdoutLine: {'line': b'-- Set runtime path of "/root/rm_ws/install/chat/lib/chat/a" to ""\n'}
+[13.982474] (chat) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/chat/lib/chat/b\n'}
+[13.984264] (chat) StdoutLine: {'line': b'-- Set runtime path of "/root/rm_ws/install/chat/lib/chat/b" to ""\n'}
+[13.984687] (chat) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/chat/share/ament_index/resource_index/package_run_dependencies/chat\n'}
+[13.984888] (chat) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/chat/share/ament_index/resource_index/parent_prefix_path/chat\n'}
+[13.985229] (chat) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/chat/share/chat/environment/ament_prefix_path.sh\n'}
+[13.985367] (chat) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/chat/share/chat/environment/ament_prefix_path.dsv\n'}
+[13.985475] (chat) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/chat/share/chat/environment/path.sh\n'}
+[13.985590] (chat) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/chat/share/chat/environment/path.dsv\n'}
+[13.985730] (chat) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/chat/share/chat/local_setup.bash\n'}
+[13.985890] (chat) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/chat/share/chat/local_setup.sh\n'}
+[13.986039] (chat) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/chat/share/chat/local_setup.zsh\n'}
+[13.986129] (chat) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/chat/share/chat/local_setup.dsv\n'}
+[13.986235] (chat) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/chat/share/chat/package.dsv\n'}
+[13.986356] (chat) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/chat/share/ament_index/resource_index/packages/chat\n'}
+[13.986558] (chat) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/chat/share/chat/cmake/chatConfig.cmake\n'}
+[13.986666] (chat) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/chat/share/chat/cmake/chatConfig-version.cmake\n'}
+[13.986774] (chat) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/chat/share/chat/package.xml\n'}
+[13.993717] (chat) CommandEnded: {'returncode': 0}
+[14.011032] (-) TimerEvent: {}
+[14.111306] (-) TimerEvent: {}
+[14.213161] (-) TimerEvent: {}
+[14.314842] (-) TimerEvent: {}
+[14.374836] (chat) JobEnded: {'identifier': 'chat', 'rc': 0}
+[14.375692] (cpp_) JobStarted: {'identifier': 'cpp_'}
+[14.410666] (cpp_) JobProgress: {'identifier': 'cpp_', 'progress': 'cmake'}
+[14.412396] (cpp_) Command: {'cmd': ['/usr/bin/cmake', '/root/rm_ws/src/cpp_', '-DCMAKE_INSTALL_PREFIX=/root/rm_ws/install/cpp_'], 'cwd': '/root/rm_ws/build/cpp_', 'env': OrderedDict([('HOSTNAME', '409d20186cea'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/rm_ws/build/cpp_'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[14.415319] (-) TimerEvent: {}
+[14.516395] (-) TimerEvent: {}
+[14.617164] (-) TimerEvent: {}
+[14.719214] (-) TimerEvent: {}
+[14.814496] (cpp_) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[14.820337] (-) TimerEvent: {}
+[14.925409] (-) TimerEvent: {}
+[15.029648] (-) TimerEvent: {}
+[15.134353] (-) TimerEvent: {}
+[15.138692] (cpp_) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[15.163474] (cpp_) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[15.235347] (-) TimerEvent: {}
+[15.336180] (-) TimerEvent: {}
+[15.442121] (-) TimerEvent: {}
+[15.543273] (-) TimerEvent: {}
+[15.644379] (-) TimerEvent: {}
+[15.679899] (cpp_) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[15.694594] (cpp_) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[15.694878] (cpp_) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[15.695219] (cpp_) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[15.697614] (cpp_) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[15.745595] (-) TimerEvent: {}
+[15.851113] (-) TimerEvent: {}
+[15.952942] (-) TimerEvent: {}
+[16.054398] (-) TimerEvent: {}
+[16.150949] (cpp_) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[16.156082] (-) TimerEvent: {}
+[16.164490] (cpp_) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[16.164747] (cpp_) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[16.165134] (cpp_) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[16.171184] (cpp_) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[16.262106] (-) TimerEvent: {}
+[16.368117] (-) TimerEvent: {}
+[16.469837] (-) TimerEvent: {}
+[16.571163] (-) TimerEvent: {}
+[16.674715] (-) TimerEvent: {}
+[16.764879] (cpp_) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[16.775359] (-) TimerEvent: {}
+[16.881257] (-) TimerEvent: {}
+[16.983873] (-) TimerEvent: {}
+[16.997164] (cpp_) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[17.027015] (cpp_) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[17.030006] (cpp_) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[17.035402] (cpp_) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[17.043709] (cpp_) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[17.054748] (cpp_) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[17.085585] (cpp_) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[17.085669] (-) TimerEvent: {}
+[17.087371] (cpp_) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[17.186418] (-) TimerEvent: {}
+[17.289560] (-) TimerEvent: {}
+[17.391851] (-) TimerEvent: {}
+[17.493886] (-) TimerEvent: {}
+[17.498825] (cpp_) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[17.528356] (cpp_) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[17.581789] (cpp_) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[17.587464] (cpp_) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[17.594314] (-) TimerEvent: {}
+[17.695752] (-) TimerEvent: {}
+[17.797337] (-) TimerEvent: {}
+[17.899120] (-) TimerEvent: {}
+[18.002815] (-) TimerEvent: {}
+[18.089918] (cpp_) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[18.090452] (cpp_) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[18.104097] (-) TimerEvent: {}
+[18.205925] (-) TimerEvent: {}
+[18.307449] (-) TimerEvent: {}
+[18.408894] (-) TimerEvent: {}
+[18.511126] (-) TimerEvent: {}
+[18.596395] (cpp_) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[18.597515] (cpp_) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[18.612330] (-) TimerEvent: {}
+[18.644559] (cpp_) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)\n'}
+[18.718223] (-) TimerEvent: {}
+[18.730722] (cpp_) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[18.819301] (-) TimerEvent: {}
+[18.902498] (cpp_) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[18.902894] (cpp_) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[18.902964] (cpp_) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[18.903979] (cpp_) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[18.904619] (cpp_) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[18.904670] (cpp_) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[18.904876] (cpp_) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[18.906537] (cpp_) StdoutLine: {'line': b'-- Configuring done\n'}
+[18.923468] (-) TimerEvent: {}
+[18.939006] (cpp_) StdoutLine: {'line': b'-- Generating done\n'}
+[18.941118] (cpp_) StdoutLine: {'line': b'-- Build files have been written to: /root/rm_ws/build/cpp_\n'}
+[18.956091] (cpp_) CommandEnded: {'returncode': 0}
+[18.957665] (cpp_) JobProgress: {'identifier': 'cpp_', 'progress': 'build'}
+[18.960892] (cpp_) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/rm_ws/build/cpp_', '--', '-j8', '-l8'], 'cwd': '/root/rm_ws/build/cpp_', 'env': OrderedDict([('HOSTNAME', '409d20186cea'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/rm_ws/build/cpp_'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[19.024844] (-) TimerEvent: {}
+[19.125314] (-) TimerEvent: {}
+[19.226248] (-) TimerEvent: {}
+[19.327759] (-) TimerEvent: {}
+[19.332242] (cpp_) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/pub.dir/src/pub.cpp.o\x1b[0m\n'}
+[19.334890] (cpp_) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/server.dir/src/server_.cpp.o\x1b[0m\n'}
+[19.338947] (cpp_) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/client.dir/src/client_.cpp.o\x1b[0m\n'}
+[19.341587] (cpp_) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/sub.dir/src/sub.cpp.o\x1b[0m\n'}
+[19.428354] (-) TimerEvent: {}
+[19.529962] (-) TimerEvent: {}
+[19.633375] (-) TimerEvent: {}
+[19.734250] (-) TimerEvent: {}
+[19.835263] (-) TimerEvent: {}
+[19.936472] (-) TimerEvent: {}
+[20.037431] (-) TimerEvent: {}
+[20.141516] (-) TimerEvent: {}
+[20.243313] (-) TimerEvent: {}
+[20.351626] (-) TimerEvent: {}
+[20.453771] (-) TimerEvent: {}
+[20.555498] (-) TimerEvent: {}
+[20.656312] (-) TimerEvent: {}
+[20.759597] (-) TimerEvent: {}
+[20.862792] (-) TimerEvent: {}
+[20.965468] (-) TimerEvent: {}
+[21.066397] (-) TimerEvent: {}
+[21.172308] (-) TimerEvent: {}
+[21.273401] (-) TimerEvent: {}
+[21.375899] (-) TimerEvent: {}
+[21.482888] (-) TimerEvent: {}
+[21.586287] (-) TimerEvent: {}
+[21.688713] (-) TimerEvent: {}
+[21.791394] (-) TimerEvent: {}
+[21.895147] (-) TimerEvent: {}
+[21.998736] (-) TimerEvent: {}
+[22.101897] (-) TimerEvent: {}
+[22.205561] (-) TimerEvent: {}
+[22.308832] (-) TimerEvent: {}
+[22.413195] (-) TimerEvent: {}
+[22.518120] (-) TimerEvent: {}
+[22.625277] (-) TimerEvent: {}
+[22.726695] (-) TimerEvent: {}
+[22.832440] (-) TimerEvent: {}
+[22.934500] (-) TimerEvent: {}
+[23.042148] (-) TimerEvent: {}
+[23.145748] (-) TimerEvent: {}
+[23.247262] (-) TimerEvent: {}
+[23.350200] (-) TimerEvent: {}
+[23.352123] (cpp_) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[23.355237] (cpp_) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[23.355515] (cpp_) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[23.355694] (cpp_) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[23.355857] (cpp_) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[23.356132] (cpp_) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[23.356334] (cpp_) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[23.356572] (cpp_) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[23.356792] (cpp_) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[23.356982] (cpp_) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[23.357208] (cpp_) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[23.357410] (cpp_) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/rm_ws/src/cpp_/src/server_.cpp:1\x1b[m\x1b[K:\n'}
+[23.357590] (cpp_) StderrLine: {'line': b'\x1b[01m\x1b[K/root/rm_ws/src/cpp_/src/server_.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Server::callback(std::shared_ptr<example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> > >, std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[23.357845] (cpp_) StderrLine: {'line': b'\x1b[01m\x1b[K/root/rm_ws/src/cpp_/src/server_.cpp:18:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%lld\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Klong long int\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_a_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[23.358075] (cpp_) StderrLine: {'line': b'   18 |         RCLCPP_INFO(this->get_logger(),\x1b[01;35m\x1b[K" %lld + %lld = %lld"\x1b[m\x1b[K,\x1b[32m\x1b[Krequest->a\x1b[m\x1b[K,request->b,response->sum);\n'}
+[23.358287] (cpp_) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \x1b[32m\x1b[K~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.358501] (cpp_) StderrLine: {'line': b'      |                                                                       \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[23.358690] (cpp_) StderrLine: {'line': b'      |                                                                       \x1b[32m\x1b[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_a_type {aka long int}\x1b[m\x1b[K\n'}
+[23.358889] (cpp_) StderrLine: {'line': b'\x1b[01m\x1b[K/root/rm_ws/src/cpp_/src/server_.cpp:18:45:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[23.359098] (cpp_) StderrLine: {'line': b'   18 |         RCLCPP_INFO(this->get_logger()," \x1b[01;36m\x1b[K%lld\x1b[m\x1b[K + %lld = %lld",request->a,request->b,response->sum);\n'}
+[23.359293] (cpp_) StderrLine: {'line': b'      |                                          \x1b[01;36m\x1b[K~~~^\x1b[m\x1b[K\n'}
+[23.359461] (cpp_) StderrLine: {'line': b'      |                                             \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[23.359622] (cpp_) StderrLine: {'line': b'      |                                             \x1b[01;36m\x1b[Klong long int\x1b[m\x1b[K\n'}
+[23.359824] (cpp_) StderrLine: {'line': b'      |                                          \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[23.360000] (cpp_) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[23.360205] (cpp_) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[23.360378] (cpp_) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[23.360557] (cpp_) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[23.360743] (cpp_) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[23.360906] (cpp_) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[23.361122] (cpp_) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[23.361286] (cpp_) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[23.361475] (cpp_) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[23.361663] (cpp_) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[23.361816] (cpp_) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[23.361985] (cpp_) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/rm_ws/src/cpp_/src/server_.cpp:1\x1b[m\x1b[K:\n'}
+[23.362178] (cpp_) StderrLine: {'line': b'\x1b[01m\x1b[K/root/rm_ws/src/cpp_/src/server_.cpp:18:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%lld\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Klong long int\x1b[m\x1b[K\xe2\x80\x99, but argument 6 has type \xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_b_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[23.362370] (cpp_) StderrLine: {'line': b'   18 |         RCLCPP_INFO(this->get_logger(),\x1b[01;35m\x1b[K" %lld + %lld = %lld"\x1b[m\x1b[K,request->a,\x1b[32m\x1b[Krequest->b\x1b[m\x1b[K,response->sum);\n'}
+[23.362533] (cpp_) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K            \x1b[32m\x1b[K~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.362689] (cpp_) StderrLine: {'line': b'      |                                                                                  \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[23.362859] (cpp_) StderrLine: {'line': b'      |                                                                                  \x1b[32m\x1b[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_b_type {aka long int}\x1b[m\x1b[K\n'}
+[23.363097] (cpp_) StderrLine: {'line': b'\x1b[01m\x1b[K/root/rm_ws/src/cpp_/src/server_.cpp:18:52:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[23.363286] (cpp_) StderrLine: {'line': b'   18 |         RCLCPP_INFO(this->get_logger()," %lld + \x1b[01;36m\x1b[K%lld\x1b[m\x1b[K = %lld",request->a,request->b,response->sum);\n'}
+[23.363448] (cpp_) StderrLine: {'line': b'      |                                                 \x1b[01;36m\x1b[K~~~^\x1b[m\x1b[K\n'}
+[23.363635] (cpp_) StderrLine: {'line': b'      |                                                    \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[23.363817] (cpp_) StderrLine: {'line': b'      |                                                    \x1b[01;36m\x1b[Klong long int\x1b[m\x1b[K\n'}
+[23.363982] (cpp_) StderrLine: {'line': b'      |                                                 \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[23.364195] (cpp_) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[23.364374] (cpp_) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[23.364534] (cpp_) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[23.364761] (cpp_) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[23.364857] (cpp_) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[23.364938] (cpp_) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[23.365016] (cpp_) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[23.365099] (cpp_) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[23.365170] (cpp_) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[23.365237] (cpp_) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[23.365294] (cpp_) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[23.365355] (cpp_) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/rm_ws/src/cpp_/src/server_.cpp:1\x1b[m\x1b[K:\n'}
+[23.365417] (cpp_) StderrLine: {'line': b'\x1b[01m\x1b[K/root/rm_ws/src/cpp_/src/server_.cpp:18:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%lld\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Klong long int\x1b[m\x1b[K\xe2\x80\x99, but argument 7 has type \xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >::_sum_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[23.365474] (cpp_) StderrLine: {'line': b'   18 |         RCLCPP_INFO(this->get_logger(),\x1b[01;35m\x1b[K" %lld + %lld = %lld"\x1b[m\x1b[K,request->a,request->b,\x1b[32m\x1b[Kresponse->sum\x1b[m\x1b[K);\n'}
+[23.365518] (cpp_) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                       \x1b[32m\x1b[K~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.365581] (cpp_) StderrLine: {'line': b'      |                                                                                              \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[23.365635] (cpp_) StderrLine: {'line': b'      |                                                                                              \x1b[32m\x1b[Kexample_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >::_sum_type {aka long int}\x1b[m\x1b[K\n'}
+[23.365701] (cpp_) StderrLine: {'line': b'\x1b[01m\x1b[K/root/rm_ws/src/cpp_/src/server_.cpp:18:59:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[23.365763] (cpp_) StderrLine: {'line': b'   18 |         RCLCPP_INFO(this->get_logger()," %lld + %lld = \x1b[01;36m\x1b[K%lld\x1b[m\x1b[K",request->a,request->b,response->sum);\n'}
+[23.365814] (cpp_) StderrLine: {'line': b'      |                                                        \x1b[01;36m\x1b[K~~~^\x1b[m\x1b[K\n'}
+[23.365868] (cpp_) StderrLine: {'line': b'      |                                                           \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[23.365939] (cpp_) StderrLine: {'line': b'      |                                                           \x1b[01;36m\x1b[Klong long int\x1b[m\x1b[K\n'}
+[23.366007] (cpp_) StderrLine: {'line': b'      |                                                        \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[23.456334] (-) TimerEvent: {}
+[23.558452] (-) TimerEvent: {}
+[23.664283] (-) TimerEvent: {}
+[23.766915] (-) TimerEvent: {}
+[23.868722] (-) TimerEvent: {}
+[23.974342] (-) TimerEvent: {}
+[24.080444] (-) TimerEvent: {}
+[24.186357] (-) TimerEvent: {}
+[24.288176] (-) TimerEvent: {}
+[24.390946] (-) TimerEvent: {}
+[24.492356] (-) TimerEvent: {}
+[24.597826] (-) TimerEvent: {}
+[24.700289] (-) TimerEvent: {}
+[24.802323] (-) TimerEvent: {}
+[24.903305] (-) TimerEvent: {}
+[25.004388] (-) TimerEvent: {}
+[25.006096] (cpp_) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/server.dir/build.make:174: server] Illegal instruction\n'}
+[25.010465] (cpp_) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/server.dir/all] Error 2\n'}
+[25.011353] (cpp_) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[25.105293] (-) TimerEvent: {}
+[25.155956] (cpp_) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable client\x1b[0m\n'}
+[25.206630] (-) TimerEvent: {}
+[25.308893] (-) TimerEvent: {}
+[25.411516] (-) TimerEvent: {}
+[25.513332] (-) TimerEvent: {}
+[25.608080] (cpp_) StdoutLine: {'line': b'[ 62%] Built target client\n'}
+[25.614716] (-) TimerEvent: {}
+[25.720164] (-) TimerEvent: {}
+[25.821247] (-) TimerEvent: {}
+[25.864412] (cpp_) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable pub\x1b[0m\n'}
+[25.923148] (-) TimerEvent: {}
+[26.024383] (-) TimerEvent: {}
+[26.125646] (-) TimerEvent: {}
+[26.226157] (-) TimerEvent: {}
+[26.281147] (cpp_) StdoutLine: {'line': b'[ 75%] Built target pub\n'}
+[26.332177] (-) TimerEvent: {}
+[26.434031] (-) TimerEvent: {}
+[26.536901] (-) TimerEvent: {}
+[26.641589] (-) TimerEvent: {}
+[26.743361] (-) TimerEvent: {}
+[26.849157] (-) TimerEvent: {}
+[26.955158] (-) TimerEvent: {}
+[27.061131] (-) TimerEvent: {}
+[27.167154] (-) TimerEvent: {}
+[27.269608] (-) TimerEvent: {}
+[27.375153] (-) TimerEvent: {}
+[27.477441] (-) TimerEvent: {}
+[27.578817] (-) TimerEvent: {}
+[27.685175] (-) TimerEvent: {}
+[27.791148] (-) TimerEvent: {}
+[27.897181] (-) TimerEvent: {}
+[28.003166] (-) TimerEvent: {}
+[28.109148] (-) TimerEvent: {}
+[28.215140] (-) TimerEvent: {}
+[28.321169] (-) TimerEvent: {}
+[28.427132] (-) TimerEvent: {}
+[28.533122] (-) TimerEvent: {}
+[28.634142] (-) TimerEvent: {}
+[28.735684] (-) TimerEvent: {}
+[28.771400] (cpp_) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable sub\x1b[0m\n'}
+[28.836135] (-) TimerEvent: {}
+[28.939639] (-) TimerEvent: {}
+[29.040149] (-) TimerEvent: {}
+[29.141143] (-) TimerEvent: {}
+[29.243152] (-) TimerEvent: {}
+[29.349106] (-) TimerEvent: {}
+[29.450175] (-) TimerEvent: {}
+[29.489434] (cpp_) StdoutLine: {'line': b'[ 87%] Built target sub\n'}
+[29.495645] (cpp_) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[29.512711] (cpp_) CommandEnded: {'returncode': 2}
+[29.552131] (-) TimerEvent: {}
+[29.653846] (-) TimerEvent: {}
+[29.754323] (-) TimerEvent: {}
+[29.855129] (-) TimerEvent: {}
+[29.958279] (-) TimerEvent: {}
+[29.999709] (cpp_) JobEnded: {'identifier': 'cpp_', 'rc': 2}
+[30.002200] (py_examples) JobSkipped: {'identifier': 'py_examples'}
+[30.002224] (turtle_cpp) JobSkipped: {'identifier': 'turtle_cpp'}
+[30.002238] (turtle_sim) JobSkipped: {'identifier': 'turtle_sim'}
+[30.002250] (-) EventReactorShutdown: {}

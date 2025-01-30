@@ -1,0 +1,49 @@
+[0.626s] Invoking command in '/root/rm_ws/src/py_examples': PYTHONPATH=/root/rm_ws/build/py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/rm_ws/install/py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_examples build --build-base /root/rm_ws/build/py_examples/build install --record /root/rm_ws/build/py_examples/install.log --single-version-externally-managed install_data
+[0.851s] running egg_info
+[0.851s] creating ../../build/py_examples/py_examples.egg-info
+[0.852s] writing ../../build/py_examples/py_examples.egg-info/PKG-INFO
+[0.852s] writing dependency_links to ../../build/py_examples/py_examples.egg-info/dependency_links.txt
+[0.852s] writing entry points to ../../build/py_examples/py_examples.egg-info/entry_points.txt
+[0.852s] writing requirements to ../../build/py_examples/py_examples.egg-info/requires.txt
+[0.852s] writing top-level names to ../../build/py_examples/py_examples.egg-info/top_level.txt
+[0.853s] writing manifest file '../../build/py_examples/py_examples.egg-info/SOURCES.txt'
+[0.854s] reading manifest file '../../build/py_examples/py_examples.egg-info/SOURCES.txt'
+[0.854s] writing manifest file '../../build/py_examples/py_examples.egg-info/SOURCES.txt'
+[0.854s] running build
+[0.854s] running build_py
+[0.855s] creating /root/rm_ws/build/py_examples/build
+[0.855s] creating /root/rm_ws/build/py_examples/build/lib
+[0.855s] creating /root/rm_ws/build/py_examples/build/lib/py_examples
+[0.855s] copying py_examples/sub.py -> /root/rm_ws/build/py_examples/build/lib/py_examples
+[0.856s] copying py_examples/pub.py -> /root/rm_ws/build/py_examples/build/lib/py_examples
+[0.856s] copying py_examples/__init__.py -> /root/rm_ws/build/py_examples/build/lib/py_examples
+[0.856s] copying py_examples/server.py -> /root/rm_ws/build/py_examples/build/lib/py_examples
+[0.856s] copying py_examples/client.py -> /root/rm_ws/build/py_examples/build/lib/py_examples
+[0.857s] running install
+[0.857s] running install_lib
+[0.857s] creating /root/rm_ws/install/py_examples/lib/python3.10/site-packages/py_examples
+[0.857s] copying /root/rm_ws/build/py_examples/build/lib/py_examples/sub.py -> /root/rm_ws/install/py_examples/lib/python3.10/site-packages/py_examples
+[0.858s] copying /root/rm_ws/build/py_examples/build/lib/py_examples/pub.py -> /root/rm_ws/install/py_examples/lib/python3.10/site-packages/py_examples
+[0.858s] copying /root/rm_ws/build/py_examples/build/lib/py_examples/__init__.py -> /root/rm_ws/install/py_examples/lib/python3.10/site-packages/py_examples
+[0.858s] copying /root/rm_ws/build/py_examples/build/lib/py_examples/server.py -> /root/rm_ws/install/py_examples/lib/python3.10/site-packages/py_examples
+[0.858s] copying /root/rm_ws/build/py_examples/build/lib/py_examples/client.py -> /root/rm_ws/install/py_examples/lib/python3.10/site-packages/py_examples
+[0.858s] byte-compiling /root/rm_ws/install/py_examples/lib/python3.10/site-packages/py_examples/sub.py to sub.cpython-310.pyc
+[0.861s] byte-compiling /root/rm_ws/install/py_examples/lib/python3.10/site-packages/py_examples/pub.py to pub.cpython-310.pyc
+[0.862s] byte-compiling /root/rm_ws/install/py_examples/lib/python3.10/site-packages/py_examples/__init__.py to __init__.cpython-310.pyc
+[0.862s] byte-compiling /root/rm_ws/install/py_examples/lib/python3.10/site-packages/py_examples/server.py to server.cpython-310.pyc
+[0.863s] byte-compiling /root/rm_ws/install/py_examples/lib/python3.10/site-packages/py_examples/client.py to client.cpython-310.pyc
+[0.863s] running install_data
+[0.863s] creating /root/rm_ws/install/py_examples/share/ament_index
+[0.863s] creating /root/rm_ws/install/py_examples/share/ament_index/resource_index
+[0.863s] creating /root/rm_ws/install/py_examples/share/ament_index/resource_index/packages
+[0.864s] copying resource/py_examples -> /root/rm_ws/install/py_examples/share/ament_index/resource_index/packages
+[0.864s] copying package.xml -> /root/rm_ws/install/py_examples/share/py_examples
+[0.864s] running install_egg_info
+[0.865s] Copying ../../build/py_examples/py_examples.egg-info to /root/rm_ws/install/py_examples/lib/python3.10/site-packages/py_examples-0.0.0-py3.10.egg-info
+[0.866s] running install_scripts
+[0.888s] Installing client script to /root/rm_ws/install/py_examples/lib/py_examples
+[0.888s] Installing pub script to /root/rm_ws/install/py_examples/lib/py_examples
+[0.888s] Installing srv script to /root/rm_ws/install/py_examples/lib/py_examples
+[0.888s] Installing sub script to /root/rm_ws/install/py_examples/lib/py_examples
+[0.889s] writing list of installed files to '/root/rm_ws/build/py_examples/install.log'
+[0.905s] Invoked command in '/root/rm_ws/src/py_examples' returned '0': PYTHONPATH=/root/rm_ws/build/py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/rm_ws/install/py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_examples build --build-base /root/rm_ws/build/py_examples/build install --record /root/rm_ws/build/py_examples/install.log --single-version-externally-managed install_data

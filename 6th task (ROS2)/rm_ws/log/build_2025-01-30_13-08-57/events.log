@@ -1,0 +1,115 @@
+[0.000000] (-) TimerEvent: {}
+[0.001178] (chat) JobQueued: {'identifier': 'chat', 'dependencies': OrderedDict()}
+[0.001265] (cpp_) JobQueued: {'identifier': 'cpp_', 'dependencies': OrderedDict()}
+[0.001288] (py_examples) JobQueued: {'identifier': 'py_examples', 'dependencies': OrderedDict()}
+[0.001302] (turtle_cpp) JobQueued: {'identifier': 'turtle_cpp', 'dependencies': OrderedDict()}
+[0.001326] (turtle_sim) JobQueued: {'identifier': 'turtle_sim', 'dependencies': OrderedDict()}
+[0.003415] (chat) JobStarted: {'identifier': 'chat'}
+[0.047640] (chat) JobProgress: {'identifier': 'chat', 'progress': 'cmake'}
+[0.048573] (chat) JobProgress: {'identifier': 'chat', 'progress': 'build'}
+[0.049454] (chat) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/rm_ws/build/chat', '--', '-j8', '-l8'], 'cwd': '/root/rm_ws/build/chat', 'env': OrderedDict([('HOSTNAME', '409d20186cea'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/rm_ws/build/chat'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.105442] (-) TimerEvent: {}
+[0.206486] (-) TimerEvent: {}
+[0.307974] (-) TimerEvent: {}
+[0.344603] (chat) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target b\x1b[0m\n'}
+[0.344946] (chat) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target a\x1b[0m\n'}
+[0.410202] (-) TimerEvent: {}
+[0.445667] (chat) StdoutLine: {'line': b'[ 50%] Built target a\n'}
+[0.446383] (chat) StdoutLine: {'line': b'[100%] Built target b\n'}
+[0.488234] (chat) CommandEnded: {'returncode': 0}
+[0.511947] (-) TimerEvent: {}
+[0.612556] (-) TimerEvent: {}
+[0.713933] (-) TimerEvent: {}
+[0.814452] (-) TimerEvent: {}
+[0.847719] (chat) JobProgress: {'identifier': 'chat', 'progress': 'install'}
+[0.887252] (chat) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/rm_ws/build/chat'], 'cwd': '/root/rm_ws/build/chat', 'env': OrderedDict([('HOSTNAME', '409d20186cea'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/rm_ws/build/chat'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.915496] (-) TimerEvent: {}
+[0.933733] (chat) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.937561] (chat) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/chat/lib/chat/a\n'}
+[0.938426] (chat) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/chat/lib/chat/b\n'}
+[0.938680] (chat) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/chat/share/ament_index/resource_index/package_run_dependencies/chat\n'}
+[0.938799] (chat) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/chat/share/ament_index/resource_index/parent_prefix_path/chat\n'}
+[0.938947] (chat) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/chat/share/chat/environment/ament_prefix_path.sh\n'}
+[0.939023] (chat) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/chat/share/chat/environment/ament_prefix_path.dsv\n'}
+[0.939086] (chat) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/chat/share/chat/environment/path.sh\n'}
+[0.939205] (chat) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/chat/share/chat/environment/path.dsv\n'}
+[0.939260] (chat) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/chat/share/chat/local_setup.bash\n'}
+[0.939298] (chat) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/chat/share/chat/local_setup.sh\n'}
+[0.939334] (chat) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/chat/share/chat/local_setup.zsh\n'}
+[0.939370] (chat) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/chat/share/chat/local_setup.dsv\n'}
+[0.939428] (chat) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/chat/share/chat/package.dsv\n'}
+[0.939947] (chat) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/chat/share/ament_index/resource_index/packages/chat\n'}
+[0.940106] (chat) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/chat/share/chat/cmake/chatConfig.cmake\n'}
+[0.940181] (chat) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/chat/share/chat/cmake/chatConfig-version.cmake\n'}
+[0.940227] (chat) StdoutLine: {'line': b'-- Up-to-date: /root/rm_ws/install/chat/share/chat/package.xml\n'}
+[0.945700] (chat) CommandEnded: {'returncode': 0}
+[1.017701] (-) TimerEvent: {}
+[1.118466] (-) TimerEvent: {}
+[1.220167] (-) TimerEvent: {}
+[1.311780] (chat) JobEnded: {'identifier': 'chat', 'rc': 0}
+[1.312241] (cpp_) JobStarted: {'identifier': 'cpp_'}
+[1.321127] (-) TimerEvent: {}
+[1.344819] (cpp_) JobProgress: {'identifier': 'cpp_', 'progress': 'cmake'}
+[1.345345] (cpp_) JobProgress: {'identifier': 'cpp_', 'progress': 'build'}
+[1.346976] (cpp_) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/rm_ws/build/cpp_', '--', '-j8', '-l8'], 'cwd': '/root/rm_ws/build/cpp_', 'env': OrderedDict([('HOSTNAME', '409d20186cea'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/rm_ws/build/cpp_'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.421526] (-) TimerEvent: {}
+[1.522748] (-) TimerEvent: {}
+[1.624685] (-) TimerEvent: {}
+[1.644387] (cpp_) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sub\x1b[0m\n'}
+[1.655469] (cpp_) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target server\x1b[0m\n'}
+[1.661706] (cpp_) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target client\x1b[0m\n'}
+[1.662141] (cpp_) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pub\x1b[0m\n'}
+[1.725558] (-) TimerEvent: {}
+[1.758396] (cpp_) StdoutLine: {'line': b'[ 25%] Built target sub\n'}
+[1.761885] (cpp_) StdoutLine: {'line': b'[ 62%] Built target client\n'}
+[1.762192] (cpp_) StdoutLine: {'line': b'[ 75%] Built target pub\n'}
+[1.766166] (cpp_) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable server\x1b[0m\n'}
+[1.827188] (-) TimerEvent: {}
+[1.927668] (-) TimerEvent: {}
+[2.033509] (-) TimerEvent: {}
+[2.115985] (cpp_) StdoutLine: {'line': b'[100%] Built target server\n'}
+[2.134706] (-) TimerEvent: {}
+[2.157684] (cpp_) CommandEnded: {'returncode': 0}
+[2.237900] (-) TimerEvent: {}
+[2.338868] (-) TimerEvent: {}
+[2.439508] (-) TimerEvent: {}
+[2.541180] (-) TimerEvent: {}
+[2.634345] (cpp_) JobProgress: {'identifier': 'cpp_', 'progress': 'install'}
+[2.636223] (cpp_) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/rm_ws/build/cpp_'], 'cwd': '/root/rm_ws/build/cpp_', 'env': OrderedDict([('HOSTNAME', '409d20186cea'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/rm_ws/build/cpp_'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.642430] (-) TimerEvent: {}
+[2.683043] (cpp_) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.684983] (cpp_) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/cpp_/lib/cpp_/pub\n'}
+[2.688830] (cpp_) StdoutLine: {'line': b'-- Set runtime path of "/root/rm_ws/install/cpp_/lib/cpp_/pub" to ""\n'}
+[2.688934] (cpp_) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/cpp_/lib/cpp_/sub\n'}
+[2.691344] (cpp_) StdoutLine: {'line': b'-- Set runtime path of "/root/rm_ws/install/cpp_/lib/cpp_/sub" to ""\n'}
+[2.691499] (cpp_) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/cpp_/lib/cpp_/server\n'}
+[2.691828] (cpp_) StdoutLine: {'line': b'-- Set runtime path of "/root/rm_ws/install/cpp_/lib/cpp_/server" to ""\n'}
+[2.691965] (cpp_) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/cpp_/lib/cpp_/client\n'}
+[2.692659] (cpp_) StdoutLine: {'line': b'-- Set runtime path of "/root/rm_ws/install/cpp_/lib/cpp_/client" to ""\n'}
+[2.693081] (cpp_) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/cpp_/share/ament_index/resource_index/package_run_dependencies/cpp_\n'}
+[2.693259] (cpp_) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/cpp_/share/ament_index/resource_index/parent_prefix_path/cpp_\n'}
+[2.693448] (cpp_) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/cpp_/share/cpp_/environment/ament_prefix_path.sh\n'}
+[2.693556] (cpp_) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/cpp_/share/cpp_/environment/ament_prefix_path.dsv\n'}
+[2.693658] (cpp_) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/cpp_/share/cpp_/environment/path.sh\n'}
+[2.693789] (cpp_) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/cpp_/share/cpp_/environment/path.dsv\n'}
+[2.693923] (cpp_) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/cpp_/share/cpp_/local_setup.bash\n'}
+[2.693973] (cpp_) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/cpp_/share/cpp_/local_setup.sh\n'}
+[2.694076] (cpp_) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/cpp_/share/cpp_/local_setup.zsh\n'}
+[2.694130] (cpp_) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/cpp_/share/cpp_/local_setup.dsv\n'}
+[2.694243] (cpp_) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/cpp_/share/cpp_/package.dsv\n'}
+[2.694358] (cpp_) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/cpp_/share/ament_index/resource_index/packages/cpp_\n'}
+[2.694538] (cpp_) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/cpp_/share/cpp_/cmake/cpp_Config.cmake\n'}
+[2.694687] (cpp_) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/cpp_/share/cpp_/cmake/cpp_Config-version.cmake\n'}
+[2.694884] (cpp_) StdoutLine: {'line': b'-- Installing: /root/rm_ws/install/cpp_/share/cpp_/package.xml\n'}
+[2.700560] (cpp_) CommandEnded: {'returncode': 0}
+[2.743469] (-) TimerEvent: {}
+[2.844622] (-) TimerEvent: {}
+[2.946911] (-) TimerEvent: {}
+[3.047794] (-) TimerEvent: {}
+[3.146043] (cpp_) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 65, in build\n    has_install_target = await has_target(args.build_base, \'install\')\n  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 57, in has_target\n    return target in await get_makefile_targets(path)\n  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 77, in get_makefile_targets\n    output = await check_output([\n  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 129, in check_output\n    assert not rc, f\'Expected {args} to pass: {stderr_data}\'\nAssertionError: Expected [\'/usr/bin/cmake\', \'--build\', \'/root/rm_ws/build/cpp_\', \'--target\', \'help\'] to pass: gmake: *** [Makefile:377: help] Illegal instruction\n\n'}
+[3.146248] (cpp_) JobEnded: {'identifier': 'cpp_', 'rc': 1}
+[3.148189] (py_examples) JobSkipped: {'identifier': 'py_examples'}
+[3.148218] (-) TimerEvent: {}
+[3.148289] (turtle_cpp) JobSkipped: {'identifier': 'turtle_cpp'}
+[3.148310] (turtle_sim) JobSkipped: {'identifier': 'turtle_sim'}
+[3.148329] (-) EventReactorShutdown: {}

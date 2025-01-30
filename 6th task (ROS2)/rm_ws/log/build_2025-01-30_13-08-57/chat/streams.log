@@ -1,0 +1,26 @@
+[0.051s] Invoking command in '/root/rm_ws/build/chat': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/rm_ws/build/chat -- -j8 -l8
+[0.341s] [35m[1mConsolidate compiler generated dependencies of target b[0m
+[0.342s] [35m[1mConsolidate compiler generated dependencies of target a[0m
+[0.442s] [ 50%] Built target a
+[0.443s] [100%] Built target b
+[0.485s] Invoked command in '/root/rm_ws/build/chat' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/rm_ws/build/chat -- -j8 -l8
+[0.884s] Invoking command in '/root/rm_ws/build/chat': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/rm_ws/build/chat
+[0.930s] -- Install configuration: ""
+[0.934s] -- Up-to-date: /root/rm_ws/install/chat/lib/chat/a
+[0.935s] -- Up-to-date: /root/rm_ws/install/chat/lib/chat/b
+[0.935s] -- Up-to-date: /root/rm_ws/install/chat/share/ament_index/resource_index/package_run_dependencies/chat
+[0.935s] -- Up-to-date: /root/rm_ws/install/chat/share/ament_index/resource_index/parent_prefix_path/chat
+[0.936s] -- Up-to-date: /root/rm_ws/install/chat/share/chat/environment/ament_prefix_path.sh
+[0.936s] -- Up-to-date: /root/rm_ws/install/chat/share/chat/environment/ament_prefix_path.dsv
+[0.936s] -- Up-to-date: /root/rm_ws/install/chat/share/chat/environment/path.sh
+[0.936s] -- Up-to-date: /root/rm_ws/install/chat/share/chat/environment/path.dsv
+[0.936s] -- Up-to-date: /root/rm_ws/install/chat/share/chat/local_setup.bash
+[0.936s] -- Up-to-date: /root/rm_ws/install/chat/share/chat/local_setup.sh
+[0.936s] -- Up-to-date: /root/rm_ws/install/chat/share/chat/local_setup.zsh
+[0.936s] -- Up-to-date: /root/rm_ws/install/chat/share/chat/local_setup.dsv
+[0.936s] -- Installing: /root/rm_ws/install/chat/share/chat/package.dsv
+[0.937s] -- Up-to-date: /root/rm_ws/install/chat/share/ament_index/resource_index/packages/chat
+[0.937s] -- Up-to-date: /root/rm_ws/install/chat/share/chat/cmake/chatConfig.cmake
+[0.937s] -- Up-to-date: /root/rm_ws/install/chat/share/chat/cmake/chatConfig-version.cmake
+[0.937s] -- Up-to-date: /root/rm_ws/install/chat/share/chat/package.xml
+[0.942s] Invoked command in '/root/rm_ws/build/chat' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/rm_ws/build/chat

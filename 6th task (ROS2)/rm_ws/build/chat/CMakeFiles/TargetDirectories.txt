@@ -1,0 +1,11 @@
+/root/rm_ws/build/chat/CMakeFiles/uninstall.dir
+/root/rm_ws/build/chat/CMakeFiles/chat_uninstall.dir
+/root/rm_ws/build/chat/CMakeFiles/a.dir
+/root/rm_ws/build/chat/CMakeFiles/b.dir
+/root/rm_ws/build/chat/CMakeFiles/test.dir
+/root/rm_ws/build/chat/CMakeFiles/edit_cache.dir
+/root/rm_ws/build/chat/CMakeFiles/rebuild_cache.dir
+/root/rm_ws/build/chat/CMakeFiles/list_install_components.dir
+/root/rm_ws/build/chat/CMakeFiles/install.dir
+/root/rm_ws/build/chat/CMakeFiles/install/local.dir
+/root/rm_ws/build/chat/CMakeFiles/install/strip.dir

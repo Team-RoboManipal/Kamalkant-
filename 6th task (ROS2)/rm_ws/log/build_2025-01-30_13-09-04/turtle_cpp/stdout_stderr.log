@@ -1,0 +1,76 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/rm_ws/build/turtle_cpp
+[ 10%] [32mBuilding CXX object CMakeFiles/goal.dir/src/goal.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/d.dir/src/d_.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/draw_circle.dir/src/draw_circle.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/polygon.dir/src/polygon.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/controller.dir/src/controller.cpp.o[0m
+[ 60%] [32m[1mLinking CXX executable polygon[0m
+[ 70%] [32m[1mLinking CXX executable draw_circle[0m
+[ 80%] [32m[1mLinking CXX executable d[0m
+[ 90%] [32m[1mLinking CXX executable controller[0m
+[ 90%] Built target polygon
+[ 90%] Built target draw_circle
+[ 90%] Built target d
+[ 90%] Built target controller
+[100%] [32m[1mLinking CXX executable goal[0m
+[100%] Built target goal
+-- Install configuration: ""
+-- Installing: /root/rm_ws/install/turtle_cpp/lib/turtle_cpp/goal
+-- Set runtime path of "/root/rm_ws/install/turtle_cpp/lib/turtle_cpp/goal" to ""
+-- Installing: /root/rm_ws/install/turtle_cpp/lib/turtle_cpp/polygon
+-- Set runtime path of "/root/rm_ws/install/turtle_cpp/lib/turtle_cpp/polygon" to ""
+-- Installing: /root/rm_ws/install/turtle_cpp/lib/turtle_cpp/controller
+-- Set runtime path of "/root/rm_ws/install/turtle_cpp/lib/turtle_cpp/controller" to ""
+-- Installing: /root/rm_ws/install/turtle_cpp/lib/turtle_cpp/d
+-- Set runtime path of "/root/rm_ws/install/turtle_cpp/lib/turtle_cpp/d" to ""
+-- Installing: /root/rm_ws/install/turtle_cpp/lib/turtle_cpp/draw_circle
+-- Set runtime path of "/root/rm_ws/install/turtle_cpp/lib/turtle_cpp/draw_circle" to ""
+-- Installing: /root/rm_ws/install/turtle_cpp/share/ament_index/resource_index/package_run_dependencies/turtle_cpp
+-- Installing: /root/rm_ws/install/turtle_cpp/share/ament_index/resource_index/parent_prefix_path/turtle_cpp
+-- Installing: /root/rm_ws/install/turtle_cpp/share/turtle_cpp/environment/ament_prefix_path.sh
+-- Installing: /root/rm_ws/install/turtle_cpp/share/turtle_cpp/environment/ament_prefix_path.dsv
+-- Installing: /root/rm_ws/install/turtle_cpp/share/turtle_cpp/environment/path.sh
+-- Installing: /root/rm_ws/install/turtle_cpp/share/turtle_cpp/environment/path.dsv
+-- Installing: /root/rm_ws/install/turtle_cpp/share/turtle_cpp/local_setup.bash
+-- Installing: /root/rm_ws/install/turtle_cpp/share/turtle_cpp/local_setup.sh
+-- Installing: /root/rm_ws/install/turtle_cpp/share/turtle_cpp/local_setup.zsh
+-- Installing: /root/rm_ws/install/turtle_cpp/share/turtle_cpp/local_setup.dsv
+-- Installing: /root/rm_ws/install/turtle_cpp/share/turtle_cpp/package.dsv
+-- Installing: /root/rm_ws/install/turtle_cpp/share/ament_index/resource_index/packages/turtle_cpp
+-- Installing: /root/rm_ws/install/turtle_cpp/share/turtle_cpp/cmake/turtle_cppConfig.cmake
+-- Installing: /root/rm_ws/install/turtle_cpp/share/turtle_cpp/cmake/turtle_cppConfig-version.cmake
+-- Installing: /root/rm_ws/install/turtle_cpp/share/turtle_cpp/package.xml

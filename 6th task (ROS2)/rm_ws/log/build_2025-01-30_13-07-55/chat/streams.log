@@ -1,0 +1,73 @@
+[0.041s] Invoking command in '/root/rm_ws/build/chat': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/rm_ws/src/chat -DCMAKE_INSTALL_PREFIX=/root/rm_ws/install/chat
+[0.485s] -- The C compiler identification is GNU 11.4.0
+[0.789s] -- The CXX compiler identification is GNU 11.4.0
+[0.822s] -- Detecting C compiler ABI info
+[1.332s] -- Detecting C compiler ABI info - done
+[1.347s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.347s] -- Detecting C compile features
+[1.348s] -- Detecting C compile features - done
+[1.350s] -- Detecting CXX compiler ABI info
+[1.805s] -- Detecting CXX compiler ABI info - done
+[1.819s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.819s] -- Detecting CXX compile features
+[1.820s] -- Detecting CXX compile features - done
+[1.831s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.439s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.613s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[2.656s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.661s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.667s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.680s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.694s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.735s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.737s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.157s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.192s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.246s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.254s] -- Looking for pthread.h
+[3.705s] -- Looking for pthread.h - found
+[3.706s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.187s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.188s] -- Found Threads: TRUE  
+[4.247s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.401s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.401s] -- Configured cppcheck include dirs: 
+[4.401s] -- Configured cppcheck exclude dirs and/or files: 
+[4.402s] -- Added test 'lint_cmake' to check CMake code style
+[4.403s] -- Added test 'uncrustify' to check C / C++ code style
+[4.403s] -- Configured uncrustify additional arguments: 
+[4.403s] -- Added test 'xmllint' to check XML markup files
+[4.405s] -- Configuring done
+[4.432s] -- Generating done
+[4.434s] -- Build files have been written to: /root/rm_ws/build/chat
+[4.446s] Invoked command in '/root/rm_ws/build/chat' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/rm_ws/src/chat -DCMAKE_INSTALL_PREFIX=/root/rm_ws/install/chat
+[4.447s] Invoking command in '/root/rm_ws/build/chat': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/rm_ws/build/chat -- -j8 -l8
+[4.788s] [ 25%] [32mBuilding CXX object CMakeFiles/a.dir/src/node_a.cpp.o[0m
+[4.790s] [ 50%] [32mBuilding CXX object CMakeFiles/b.dir/src/node_b.cpp.o[0m
+[12.696s] [100%] [32m[1mLinking CXX executable b[0m
+[12.696s] [100%] [32m[1mLinking CXX executable a[0m
+[13.470s] [100%] Built target b
+[13.471s] [100%] Built target a
+[13.520s] Invoked command in '/root/rm_ws/build/chat' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/rm_ws/build/chat -- -j8 -l8
+[13.925s] Invoking command in '/root/rm_ws/build/chat': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/rm_ws/build/chat
+[13.972s] -- Install configuration: ""
+[13.974s] -- Installing: /root/rm_ws/install/chat/lib/chat/a
+[13.979s] -- Set runtime path of "/root/rm_ws/install/chat/lib/chat/a" to ""
+[13.979s] -- Installing: /root/rm_ws/install/chat/lib/chat/b
+[13.981s] -- Set runtime path of "/root/rm_ws/install/chat/lib/chat/b" to ""
+[13.982s] -- Installing: /root/rm_ws/install/chat/share/ament_index/resource_index/package_run_dependencies/chat
+[13.982s] -- Installing: /root/rm_ws/install/chat/share/ament_index/resource_index/parent_prefix_path/chat
+[13.982s] -- Installing: /root/rm_ws/install/chat/share/chat/environment/ament_prefix_path.sh
+[13.982s] -- Installing: /root/rm_ws/install/chat/share/chat/environment/ament_prefix_path.dsv
+[13.982s] -- Installing: /root/rm_ws/install/chat/share/chat/environment/path.sh
+[13.983s] -- Installing: /root/rm_ws/install/chat/share/chat/environment/path.dsv
+[13.983s] -- Installing: /root/rm_ws/install/chat/share/chat/local_setup.bash
+[13.983s] -- Installing: /root/rm_ws/install/chat/share/chat/local_setup.sh
+[13.983s] -- Installing: /root/rm_ws/install/chat/share/chat/local_setup.zsh
+[13.983s] -- Installing: /root/rm_ws/install/chat/share/chat/local_setup.dsv
+[13.983s] -- Installing: /root/rm_ws/install/chat/share/chat/package.dsv
+[13.983s] -- Installing: /root/rm_ws/install/chat/share/ament_index/resource_index/packages/chat
+[13.984s] -- Installing: /root/rm_ws/install/chat/share/chat/cmake/chatConfig.cmake
+[13.984s] -- Installing: /root/rm_ws/install/chat/share/chat/cmake/chatConfig-version.cmake
+[13.984s] -- Installing: /root/rm_ws/install/chat/share/chat/package.xml
+[13.991s] Invoked command in '/root/rm_ws/build/chat' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/rm_ws/build/chat

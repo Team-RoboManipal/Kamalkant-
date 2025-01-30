@@ -1,0 +1,6 @@
+[console_scripts]
+client = py_examples.client:main
+pub = py_examples.pub:main
+srv = py_examples.server:main
+sub = py_examples.sub:main
+

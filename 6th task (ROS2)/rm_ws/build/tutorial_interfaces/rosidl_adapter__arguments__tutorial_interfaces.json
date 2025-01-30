@@ -1,0 +1,6 @@
+{
+  "package_name": "tutorial_interfaces",
+  "non_idl_tuples": [
+    "/root/rm_ws/src/tutorial_interfaces:srv/NSides.srv"
+  ]
+}

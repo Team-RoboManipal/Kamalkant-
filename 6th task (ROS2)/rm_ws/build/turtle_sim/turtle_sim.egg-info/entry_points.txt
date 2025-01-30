@@ -1,0 +1,7 @@
+[console_scripts]
+controller = turtle_sim.controller:main
+d = turtle_sim.d_:main
+draw_circle = turtle_sim.draw_circle:main
+goal = turtle_sim.goal:main
+polygon = turtle_sim.polygon:main
+

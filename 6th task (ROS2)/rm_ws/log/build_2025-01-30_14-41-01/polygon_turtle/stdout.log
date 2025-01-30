@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/polygon_turtle/polygon_turtle.egg-info
+writing ../../build/polygon_turtle/polygon_turtle.egg-info/PKG-INFO
+writing dependency_links to ../../build/polygon_turtle/polygon_turtle.egg-info/dependency_links.txt
+writing entry points to ../../build/polygon_turtle/polygon_turtle.egg-info/entry_points.txt
+writing requirements to ../../build/polygon_turtle/polygon_turtle.egg-info/requires.txt
+writing top-level names to ../../build/polygon_turtle/polygon_turtle.egg-info/top_level.txt
+writing manifest file '../../build/polygon_turtle/polygon_turtle.egg-info/SOURCES.txt'
+reading manifest file '../../build/polygon_turtle/polygon_turtle.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/polygon_turtle/polygon_turtle.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/rm_ws/build/polygon_turtle/build
+creating /root/rm_ws/build/polygon_turtle/build/lib
+creating /root/rm_ws/build/polygon_turtle/build/lib/polygon_turtle
+copying polygon_turtle/__init__.py -> /root/rm_ws/build/polygon_turtle/build/lib/polygon_turtle
+copying polygon_turtle/polygon_draw.py -> /root/rm_ws/build/polygon_turtle/build/lib/polygon_turtle
+running install
+running install_lib
+creating /root/rm_ws/install/polygon_turtle/lib/python3.10/site-packages/polygon_turtle
+copying /root/rm_ws/build/polygon_turtle/build/lib/polygon_turtle/__init__.py -> /root/rm_ws/install/polygon_turtle/lib/python3.10/site-packages/polygon_turtle
+copying /root/rm_ws/build/polygon_turtle/build/lib/polygon_turtle/polygon_draw.py -> /root/rm_ws/install/polygon_turtle/lib/python3.10/site-packages/polygon_turtle
+byte-compiling /root/rm_ws/install/polygon_turtle/lib/python3.10/site-packages/polygon_turtle/__init__.py to __init__.cpython-310.pyc
+byte-compiling /root/rm_ws/install/polygon_turtle/lib/python3.10/site-packages/polygon_turtle/polygon_draw.py to polygon_draw.cpython-310.pyc
+running install_data
+creating /root/rm_ws/install/polygon_turtle/share/ament_index
+creating /root/rm_ws/install/polygon_turtle/share/ament_index/resource_index
+creating /root/rm_ws/install/polygon_turtle/share/ament_index/resource_index/packages
+copying resource/polygon_turtle -> /root/rm_ws/install/polygon_turtle/share/ament_index/resource_index/packages
+copying package.xml -> /root/rm_ws/install/polygon_turtle/share/polygon_turtle
+running install_egg_info
+Copying ../../build/polygon_turtle/polygon_turtle.egg-info to /root/rm_ws/install/polygon_turtle/lib/python3.10/site-packages/polygon_turtle-0.0.0-py3.10.egg-info
+running install_scripts
+Installing poly script to /root/rm_ws/install/polygon_turtle/lib/polygon_turtle
+writing list of installed files to '/root/rm_ws/build/polygon_turtle/install.log'

@@ -1,0 +1,10 @@
+/root/rm_ws/build/polygon_cpp/CMakeFiles/uninstall.dir
+/root/rm_ws/build/polygon_cpp/CMakeFiles/polygon_cpp_uninstall.dir
+/root/rm_ws/build/polygon_cpp/CMakeFiles/poly.dir
+/root/rm_ws/build/polygon_cpp/CMakeFiles/test.dir
+/root/rm_ws/build/polygon_cpp/CMakeFiles/edit_cache.dir
+/root/rm_ws/build/polygon_cpp/CMakeFiles/rebuild_cache.dir
+/root/rm_ws/build/polygon_cpp/CMakeFiles/list_install_components.dir
+/root/rm_ws/build/polygon_cpp/CMakeFiles/install.dir
+/root/rm_ws/build/polygon_cpp/CMakeFiles/install/local.dir
+/root/rm_ws/build/polygon_cpp/CMakeFiles/install/strip.dir

@@ -1,0 +1,17 @@
+/root/rm_ws/install/chat/lib/chat/a
+/root/rm_ws/install/chat/lib/chat/b
+/root/rm_ws/install/chat/share/ament_index/resource_index/package_run_dependencies/chat
+/root/rm_ws/install/chat/share/ament_index/resource_index/parent_prefix_path/chat
+/root/rm_ws/install/chat/share/chat/environment/ament_prefix_path.sh
+/root/rm_ws/install/chat/share/chat/environment/ament_prefix_path.dsv
+/root/rm_ws/install/chat/share/chat/environment/path.sh
+/root/rm_ws/install/chat/share/chat/environment/path.dsv
+/root/rm_ws/install/chat/share/chat/local_setup.bash
+/root/rm_ws/install/chat/share/chat/local_setup.sh
+/root/rm_ws/install/chat/share/chat/local_setup.zsh
+/root/rm_ws/install/chat/share/chat/local_setup.dsv
+/root/rm_ws/install/chat/share/chat/package.dsv
+/root/rm_ws/install/chat/share/ament_index/resource_index/packages/chat
+/root/rm_ws/install/chat/share/chat/cmake/chatConfig.cmake
+/root/rm_ws/install/chat/share/chat/cmake/chatConfig-version.cmake
+/root/rm_ws/install/chat/share/chat/package.xml

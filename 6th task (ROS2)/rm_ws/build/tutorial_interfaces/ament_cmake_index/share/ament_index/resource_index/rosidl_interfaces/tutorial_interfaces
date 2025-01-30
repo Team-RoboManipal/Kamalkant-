@@ -1,0 +1,4 @@
+srv/NSides.idl
+srv/NSides.srv
+srv/NSides_Request.msg
+srv/NSides_Response.msg

@@ -1,0 +1,53 @@
+[0.776s] Invoking command in '/root/rm_ws/src/turtle_sim': PYTHONPATH=/root/rm_ws/build/turtle_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/rm_ws/install/turtle_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle_sim build --build-base /root/rm_ws/build/turtle_sim/build install --record /root/rm_ws/build/turtle_sim/install.log --single-version-externally-managed install_data
+[1.001s] running egg_info
+[1.002s] creating ../../build/turtle_sim/turtle_sim.egg-info
+[1.002s] writing ../../build/turtle_sim/turtle_sim.egg-info/PKG-INFO
+[1.002s] writing dependency_links to ../../build/turtle_sim/turtle_sim.egg-info/dependency_links.txt
+[1.002s] writing entry points to ../../build/turtle_sim/turtle_sim.egg-info/entry_points.txt
+[1.003s] writing requirements to ../../build/turtle_sim/turtle_sim.egg-info/requires.txt
+[1.003s] writing top-level names to ../../build/turtle_sim/turtle_sim.egg-info/top_level.txt
+[1.003s] writing manifest file '../../build/turtle_sim/turtle_sim.egg-info/SOURCES.txt'
+[1.004s] reading manifest file '../../build/turtle_sim/turtle_sim.egg-info/SOURCES.txt'
+[1.004s] writing manifest file '../../build/turtle_sim/turtle_sim.egg-info/SOURCES.txt'
+[1.005s] running build
+[1.005s] running build_py
+[1.005s] creating /root/rm_ws/build/turtle_sim/build
+[1.005s] creating /root/rm_ws/build/turtle_sim/build/lib
+[1.005s] creating /root/rm_ws/build/turtle_sim/build/lib/turtle_sim
+[1.005s] copying turtle_sim/draw_circle.py -> /root/rm_ws/build/turtle_sim/build/lib/turtle_sim
+[1.006s] copying turtle_sim/__init__.py -> /root/rm_ws/build/turtle_sim/build/lib/turtle_sim
+[1.006s] copying turtle_sim/goal.py -> /root/rm_ws/build/turtle_sim/build/lib/turtle_sim
+[1.006s] copying turtle_sim/controller.py -> /root/rm_ws/build/turtle_sim/build/lib/turtle_sim
+[1.007s] copying turtle_sim/polygon.py -> /root/rm_ws/build/turtle_sim/build/lib/turtle_sim
+[1.007s] copying turtle_sim/d_.py -> /root/rm_ws/build/turtle_sim/build/lib/turtle_sim
+[1.007s] running install
+[1.007s] running install_lib
+[1.008s] creating /root/rm_ws/install/turtle_sim/lib/python3.10/site-packages/turtle_sim
+[1.008s] copying /root/rm_ws/build/turtle_sim/build/lib/turtle_sim/draw_circle.py -> /root/rm_ws/install/turtle_sim/lib/python3.10/site-packages/turtle_sim
+[1.008s] copying /root/rm_ws/build/turtle_sim/build/lib/turtle_sim/__init__.py -> /root/rm_ws/install/turtle_sim/lib/python3.10/site-packages/turtle_sim
+[1.008s] copying /root/rm_ws/build/turtle_sim/build/lib/turtle_sim/goal.py -> /root/rm_ws/install/turtle_sim/lib/python3.10/site-packages/turtle_sim
+[1.008s] copying /root/rm_ws/build/turtle_sim/build/lib/turtle_sim/controller.py -> /root/rm_ws/install/turtle_sim/lib/python3.10/site-packages/turtle_sim
+[1.008s] copying /root/rm_ws/build/turtle_sim/build/lib/turtle_sim/polygon.py -> /root/rm_ws/install/turtle_sim/lib/python3.10/site-packages/turtle_sim
+[1.008s] copying /root/rm_ws/build/turtle_sim/build/lib/turtle_sim/d_.py -> /root/rm_ws/install/turtle_sim/lib/python3.10/site-packages/turtle_sim
+[1.009s] byte-compiling /root/rm_ws/install/turtle_sim/lib/python3.10/site-packages/turtle_sim/draw_circle.py to draw_circle.cpython-310.pyc
+[1.013s] byte-compiling /root/rm_ws/install/turtle_sim/lib/python3.10/site-packages/turtle_sim/__init__.py to __init__.cpython-310.pyc
+[1.013s] byte-compiling /root/rm_ws/install/turtle_sim/lib/python3.10/site-packages/turtle_sim/goal.py to goal.cpython-310.pyc
+[1.014s] byte-compiling /root/rm_ws/install/turtle_sim/lib/python3.10/site-packages/turtle_sim/controller.py to controller.cpython-310.pyc
+[1.015s] byte-compiling /root/rm_ws/install/turtle_sim/lib/python3.10/site-packages/turtle_sim/polygon.py to polygon.cpython-310.pyc
+[1.016s] byte-compiling /root/rm_ws/install/turtle_sim/lib/python3.10/site-packages/turtle_sim/d_.py to d_.cpython-310.pyc
+[1.016s] running install_data
+[1.016s] creating /root/rm_ws/install/turtle_sim/share/ament_index
+[1.016s] creating /root/rm_ws/install/turtle_sim/share/ament_index/resource_index
+[1.016s] creating /root/rm_ws/install/turtle_sim/share/ament_index/resource_index/packages
+[1.017s] copying resource/turtle_sim -> /root/rm_ws/install/turtle_sim/share/ament_index/resource_index/packages
+[1.017s] copying package.xml -> /root/rm_ws/install/turtle_sim/share/turtle_sim
+[1.017s] running install_egg_info
+[1.018s] Copying ../../build/turtle_sim/turtle_sim.egg-info to /root/rm_ws/install/turtle_sim/lib/python3.10/site-packages/turtle_sim-0.0.0-py3.10.egg-info
+[1.019s] running install_scripts
+[1.041s] Installing controller script to /root/rm_ws/install/turtle_sim/lib/turtle_sim
+[1.041s] Installing d script to /root/rm_ws/install/turtle_sim/lib/turtle_sim
+[1.041s] Installing draw_circle script to /root/rm_ws/install/turtle_sim/lib/turtle_sim
+[1.042s] Installing goal script to /root/rm_ws/install/turtle_sim/lib/turtle_sim
+[1.042s] Installing polygon script to /root/rm_ws/install/turtle_sim/lib/turtle_sim
+[1.042s] writing list of installed files to '/root/rm_ws/build/turtle_sim/install.log'
+[1.058s] Invoked command in '/root/rm_ws/src/turtle_sim' returned '0': PYTHONPATH=/root/rm_ws/build/turtle_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/rm_ws/install/turtle_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle_sim build --build-base /root/rm_ws/build/turtle_sim/build install --record /root/rm_ws/build/turtle_sim/install.log --single-version-externally-managed install_data

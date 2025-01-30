@@ -1,0 +1,82 @@
+[0.033s] Invoking command in '/root/rm_ws/build/turtle_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/rm_ws/src/turtle_cpp -DCMAKE_INSTALL_PREFIX=/root/rm_ws/install/turtle_cpp
+[0.423s] -- The C compiler identification is GNU 11.4.0
+[0.724s] -- The CXX compiler identification is GNU 11.4.0
+[0.748s] -- Detecting C compiler ABI info
+[1.232s] -- Detecting C compiler ABI info - done
+[1.246s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.247s] -- Detecting C compile features
+[1.247s] -- Detecting C compile features - done
+[1.249s] -- Detecting CXX compiler ABI info
+[1.704s] -- Detecting CXX compiler ABI info - done
+[1.718s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.719s] -- Detecting CXX compile features
+[1.719s] -- Detecting CXX compile features - done
+[1.725s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.312s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.478s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[2.508s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.511s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.516s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.524s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.535s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.566s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.567s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.942s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.971s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.020s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.025s] -- Looking for pthread.h
+[3.483s] -- Looking for pthread.h - found
+[3.483s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.947s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.948s] -- Found Threads: TRUE  
+[3.994s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[4.009s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[4.190s] -- Configuring done
+[4.222s] -- Generating done
+[4.224s] -- Build files have been written to: /root/rm_ws/build/turtle_cpp
+[4.234s] Invoked command in '/root/rm_ws/build/turtle_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/rm_ws/src/turtle_cpp -DCMAKE_INSTALL_PREFIX=/root/rm_ws/install/turtle_cpp
+[4.236s] Invoking command in '/root/rm_ws/build/turtle_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/rm_ws/build/turtle_cpp -- -j8 -l8
+[4.619s] [ 10%] [32mBuilding CXX object CMakeFiles/goal.dir/src/goal.cpp.o[0m
+[4.624s] [ 20%] [32mBuilding CXX object CMakeFiles/d.dir/src/d_.cpp.o[0m
+[4.633s] [ 30%] [32mBuilding CXX object CMakeFiles/draw_circle.dir/src/draw_circle.cpp.o[0m
+[4.636s] [ 40%] [32mBuilding CXX object CMakeFiles/polygon.dir/src/polygon.cpp.o[0m
+[4.653s] [ 50%] [32mBuilding CXX object CMakeFiles/controller.dir/src/controller.cpp.o[0m
+[14.793s] [ 60%] [32m[1mLinking CXX executable polygon[0m
+[14.794s] [ 70%] [32m[1mLinking CXX executable draw_circle[0m
+[14.845s] [ 80%] [32m[1mLinking CXX executable d[0m
+[14.940s] [ 90%] [32m[1mLinking CXX executable controller[0m
+[15.398s] [ 90%] Built target polygon
+[15.400s] [ 90%] Built target draw_circle
+[15.400s] [ 90%] Built target d
+[15.466s] [ 90%] Built target controller
+[18.012s] [100%] [32m[1mLinking CXX executable goal[0m
+[18.792s] [100%] Built target goal
+[18.839s] Invoked command in '/root/rm_ws/build/turtle_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/rm_ws/build/turtle_cpp -- -j8 -l8
+[19.373s] Invoking command in '/root/rm_ws/build/turtle_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/rm_ws/build/turtle_cpp
+[19.425s] -- Install configuration: ""
+[19.428s] -- Installing: /root/rm_ws/install/turtle_cpp/lib/turtle_cpp/goal
+[19.433s] -- Set runtime path of "/root/rm_ws/install/turtle_cpp/lib/turtle_cpp/goal" to ""
+[19.433s] -- Installing: /root/rm_ws/install/turtle_cpp/lib/turtle_cpp/polygon
+[19.434s] -- Set runtime path of "/root/rm_ws/install/turtle_cpp/lib/turtle_cpp/polygon" to ""
+[19.434s] -- Installing: /root/rm_ws/install/turtle_cpp/lib/turtle_cpp/controller
+[19.435s] -- Set runtime path of "/root/rm_ws/install/turtle_cpp/lib/turtle_cpp/controller" to ""
+[19.435s] -- Installing: /root/rm_ws/install/turtle_cpp/lib/turtle_cpp/d
+[19.435s] -- Set runtime path of "/root/rm_ws/install/turtle_cpp/lib/turtle_cpp/d" to ""
+[19.436s] -- Installing: /root/rm_ws/install/turtle_cpp/lib/turtle_cpp/draw_circle
+[19.436s] -- Set runtime path of "/root/rm_ws/install/turtle_cpp/lib/turtle_cpp/draw_circle" to ""
+[19.437s] -- Installing: /root/rm_ws/install/turtle_cpp/share/ament_index/resource_index/package_run_dependencies/turtle_cpp
+[19.437s] -- Installing: /root/rm_ws/install/turtle_cpp/share/ament_index/resource_index/parent_prefix_path/turtle_cpp
+[19.437s] -- Installing: /root/rm_ws/install/turtle_cpp/share/turtle_cpp/environment/ament_prefix_path.sh
+[19.438s] -- Installing: /root/rm_ws/install/turtle_cpp/share/turtle_cpp/environment/ament_prefix_path.dsv
+[19.438s] -- Installing: /root/rm_ws/install/turtle_cpp/share/turtle_cpp/environment/path.sh
+[19.438s] -- Installing: /root/rm_ws/install/turtle_cpp/share/turtle_cpp/environment/path.dsv
+[19.438s] -- Installing: /root/rm_ws/install/turtle_cpp/share/turtle_cpp/local_setup.bash
+[19.438s] -- Installing: /root/rm_ws/install/turtle_cpp/share/turtle_cpp/local_setup.sh
+[19.438s] -- Installing: /root/rm_ws/install/turtle_cpp/share/turtle_cpp/local_setup.zsh
+[19.438s] -- Installing: /root/rm_ws/install/turtle_cpp/share/turtle_cpp/local_setup.dsv
+[19.438s] -- Installing: /root/rm_ws/install/turtle_cpp/share/turtle_cpp/package.dsv
+[19.439s] -- Installing: /root/rm_ws/install/turtle_cpp/share/ament_index/resource_index/packages/turtle_cpp
+[19.439s] -- Installing: /root/rm_ws/install/turtle_cpp/share/turtle_cpp/cmake/turtle_cppConfig.cmake
+[19.439s] -- Installing: /root/rm_ws/install/turtle_cpp/share/turtle_cpp/cmake/turtle_cppConfig-version.cmake
+[19.439s] -- Installing: /root/rm_ws/install/turtle_cpp/share/turtle_cpp/package.xml
+[19.445s] Invoked command in '/root/rm_ws/build/turtle_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/rm_ws/build/turtle_cpp

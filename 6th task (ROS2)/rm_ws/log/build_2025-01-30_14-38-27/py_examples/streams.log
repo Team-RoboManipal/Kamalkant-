@@ -1,0 +1,24 @@
+[0.606s] Invoking command in '/root/rm_ws/src/py_examples': PYTHONPATH=/root/rm_ws/build/py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/rm_ws/install/py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_examples build --build-base /root/rm_ws/build/py_examples/build install --record /root/rm_ws/build/py_examples/install.log --single-version-externally-managed install_data
+[0.829s] running egg_info
+[0.830s] writing ../../build/py_examples/py_examples.egg-info/PKG-INFO
+[0.830s] writing dependency_links to ../../build/py_examples/py_examples.egg-info/dependency_links.txt
+[0.830s] writing entry points to ../../build/py_examples/py_examples.egg-info/entry_points.txt
+[0.831s] writing requirements to ../../build/py_examples/py_examples.egg-info/requires.txt
+[0.831s] writing top-level names to ../../build/py_examples/py_examples.egg-info/top_level.txt
+[0.832s] reading manifest file '../../build/py_examples/py_examples.egg-info/SOURCES.txt'
+[0.834s] writing manifest file '../../build/py_examples/py_examples.egg-info/SOURCES.txt'
+[0.834s] running build
+[0.834s] running build_py
+[0.834s] running install
+[0.834s] running install_lib
+[0.835s] running install_data
+[0.835s] running install_egg_info
+[0.836s] removing '/root/rm_ws/install/py_examples/lib/python3.10/site-packages/py_examples-0.0.0-py3.10.egg-info' (and everything under it)
+[0.838s] Copying ../../build/py_examples/py_examples.egg-info to /root/rm_ws/install/py_examples/lib/python3.10/site-packages/py_examples-0.0.0-py3.10.egg-info
+[0.839s] running install_scripts
+[0.862s] Installing client script to /root/rm_ws/install/py_examples/lib/py_examples
+[0.862s] Installing pub script to /root/rm_ws/install/py_examples/lib/py_examples
+[0.863s] Installing srv script to /root/rm_ws/install/py_examples/lib/py_examples
+[0.863s] Installing sub script to /root/rm_ws/install/py_examples/lib/py_examples
+[0.863s] writing list of installed files to '/root/rm_ws/build/py_examples/install.log'
+[0.879s] Invoked command in '/root/rm_ws/src/py_examples' returned '0': PYTHONPATH=/root/rm_ws/build/py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/rm_ws/install/py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_examples build --build-base /root/rm_ws/build/py_examples/build install --record /root/rm_ws/build/py_examples/install.log --single-version-externally-managed install_data

@@ -1,0 +1,4 @@
+source;share/chat/local_setup.bash
+source;share/chat/local_setup.dsv
+source;share/chat/local_setup.sh
+source;share/chat/local_setup.zsh

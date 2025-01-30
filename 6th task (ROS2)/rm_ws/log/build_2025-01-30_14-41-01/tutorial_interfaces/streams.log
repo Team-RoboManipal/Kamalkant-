@@ -1,0 +1,193 @@
+[0.037s] Invoking command in '/root/rm_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/rm_ws/build/tutorial_interfaces -- -j8 -l8
+[0.308s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_generator_c[0m
+[0.386s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.392s] [ 12%] Built target tutorial_interfaces__rosidl_generator_c
+[0.422s] [ 12%] Built target ament_cmake_python_copy_tutorial_interfaces
+[0.487s] [ 19%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[0.487s] [ 19%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[0.491s] [ 22%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[0.940s] [ 22%] Built target tutorial_interfaces__cpp
+[0.961s] running egg_info
+[0.961s] creating tutorial_interfaces.egg-info
+[0.961s] writing tutorial_interfaces.egg-info/PKG-INFO
+[0.961s] writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt
+[0.961s] writing top-level names to tutorial_interfaces.egg-info/top_level.txt
+[0.961s] writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[0.961s] reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[0.961s] writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[1.049s] [ 22%] Built target ament_cmake_python_build_tutorial_interfaces_egg
+[1.060s] [ 25%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.077s] [ 29%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.083s] [ 32%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.136s] [ 35%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/srv/n_sides__type_support.cpp.o[0m
+[1.160s] [ 38%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/detail/n_sides__type_support_c.cpp.o[0m
+[1.185s] [ 41%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/srv/detail/n_sides__type_support.c.o[0m
+[1.524s] [ 45%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_typesupport_introspection_c.so[0m
+[1.539s] [ 48%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_c.so[0m
+[1.644s] [ 51%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/srv/n_sides__type_support.cpp.o[0m
+[1.689s] [ 54%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/n_sides__type_support.cpp.o[0m
+[1.746s] [ 58%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/n_sides__type_support.cpp.o[0m
+[1.770s] [ 58%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c
+[1.792s] [ 58%] Built target tutorial_interfaces__rosidl_typesupport_c
+[1.928s] [ 61%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.215s] [ 61%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c
+[2.318s] [ 64%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_cpp.so[0m
+[2.503s] [ 67%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.505s] [ 70%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.514s] [ 70%] Built target tutorial_interfaces__rosidl_typesupport_cpp
+[2.688s] [ 70%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp
+[2.707s] [ 70%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.864s] [ 70%] Built target tutorial_interfaces
+[3.024s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.484s] [ 74%] Built target tutorial_interfaces__py
+[3.644s] [ 77%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/srv/_n_sides_s.c.o[0m
+[4.021s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so[0m
+[4.215s] [ 80%] Built target tutorial_interfaces__rosidl_generator_py
+[4.397s] [ 83%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.397s] [ 87%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.402s] [ 90%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.751s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.751s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.752s] [100%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.935s] [100%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext
+[4.936s] [100%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext
+[4.938s] [100%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.982s] Invoked command in '/root/rm_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/rm_ws/build/tutorial_interfaces -- -j8 -l8
+[5.895s] Invoking command in '/root/rm_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/rm_ws/build/tutorial_interfaces
+[5.942s] -- Install configuration: ""
+[5.944s] -- Installing: /root/rm_ws/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces
+[5.946s] -- Installing: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[5.947s] -- Installing: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[5.947s] -- Installing: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h
+[5.947s] -- Installing: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[5.948s] -- Installing: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/n_sides.h
+[5.948s] -- Installing: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[5.948s] -- Installing: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/n_sides__type_support.h
+[5.948s] -- Installing: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/n_sides__struct.h
+[5.949s] -- Installing: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/n_sides__functions.c
+[5.949s] -- Installing: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/n_sides__functions.h
+[5.949s] -- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh
+[5.950s] -- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv
+[5.951s] -- Installing: /root/rm_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so
+[5.953s] -- Set runtime path of "/root/rm_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so" to ""
+[5.953s] -- Up-to-date: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[5.953s] -- Up-to-date: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[5.953s] -- Installing: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.954s] -- Up-to-date: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[5.954s] -- Up-to-date: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[5.954s] -- Installing: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/n_sides__rosidl_typesupport_fastrtps_c.h
+[5.954s] -- Installing: /root/rm_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so
+[5.954s] -- Set runtime path of "/root/rm_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[5.954s] -- Up-to-date: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[5.955s] -- Up-to-date: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[5.955s] -- Installing: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/n_sides.hpp
+[5.955s] -- Up-to-date: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[5.955s] -- Installing: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/n_sides__struct.hpp
+[5.955s] -- Installing: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/n_sides__traits.hpp
+[5.955s] -- Installing: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/n_sides__builder.hpp
+[5.955s] -- Up-to-date: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[5.955s] -- Up-to-date: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[5.955s] -- Installing: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.956s] -- Up-to-date: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[5.956s] -- Up-to-date: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[5.956s] -- Installing: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/n_sides__rosidl_typesupport_fastrtps_cpp.hpp
+[5.956s] -- Installing: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/dds_fastrtps
+[5.956s] -- Installing: /root/rm_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[5.957s] -- Set runtime path of "/root/rm_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.957s] -- Up-to-date: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[5.957s] -- Up-to-date: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[5.957s] -- Installing: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.957s] -- Up-to-date: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[5.957s] -- Up-to-date: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[5.957s] -- Installing: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/n_sides__type_support.c
+[5.957s] -- Installing: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/n_sides__rosidl_typesupport_introspection_c.h
+[5.958s] -- Installing: /root/rm_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so
+[5.958s] -- Set runtime path of "/root/rm_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[5.958s] -- Installing: /root/rm_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so
+[5.959s] -- Set runtime path of "/root/rm_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so" to ""
+[5.959s] -- Up-to-date: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[5.959s] -- Up-to-date: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[5.959s] -- Up-to-date: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[5.959s] -- Installing: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/n_sides__type_support.cpp
+[5.959s] -- Installing: /root/rm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/n_sides__rosidl_typesupport_introspection_cpp.hpp
+[5.959s] -- Installing: /root/rm_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so
+[5.960s] -- Set runtime path of "/root/rm_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[5.960s] -- Installing: /root/rm_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so
+[5.960s] -- Set runtime path of "/root/rm_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so" to ""
+[5.960s] -- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh
+[5.960s] -- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv
+[5.961s] -- Installing: /root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info
+[5.961s] -- Installing: /root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[5.962s] -- Installing: /root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.962s] -- Installing: /root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[5.963s] -- Installing: /root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.963s] -- Installing: /root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces
+[5.963s] -- Installing: /root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.964s] -- Installing: /root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.964s] -- Installing: /root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c
+[5.965s] -- Installing: /root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py
+[5.965s] -- Installing: /root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so
+[5.966s] -- Installing: /root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[5.966s] -- Installing: /root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv
+[5.966s] -- Installing: /root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/__init__.py
+[5.966s] -- Installing: /root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_n_sides_s.c
+[5.967s] -- Installing: /root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_n_sides.py
+[5.967s] -- Installing: /root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.968s] -- Installing: /root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.087s] Listing '/root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces'...
+[6.087s] Compiling '/root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py'...
+[6.087s] Listing '/root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv'...
+[6.087s] Compiling '/root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/__init__.py'...
+[6.087s] Compiling '/root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_n_sides.py'...
+[6.092s] -- Installing: /root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.093s] -- Set runtime path of "/root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.093s] -- Installing: /root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.094s] -- Set runtime path of "/root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.094s] -- Installing: /root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.094s] -- Set runtime path of "/root/rm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.094s] -- Installing: /root/rm_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so
+[6.094s] -- Set runtime path of "/root/rm_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so" to ""
+[6.095s] -- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/NSides.idl
+[6.095s] -- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/NSides.srv
+[6.095s] -- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/NSides_Request.msg
+[6.096s] -- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/NSides_Response.msg
+[6.096s] -- Installing: /root/rm_ws/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces
+[6.096s] -- Installing: /root/rm_ws/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces
+[6.097s] -- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh
+[6.097s] -- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv
+[6.097s] -- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh
+[6.097s] -- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv
+[6.097s] -- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash
+[6.097s] -- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh
+[6.098s] -- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh
+[6.098s] -- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv
+[6.098s] -- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv
+[6.098s] -- Installing: /root/rm_ws/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces
+[6.098s] -- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport.cmake
+[6.099s] -- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake
+[6.099s] -- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[6.099s] -- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.099s] -- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cppExport.cmake
+[6.099s] -- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.100s] -- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.100s] -- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[6.100s] -- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.100s] -- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake
+[6.101s] -- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[6.101s] -- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[6.101s] -- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.102s] -- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake
+[6.102s] -- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[6.102s] -- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport.cmake
+[6.103s] -- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[6.103s] -- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake
+[6.104s] -- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.104s] -- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[6.104s] -- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[6.105s] -- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.105s] -- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.105s] -- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.105s] -- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake
+[6.106s] -- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake
+[6.107s] -- Installing: /root/rm_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.xml
+[6.116s] Invoked command in '/root/rm_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/rm_ws/build/tutorial_interfaces

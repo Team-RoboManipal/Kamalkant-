@@ -1,0 +1,269 @@
+[0.118s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--executor', 'sequential']
+[0.119s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='sequential', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7ffffe1cbaf0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ffffe1cb460>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ffffe1cb460>>, mixin_verb=('build',))
+[0.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.224s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.224s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.224s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.224s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.224s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.224s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.224s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.224s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/rm_ws'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/chat) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/chat) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/chat) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/chat) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/chat) by extension 'colcon_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/chat) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/chat) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/chat) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/chat) by extension 'ros'
+[0.242s] DEBUG:colcon.colcon_core.package_identification:Package 'src/chat' with type 'ros.ament_cmake' and name 'chat'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_) by extension 'ros'
+[0.242s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_' with type 'ros.ament_cmake' and name 'cpp_'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_examples) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_examples) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_examples) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_examples) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_examples) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_examples) by extension 'colcon_meta'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_examples) by extensions ['ros']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_examples) by extension 'ros'
+[0.243s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_examples' with type 'ros.ament_python' and name 'py_examples'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_cpp) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_cpp) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_cpp) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_cpp) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_cpp) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_cpp) by extension 'colcon_meta'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_cpp) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_cpp) by extension 'ros'
+[0.244s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtle_cpp' with type 'ros.ament_cmake' and name 'turtle_cpp'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_sim) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_sim) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_sim) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_sim) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_sim) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_sim) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_sim) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_sim) by extension 'ros'
+[0.245s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtle_sim' with type 'ros.ament_python' and name 'turtle_sim'
+[0.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'chat' build argument 'cmake_args' from command line to 'None'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'chat' build argument 'cmake_target' from command line to 'None'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'chat' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'chat' build argument 'cmake_clean_cache' from command line to 'False'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'chat' build argument 'cmake_clean_first' from command line to 'False'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'chat' build argument 'cmake_force_configure' from command line to 'False'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'chat' build argument 'ament_cmake_args' from command line to 'None'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'chat' build argument 'catkin_cmake_args' from command line to 'None'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'chat' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.265s] DEBUG:colcon.colcon_core.verb:Building package 'chat' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/rm_ws/build/chat', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/rm_ws/install/chat', 'merge_install': False, 'path': '/root/rm_ws/src/chat', 'symlink_install': False, 'test_result_base': None}
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'cpp_' build argument 'cmake_args' from command line to 'None'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'cpp_' build argument 'cmake_target' from command line to 'None'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'cpp_' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'cpp_' build argument 'cmake_clean_cache' from command line to 'False'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'cpp_' build argument 'cmake_clean_first' from command line to 'False'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'cpp_' build argument 'cmake_force_configure' from command line to 'False'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'cpp_' build argument 'ament_cmake_args' from command line to 'None'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'cpp_' build argument 'catkin_cmake_args' from command line to 'None'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'cpp_' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.265s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/rm_ws/build/cpp_', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/rm_ws/install/cpp_', 'merge_install': False, 'path': '/root/rm_ws/src/cpp_', 'symlink_install': False, 'test_result_base': None}
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'py_examples' build argument 'cmake_args' from command line to 'None'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'py_examples' build argument 'cmake_target' from command line to 'None'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'py_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'py_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'py_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'py_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'py_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'py_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'py_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.265s] DEBUG:colcon.colcon_core.verb:Building package 'py_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/rm_ws/build/py_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/rm_ws/install/py_examples', 'merge_install': False, 'path': '/root/rm_ws/src/py_examples', 'symlink_install': False, 'test_result_base': None}
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'turtle_cpp' build argument 'cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'turtle_cpp' build argument 'cmake_target' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'turtle_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'turtle_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'turtle_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'turtle_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'turtle_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'turtle_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'turtle_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.266s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/rm_ws/build/turtle_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/rm_ws/install/turtle_cpp', 'merge_install': False, 'path': '/root/rm_ws/src/turtle_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'turtle_sim' build argument 'cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'turtle_sim' build argument 'cmake_target' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'turtle_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'turtle_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'turtle_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'turtle_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'turtle_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'turtle_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'turtle_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.266s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/rm_ws/build/turtle_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/rm_ws/install/turtle_sim', 'merge_install': False, 'path': '/root/rm_ws/src/turtle_sim', 'symlink_install': False, 'test_result_base': None}
+[0.266s] INFO:colcon.colcon_core.executor:Executing jobs using 'sequential' executor
+[0.271s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'chat'
+[0.272s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/rm_ws/src/chat' with build type 'ament_cmake'
+[0.272s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/rm_ws/src/chat'
+[0.275s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.275s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.275s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.323s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/rm_ws/build/chat': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/rm_ws/build/chat -- -j8 -l8
+[0.757s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/rm_ws/build/chat' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/rm_ws/build/chat -- -j8 -l8
+[1.156s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/rm_ws/build/chat': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/rm_ws/build/chat
+[1.214s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(chat)
+[1.214s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/rm_ws/build/chat' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/rm_ws/build/chat
+[1.216s] Level 1:colcon.colcon_core.environment:checking '/root/rm_ws/install/chat' for CMake module files
+[1.216s] Level 1:colcon.colcon_core.environment:checking '/root/rm_ws/install/chat' for CMake config files
+[1.217s] Level 1:colcon.colcon_core.shell:create_environment_hook('chat', 'cmake_prefix_path')
+[1.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/rm_ws/install/chat/share/chat/hook/cmake_prefix_path.ps1'
+[1.218s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/rm_ws/install/chat/share/chat/hook/cmake_prefix_path.dsv'
+[1.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/rm_ws/install/chat/share/chat/hook/cmake_prefix_path.sh'
+[1.219s] Level 1:colcon.colcon_core.environment:checking '/root/rm_ws/install/chat/lib'
+[1.219s] Level 1:colcon.colcon_core.environment:checking '/root/rm_ws/install/chat/bin'
+[1.219s] Level 1:colcon.colcon_core.environment:checking '/root/rm_ws/install/chat/lib/pkgconfig/chat.pc'
+[1.220s] Level 1:colcon.colcon_core.environment:checking '/root/rm_ws/install/chat/lib/python3.10/site-packages'
+[1.221s] Level 1:colcon.colcon_core.environment:checking '/root/rm_ws/install/chat/bin'
+[1.221s] INFO:colcon.colcon_core.shell:Creating package script '/root/rm_ws/install/chat/share/chat/package.ps1'
+[1.222s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/rm_ws/install/chat/share/chat/package.dsv'
+[1.222s] INFO:colcon.colcon_core.shell:Creating package script '/root/rm_ws/install/chat/share/chat/package.sh'
+[1.222s] INFO:colcon.colcon_core.shell:Creating package script '/root/rm_ws/install/chat/share/chat/package.bash'
+[1.223s] INFO:colcon.colcon_core.shell:Creating package script '/root/rm_ws/install/chat/share/chat/package.zsh'
+[1.223s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/rm_ws/install/chat/share/colcon-core/packages/chat)
+[1.576s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(chat)
+[1.576s] Level 1:colcon.colcon_core.environment:checking '/root/rm_ws/install/chat' for CMake module files
+[1.576s] Level 1:colcon.colcon_core.environment:checking '/root/rm_ws/install/chat' for CMake config files
+[1.577s] Level 1:colcon.colcon_core.shell:create_environment_hook('chat', 'cmake_prefix_path')
+[1.577s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/rm_ws/install/chat/share/chat/hook/cmake_prefix_path.ps1'
+[1.577s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/rm_ws/install/chat/share/chat/hook/cmake_prefix_path.dsv'
+[1.577s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/rm_ws/install/chat/share/chat/hook/cmake_prefix_path.sh'
+[1.578s] Level 1:colcon.colcon_core.environment:checking '/root/rm_ws/install/chat/lib'
+[1.578s] Level 1:colcon.colcon_core.environment:checking '/root/rm_ws/install/chat/bin'
+[1.578s] Level 1:colcon.colcon_core.environment:checking '/root/rm_ws/install/chat/lib/pkgconfig/chat.pc'
+[1.578s] Level 1:colcon.colcon_core.environment:checking '/root/rm_ws/install/chat/lib/python3.10/site-packages'
+[1.578s] Level 1:colcon.colcon_core.environment:checking '/root/rm_ws/install/chat/bin'
+[1.578s] INFO:colcon.colcon_core.shell:Creating package script '/root/rm_ws/install/chat/share/chat/package.ps1'
+[1.579s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/rm_ws/install/chat/share/chat/package.dsv'
+[1.579s] INFO:colcon.colcon_core.shell:Creating package script '/root/rm_ws/install/chat/share/chat/package.sh'
+[1.579s] INFO:colcon.colcon_core.shell:Creating package script '/root/rm_ws/install/chat/share/chat/package.bash'
+[1.579s] INFO:colcon.colcon_core.shell:Creating package script '/root/rm_ws/install/chat/share/chat/package.zsh'
+[1.580s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/rm_ws/install/chat/share/colcon-core/packages/chat)
+[1.580s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'chat' finished with '0'
+[1.580s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'cpp_'
+[1.580s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/rm_ws/src/cpp_' with build type 'ament_cmake'
+[1.580s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/rm_ws/src/cpp_'
+[1.580s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.580s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.617s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/rm_ws/build/cpp_': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/rm_ws/build/cpp_ -- -j8 -l8
+[2.426s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/rm_ws/build/cpp_' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/rm_ws/build/cpp_ -- -j8 -l8
+[2.905s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/rm_ws/build/cpp_': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/rm_ws/build/cpp_
+[2.969s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_)
+[2.969s] Level 1:colcon.colcon_core.environment:checking '/root/rm_ws/install/cpp_' for CMake module files
+[2.969s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/rm_ws/build/cpp_' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/rm_ws/build/cpp_
+[2.970s] Level 1:colcon.colcon_core.environment:checking '/root/rm_ws/install/cpp_' for CMake config files
+[2.970s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_', 'cmake_prefix_path')
+[2.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/rm_ws/install/cpp_/share/cpp_/hook/cmake_prefix_path.ps1'
+[2.970s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/rm_ws/install/cpp_/share/cpp_/hook/cmake_prefix_path.dsv'
+[2.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/rm_ws/install/cpp_/share/cpp_/hook/cmake_prefix_path.sh'
+[2.971s] Level 1:colcon.colcon_core.environment:checking '/root/rm_ws/install/cpp_/lib'
+[2.971s] Level 1:colcon.colcon_core.environment:checking '/root/rm_ws/install/cpp_/bin'
+[2.971s] Level 1:colcon.colcon_core.environment:checking '/root/rm_ws/install/cpp_/lib/pkgconfig/cpp_.pc'
+[2.971s] Level 1:colcon.colcon_core.environment:checking '/root/rm_ws/install/cpp_/lib/python3.10/site-packages'
+[2.971s] Level 1:colcon.colcon_core.environment:checking '/root/rm_ws/install/cpp_/bin'
+[2.972s] INFO:colcon.colcon_core.shell:Creating package script '/root/rm_ws/install/cpp_/share/cpp_/package.ps1'
+[2.972s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/rm_ws/install/cpp_/share/cpp_/package.dsv'
+[2.972s] INFO:colcon.colcon_core.shell:Creating package script '/root/rm_ws/install/cpp_/share/cpp_/package.sh'
+[2.972s] INFO:colcon.colcon_core.shell:Creating package script '/root/rm_ws/install/cpp_/share/cpp_/package.bash'
+[2.973s] INFO:colcon.colcon_core.shell:Creating package script '/root/rm_ws/install/cpp_/share/cpp_/package.zsh'
+[2.973s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/rm_ws/install/cpp_/share/colcon-core/packages/cpp_)
+[3.416s] ERROR:colcon.colcon_core.executor.sequential:Exception in job execution 'cpp_': Expected ['/usr/bin/cmake', '--build', '/root/rm_ws/build/cpp_', '--target', 'help'] to pass: gmake: *** [Makefile:377: help] Illegal instruction
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/sequential.py", line 50, in execute
+    loop.run_until_complete(future)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 65, in build
+    has_install_target = await has_target(args.build_base, 'install')
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 57, in has_target
+    return target in await get_makefile_targets(path)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 77, in get_makefile_targets
+    output = await check_output([
+  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 129, in check_output
+    assert not rc, f'Expected {args} to pass: {stderr_data}'
+AssertionError: Expected ['/usr/bin/cmake', '--build', '/root/rm_ws/build/cpp_', '--target', 'help'] to pass: gmake: *** [Makefile:377: help] Illegal instruction
+
+
+[3.416s] DEBUG:colcon.colcon_core.executor.sequential:closing loop
+[3.417s] DEBUG:colcon.colcon_core.executor.sequential:loop closed
+[3.417s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.422s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[3.422s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.422s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.423s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.427s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[3.427s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.427s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/rm_ws/install/local_setup.ps1'
+[3.428s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/rm_ws/install/_local_setup_util_ps1.py'
+[3.429s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/rm_ws/install/setup.ps1'
+[3.430s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/rm_ws/install/local_setup.sh'
+[3.431s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/rm_ws/install/_local_setup_util_sh.py'
+[3.431s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/rm_ws/install/setup.sh'
+[3.431s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/rm_ws/install/local_setup.bash'
+[3.432s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/rm_ws/install/setup.bash'
+[3.432s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/rm_ws/install/local_setup.zsh'
+[3.433s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/rm_ws/install/setup.zsh'

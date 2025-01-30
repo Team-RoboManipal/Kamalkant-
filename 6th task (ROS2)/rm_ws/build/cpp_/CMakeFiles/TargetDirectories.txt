@@ -1,0 +1,13 @@
+/root/rm_ws/build/cpp_/CMakeFiles/uninstall.dir
+/root/rm_ws/build/cpp_/CMakeFiles/cpp__uninstall.dir
+/root/rm_ws/build/cpp_/CMakeFiles/pub.dir
+/root/rm_ws/build/cpp_/CMakeFiles/sub.dir
+/root/rm_ws/build/cpp_/CMakeFiles/server.dir
+/root/rm_ws/build/cpp_/CMakeFiles/client.dir
+/root/rm_ws/build/cpp_/CMakeFiles/test.dir
+/root/rm_ws/build/cpp_/CMakeFiles/edit_cache.dir
+/root/rm_ws/build/cpp_/CMakeFiles/rebuild_cache.dir
+/root/rm_ws/build/cpp_/CMakeFiles/list_install_components.dir
+/root/rm_ws/build/cpp_/CMakeFiles/install.dir
+/root/rm_ws/build/cpp_/CMakeFiles/install/local.dir
+/root/rm_ws/build/cpp_/CMakeFiles/install/strip.dir

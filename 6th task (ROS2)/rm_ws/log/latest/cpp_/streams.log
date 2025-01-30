@@ -1,0 +1,28 @@
+[0.036s] Invoking command in '/root/rm_ws/build/cpp_': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/rm_ws/build/cpp_ -- -j8 -l8
+[0.397s] [ 37%] Built target pub
+[0.398s] [ 50%] Built target sub
+[0.400s] [ 75%] Built target server
+[0.405s] [100%] Built target client
+[0.446s] Invoked command in '/root/rm_ws/build/cpp_' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/rm_ws/build/cpp_ -- -j8 -l8
+[0.918s] Invoking command in '/root/rm_ws/build/cpp_': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/rm_ws/build/cpp_
+[0.965s] -- Install configuration: ""
+[0.968s] -- Up-to-date: /root/rm_ws/install/cpp_/lib/cpp_/pub
+[0.968s] -- Up-to-date: /root/rm_ws/install/cpp_/lib/cpp_/sub
+[0.969s] -- Up-to-date: /root/rm_ws/install/cpp_/lib/cpp_/server
+[0.969s] -- Up-to-date: /root/rm_ws/install/cpp_/lib/cpp_/client
+[0.969s] -- Up-to-date: /root/rm_ws/install/cpp_/share/ament_index/resource_index/package_run_dependencies/cpp_
+[0.969s] -- Up-to-date: /root/rm_ws/install/cpp_/share/ament_index/resource_index/parent_prefix_path/cpp_
+[0.969s] -- Up-to-date: /root/rm_ws/install/cpp_/share/cpp_/environment/ament_prefix_path.sh
+[0.969s] -- Up-to-date: /root/rm_ws/install/cpp_/share/cpp_/environment/ament_prefix_path.dsv
+[0.969s] -- Up-to-date: /root/rm_ws/install/cpp_/share/cpp_/environment/path.sh
+[0.970s] -- Up-to-date: /root/rm_ws/install/cpp_/share/cpp_/environment/path.dsv
+[0.970s] -- Up-to-date: /root/rm_ws/install/cpp_/share/cpp_/local_setup.bash
+[0.970s] -- Up-to-date: /root/rm_ws/install/cpp_/share/cpp_/local_setup.sh
+[0.970s] -- Up-to-date: /root/rm_ws/install/cpp_/share/cpp_/local_setup.zsh
+[0.970s] -- Up-to-date: /root/rm_ws/install/cpp_/share/cpp_/local_setup.dsv
+[0.970s] -- Installing: /root/rm_ws/install/cpp_/share/cpp_/package.dsv
+[0.970s] -- Up-to-date: /root/rm_ws/install/cpp_/share/ament_index/resource_index/packages/cpp_
+[0.970s] -- Up-to-date: /root/rm_ws/install/cpp_/share/cpp_/cmake/cpp_Config.cmake
+[0.970s] -- Up-to-date: /root/rm_ws/install/cpp_/share/cpp_/cmake/cpp_Config-version.cmake
+[0.971s] -- Up-to-date: /root/rm_ws/install/cpp_/share/cpp_/package.xml
+[0.976s] Invoked command in '/root/rm_ws/build/cpp_' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/rm_ws/build/cpp_

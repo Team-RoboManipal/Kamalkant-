@@ -1,0 +1,51 @@
+running egg_info
+creating ../../build/turtle_sim/turtle_sim.egg-info
+writing ../../build/turtle_sim/turtle_sim.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtle_sim/turtle_sim.egg-info/dependency_links.txt
+writing entry points to ../../build/turtle_sim/turtle_sim.egg-info/entry_points.txt
+writing requirements to ../../build/turtle_sim/turtle_sim.egg-info/requires.txt
+writing top-level names to ../../build/turtle_sim/turtle_sim.egg-info/top_level.txt
+writing manifest file '../../build/turtle_sim/turtle_sim.egg-info/SOURCES.txt'
+reading manifest file '../../build/turtle_sim/turtle_sim.egg-info/SOURCES.txt'
+writing manifest file '../../build/turtle_sim/turtle_sim.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/rm_ws/build/turtle_sim/build
+creating /root/rm_ws/build/turtle_sim/build/lib
+creating /root/rm_ws/build/turtle_sim/build/lib/turtle_sim
+copying turtle_sim/draw_circle.py -> /root/rm_ws/build/turtle_sim/build/lib/turtle_sim
+copying turtle_sim/__init__.py -> /root/rm_ws/build/turtle_sim/build/lib/turtle_sim
+copying turtle_sim/goal.py -> /root/rm_ws/build/turtle_sim/build/lib/turtle_sim
+copying turtle_sim/controller.py -> /root/rm_ws/build/turtle_sim/build/lib/turtle_sim
+copying turtle_sim/polygon.py -> /root/rm_ws/build/turtle_sim/build/lib/turtle_sim
+copying turtle_sim/d_.py -> /root/rm_ws/build/turtle_sim/build/lib/turtle_sim
+running install
+running install_lib
+creating /root/rm_ws/install/turtle_sim/lib/python3.10/site-packages/turtle_sim
+copying /root/rm_ws/build/turtle_sim/build/lib/turtle_sim/draw_circle.py -> /root/rm_ws/install/turtle_sim/lib/python3.10/site-packages/turtle_sim
+copying /root/rm_ws/build/turtle_sim/build/lib/turtle_sim/__init__.py -> /root/rm_ws/install/turtle_sim/lib/python3.10/site-packages/turtle_sim
+copying /root/rm_ws/build/turtle_sim/build/lib/turtle_sim/goal.py -> /root/rm_ws/install/turtle_sim/lib/python3.10/site-packages/turtle_sim
+copying /root/rm_ws/build/turtle_sim/build/lib/turtle_sim/controller.py -> /root/rm_ws/install/turtle_sim/lib/python3.10/site-packages/turtle_sim
+copying /root/rm_ws/build/turtle_sim/build/lib/turtle_sim/polygon.py -> /root/rm_ws/install/turtle_sim/lib/python3.10/site-packages/turtle_sim
+copying /root/rm_ws/build/turtle_sim/build/lib/turtle_sim/d_.py -> /root/rm_ws/install/turtle_sim/lib/python3.10/site-packages/turtle_sim
+byte-compiling /root/rm_ws/install/turtle_sim/lib/python3.10/site-packages/turtle_sim/draw_circle.py to draw_circle.cpython-310.pyc
+byte-compiling /root/rm_ws/install/turtle_sim/lib/python3.10/site-packages/turtle_sim/__init__.py to __init__.cpython-310.pyc
+byte-compiling /root/rm_ws/install/turtle_sim/lib/python3.10/site-packages/turtle_sim/goal.py to goal.cpython-310.pyc
+byte-compiling /root/rm_ws/install/turtle_sim/lib/python3.10/site-packages/turtle_sim/controller.py to controller.cpython-310.pyc
+byte-compiling /root/rm_ws/install/turtle_sim/lib/python3.10/site-packages/turtle_sim/polygon.py to polygon.cpython-310.pyc
+byte-compiling /root/rm_ws/install/turtle_sim/lib/python3.10/site-packages/turtle_sim/d_.py to d_.cpython-310.pyc
+running install_data
+creating /root/rm_ws/install/turtle_sim/share/ament_index
+creating /root/rm_ws/install/turtle_sim/share/ament_index/resource_index
+creating /root/rm_ws/install/turtle_sim/share/ament_index/resource_index/packages
+copying resource/turtle_sim -> /root/rm_ws/install/turtle_sim/share/ament_index/resource_index/packages
+copying package.xml -> /root/rm_ws/install/turtle_sim/share/turtle_sim
+running install_egg_info
+Copying ../../build/turtle_sim/turtle_sim.egg-info to /root/rm_ws/install/turtle_sim/lib/python3.10/site-packages/turtle_sim-0.0.0-py3.10.egg-info
+running install_scripts
+Installing controller script to /root/rm_ws/install/turtle_sim/lib/turtle_sim
+Installing d script to /root/rm_ws/install/turtle_sim/lib/turtle_sim
+Installing draw_circle script to /root/rm_ws/install/turtle_sim/lib/turtle_sim
+Installing goal script to /root/rm_ws/install/turtle_sim/lib/turtle_sim
+Installing polygon script to /root/rm_ws/install/turtle_sim/lib/turtle_sim
+writing list of installed files to '/root/rm_ws/build/turtle_sim/install.log'

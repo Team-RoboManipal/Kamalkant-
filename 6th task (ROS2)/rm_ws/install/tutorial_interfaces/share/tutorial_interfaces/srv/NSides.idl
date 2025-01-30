@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tutorial_interfaces/srv/NSides.srv
+// generated code does not contain a copyright notice
+
+
+module tutorial_interfaces {
+  module srv {
+    struct NSides_Request {
+      int64 n;
+    };
+    struct NSides_Response {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

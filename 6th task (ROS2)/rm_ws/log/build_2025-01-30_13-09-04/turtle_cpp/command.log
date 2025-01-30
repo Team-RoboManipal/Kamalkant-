@@ -1,0 +1,6 @@
+Invoking command in '/root/rm_ws/build/turtle_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/rm_ws/src/turtle_cpp -DCMAKE_INSTALL_PREFIX=/root/rm_ws/install/turtle_cpp
+Invoked command in '/root/rm_ws/build/turtle_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/rm_ws/src/turtle_cpp -DCMAKE_INSTALL_PREFIX=/root/rm_ws/install/turtle_cpp
+Invoking command in '/root/rm_ws/build/turtle_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/rm_ws/build/turtle_cpp -- -j8 -l8
+Invoked command in '/root/rm_ws/build/turtle_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/rm_ws/build/turtle_cpp -- -j8 -l8
+Invoking command in '/root/rm_ws/build/turtle_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/rm_ws/build/turtle_cpp
+Invoked command in '/root/rm_ws/build/turtle_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/rm_ws/build/turtle_cpp

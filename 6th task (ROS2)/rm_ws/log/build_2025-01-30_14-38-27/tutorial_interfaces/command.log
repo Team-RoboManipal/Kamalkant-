@@ -1,0 +1,4 @@
+Invoking command in '/root/rm_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/rm_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/root/rm_ws/install/tutorial_interfaces
+Invoked command in '/root/rm_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/rm_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/root/rm_ws/install/tutorial_interfaces
+Invoking command in '/root/rm_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/rm_ws/build/tutorial_interfaces -- -j8 -l8
+Invoked command in '/root/rm_ws/build/tutorial_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/rm_ws/build/tutorial_interfaces -- -j8 -l8

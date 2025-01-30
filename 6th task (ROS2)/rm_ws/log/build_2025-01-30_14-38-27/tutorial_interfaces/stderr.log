@@ -1,0 +1,4 @@
+gmake[2]: *** [CMakeFiles/tutorial_interfaces__cpp.dir/build.make:91: rosidl_generator_cpp/tutorial_interfaces/srv/n_sides.hpp] Illegal instruction
+gmake[1]: *** [CMakeFiles/Makefile2:265: CMakeFiles/tutorial_interfaces__cpp.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

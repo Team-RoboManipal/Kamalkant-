@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+372e4f816f42b17b7c0427c0d8f3e2a2 CMakeFiles/polygon_cpp_uninstall

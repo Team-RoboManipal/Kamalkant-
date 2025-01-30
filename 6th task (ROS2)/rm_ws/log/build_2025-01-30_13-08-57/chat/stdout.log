@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target b[0m
+[35m[1mConsolidate compiler generated dependencies of target a[0m
+[ 50%] Built target a
+[100%] Built target b
+-- Install configuration: ""
+-- Up-to-date: /root/rm_ws/install/chat/lib/chat/a
+-- Up-to-date: /root/rm_ws/install/chat/lib/chat/b
+-- Up-to-date: /root/rm_ws/install/chat/share/ament_index/resource_index/package_run_dependencies/chat
+-- Up-to-date: /root/rm_ws/install/chat/share/ament_index/resource_index/parent_prefix_path/chat
+-- Up-to-date: /root/rm_ws/install/chat/share/chat/environment/ament_prefix_path.sh
+-- Up-to-date: /root/rm_ws/install/chat/share/chat/environment/ament_prefix_path.dsv
+-- Up-to-date: /root/rm_ws/install/chat/share/chat/environment/path.sh
+-- Up-to-date: /root/rm_ws/install/chat/share/chat/environment/path.dsv
+-- Up-to-date: /root/rm_ws/install/chat/share/chat/local_setup.bash
+-- Up-to-date: /root/rm_ws/install/chat/share/chat/local_setup.sh
+-- Up-to-date: /root/rm_ws/install/chat/share/chat/local_setup.zsh
+-- Up-to-date: /root/rm_ws/install/chat/share/chat/local_setup.dsv
+-- Installing: /root/rm_ws/install/chat/share/chat/package.dsv
+-- Up-to-date: /root/rm_ws/install/chat/share/ament_index/resource_index/packages/chat
+-- Up-to-date: /root/rm_ws/install/chat/share/chat/cmake/chatConfig.cmake
+-- Up-to-date: /root/rm_ws/install/chat/share/chat/cmake/chatConfig-version.cmake
+-- Up-to-date: /root/rm_ws/install/chat/share/chat/package.xml
