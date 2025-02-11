@@ -1,0 +1,36 @@
+[1.228s] Invoking command in '/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/src/joint_state_publisher/joint_state_publisher': PYTHONPATH=/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/joint_state_publisher/prefix_override:/Users/kamal/miniconda3/envs/ros_hum/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/joint_state_publisher/lib/python3.11/site-packages:${PYTHONPATH} SHLVL=2 _=/Users/kamal/miniconda3/envs/ros_hum/bin/env /Users/kamal/miniconda3/envs/ros_hum/bin/python3.11 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/joint_state_publisher build --build-base /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/joint_state_publisher/build install --record /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/joint_state_publisher/install.log --single-version-externally-managed install_data
+[1.379s] /Users/kamal/miniconda3/envs/ros_hum/lib/python3.11/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+[1.379s]   warnings.warn(msg)
+[1.482s] running egg_info
+[1.494s] creating ../../../build/joint_state_publisher/joint_state_publisher.egg-info
+[1.494s] writing ../../../build/joint_state_publisher/joint_state_publisher.egg-info/PKG-INFO
+[1.494s] writing dependency_links to ../../../build/joint_state_publisher/joint_state_publisher.egg-info/dependency_links.txt
+[1.495s] writing entry points to ../../../build/joint_state_publisher/joint_state_publisher.egg-info/entry_points.txt
+[1.495s] writing requirements to ../../../build/joint_state_publisher/joint_state_publisher.egg-info/requires.txt
+[1.495s] writing top-level names to ../../../build/joint_state_publisher/joint_state_publisher.egg-info/top_level.txt
+[1.495s] writing manifest file '../../../build/joint_state_publisher/joint_state_publisher.egg-info/SOURCES.txt'
+[1.517s] reading manifest file '../../../build/joint_state_publisher/joint_state_publisher.egg-info/SOURCES.txt'
+[1.521s] adding license file 'LICENSE'
+[1.521s] writing manifest file '../../../build/joint_state_publisher/joint_state_publisher.egg-info/SOURCES.txt'
+[1.522s] running build
+[1.522s] running build_py
+[1.522s] creating /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/joint_state_publisher/build/lib/joint_state_publisher
+[1.522s] copying joint_state_publisher/joint_state_publisher.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/joint_state_publisher/build/lib/joint_state_publisher
+[1.522s] copying joint_state_publisher/__init__.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/joint_state_publisher/build/lib/joint_state_publisher
+[1.522s] running install
+[1.522s] running install_lib
+[1.531s] creating /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/joint_state_publisher/lib/python3.11/site-packages/joint_state_publisher
+[1.532s] copying /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/joint_state_publisher/build/lib/joint_state_publisher/joint_state_publisher.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/joint_state_publisher/lib/python3.11/site-packages/joint_state_publisher
+[1.533s] copying /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/joint_state_publisher/build/lib/joint_state_publisher/__init__.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/joint_state_publisher/lib/python3.11/site-packages/joint_state_publisher
+[1.533s] byte-compiling /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/joint_state_publisher/lib/python3.11/site-packages/joint_state_publisher/joint_state_publisher.py to joint_state_publisher.cpython-311.pyc
+[1.536s] byte-compiling /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/joint_state_publisher/lib/python3.11/site-packages/joint_state_publisher/__init__.py to __init__.cpython-311.pyc
+[1.537s] running install_data
+[1.537s] creating /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/joint_state_publisher/share/ament_index/resource_index/packages
+[1.537s] copying resource/joint_state_publisher -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/joint_state_publisher/share/ament_index/resource_index/packages
+[1.537s] copying package.xml -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/joint_state_publisher/share/joint_state_publisher
+[1.538s] running install_egg_info
+[1.555s] Copying ../../../build/joint_state_publisher/joint_state_publisher.egg-info to /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/joint_state_publisher/lib/python3.11/site-packages/joint_state_publisher-2.4.0-py3.11.egg-info
+[1.558s] running install_scripts
+[1.658s] Installing joint_state_publisher script to /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/joint_state_publisher/lib/joint_state_publisher
+[1.658s] writing list of installed files to '/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/joint_state_publisher/install.log'
+[1.690s] Invoked command in '/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/src/joint_state_publisher/joint_state_publisher' returned '0': PYTHONPATH=/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/joint_state_publisher/prefix_override:/Users/kamal/miniconda3/envs/ros_hum/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/joint_state_publisher/lib/python3.11/site-packages:${PYTHONPATH} SHLVL=2 _=/Users/kamal/miniconda3/envs/ros_hum/bin/env /Users/kamal/miniconda3/envs/ros_hum/bin/python3.11 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/joint_state_publisher build --build-base /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/joint_state_publisher/build install --record /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/joint_state_publisher/install.log --single-version-externally-managed install_data

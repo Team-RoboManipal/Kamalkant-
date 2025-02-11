@@ -1,0 +1,33 @@
+In file included from /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/src/geometry_tutorials/turtle_tf2_cpp/src/turtle_tf2_broadcaster.cpp:21:
+In file included from /Users/kamal/miniconda3/envs/ros_hum/include/rclcpp/rclcpp/rclcpp.hpp:155:
+In file included from /Users/kamal/miniconda3/envs/ros_hum/include/rclcpp/rclcpp/executors.hpp:21:
+In file included from /Users/kamal/miniconda3/envs/ros_hum/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25:
+In file included from /Users/kamal/miniconda3/envs/ros_hum/include/rclcpp/rclcpp/executor.hpp:37:
+In file included from /Users/kamal/miniconda3/envs/ros_hum/include/rclcpp/rclcpp/executor_options.hpp:20:
+In file included from /Users/kamal/miniconda3/envs/ros_hum/include/rclcpp/rclcpp/memory_strategies.hpp:18:
+In file included from /Users/kamal/miniconda3/envs/ros_hum/include/rclcpp/rclcpp/memory_strategy.hpp:25:
+In file included from /Users/kamal/miniconda3/envs/ros_hum/include/rclcpp/rclcpp/any_executable.hpp:20:
+In file included from /Users/kamal/miniconda3/envs/ros_hum/include/rclcpp/rclcpp/callback_group.hpp:29:
+In file included from /Users/kamal/miniconda3/envs/ros_hum/include/rclcpp/rclcpp/subscription_base.hpp:32:
+/Users/kamal/miniconda3/envs/ros_hum/include/rclcpp/rclcpp/any_subscription_callback.hpp:391:7: warning: 'set_deprecated<turtlesim::msg::Pose_<std::allocator<void>>>' is deprecated: use 'void(std::shared_ptr<const MessageT>)' instead [-Wdeprecated-declarations]
+  391 |       set_deprecated(static_cast<typename scbth::callback_type>(callback));
+      |       ^
+/Users/kamal/miniconda3/envs/ros_hum/include/rclcpp/rclcpp/subscription_factory.hpp:94:29: note: in instantiation of function template specialization 'rclcpp::AnySubscriptionCallback<turtlesim::msg::Pose_<std::allocator<void>>>::set<(lambda at /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/src/geometry_tutorials/turtle_tf2_cpp/src/turtle_tf2_broadcaster.cpp:45:31)>' requested here
+   94 |   any_subscription_callback.set(std::forward<CallbackT>(callback));
+      |                             ^
+/Users/kamal/miniconda3/envs/ros_hum/include/rclcpp/rclcpp/create_subscription.hpp:122:26: note: in instantiation of function template specialization 'rclcpp::create_subscription_factory<turtlesim::msg::Pose_<std::allocator<void>>, (lambda at /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/src/geometry_tutorials/turtle_tf2_cpp/src/turtle_tf2_broadcaster.cpp:45:31) &, std::allocator<void>, rclcpp::Subscription<turtlesim::msg::Pose_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<turtlesim::msg::Pose_<std::allocator<void>>>, turtlesim::msg::Pose_<std::allocator<void>>>' requested here
+  122 |   auto factory = rclcpp::create_subscription_factory<MessageT>(
+      |                          ^
+/Users/kamal/miniconda3/envs/ros_hum/include/rclcpp/rclcpp/create_subscription.hpp:190:26: note: in instantiation of function template specialization 'rclcpp::detail::create_subscription<turtlesim::msg::Pose_<std::allocator<void>>, (lambda at /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/src/geometry_tutorials/turtle_tf2_cpp/src/turtle_tf2_broadcaster.cpp:45:31) &, std::allocator<void>, rclcpp::Subscription<turtlesim::msg::Pose_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<turtlesim::msg::Pose_<std::allocator<void>>>, rclcpp::Node, rclcpp::Node, turtlesim::msg::Pose_<std::allocator<void>>>' requested here
+  190 |   return rclcpp::detail::create_subscription<
+      |                          ^
+/Users/kamal/miniconda3/envs/ros_hum/include/rclcpp/rclcpp/node_impl.hpp:99:18: note: in instantiation of function template specialization 'rclcpp::create_subscription<turtlesim::msg::Pose_<std::allocator<void>>, (lambda at /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/src/geometry_tutorials/turtle_tf2_cpp/src/turtle_tf2_broadcaster.cpp:45:31) &, std::allocator<void>, rclcpp::Subscription<turtlesim::msg::Pose_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<turtlesim::msg::Pose_<std::allocator<void>>>, rclcpp::Node>' requested here
+   99 |   return rclcpp::create_subscription<MessageT>(
+      |                  ^
+/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/src/geometry_tutorials/turtle_tf2_cpp/src/turtle_tf2_broadcaster.cpp:73:27: note: in instantiation of function template specialization 'rclcpp::Node::create_subscription<turtlesim::msg::Pose_<std::allocator<void>>, (lambda at /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/src/geometry_tutorials/turtle_tf2_cpp/src/turtle_tf2_broadcaster.cpp:45:31) &, std::allocator<void>, rclcpp::Subscription<turtlesim::msg::Pose_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<turtlesim::msg::Pose_<std::allocator<void>>>>' requested here
+   73 |     subscription_ = this->create_subscription<turtlesim::msg::Pose>(
+      |                           ^
+/Users/kamal/miniconda3/envs/ros_hum/include/rclcpp/rclcpp/any_subscription_callback.hpp:405:5: note: 'set_deprecated<turtlesim::msg::Pose_<std::allocator<void>>>' has been explicitly marked deprecated here
+  405 |   [[deprecated("use 'void(std::shared_ptr<const MessageT>)' instead")]]
+      |     ^
+1 warning generated.

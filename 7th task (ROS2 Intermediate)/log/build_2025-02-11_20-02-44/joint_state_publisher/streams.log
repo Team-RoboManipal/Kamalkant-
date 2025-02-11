@@ -1,0 +1,28 @@
+[1.083s] Invoking command in '/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/src/joint_state_publisher/joint_state_publisher': PYTHONPATH=/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/joint_state_publisher/prefix_override:/Users/kamal/miniconda3/envs/ros_hum/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/joint_state_publisher/lib/python3.11/site-packages:${PYTHONPATH} SHLVL=2 _=/Users/kamal/miniconda3/envs/ros_hum/bin/env /Users/kamal/miniconda3/envs/ros_hum/bin/python3.11 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/joint_state_publisher build --build-base /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/joint_state_publisher/build install --record /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/joint_state_publisher/install.log --single-version-externally-managed install_data
+[1.193s] /Users/kamal/miniconda3/envs/ros_hum/lib/python3.11/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+[1.194s]   warnings.warn(msg)
+[1.267s] running egg_info
+[1.275s] writing ../../../build/joint_state_publisher/joint_state_publisher.egg-info/PKG-INFO
+[1.276s] writing dependency_links to ../../../build/joint_state_publisher/joint_state_publisher.egg-info/dependency_links.txt
+[1.277s] writing entry points to ../../../build/joint_state_publisher/joint_state_publisher.egg-info/entry_points.txt
+[1.277s] writing requirements to ../../../build/joint_state_publisher/joint_state_publisher.egg-info/requires.txt
+[1.277s] writing top-level names to ../../../build/joint_state_publisher/joint_state_publisher.egg-info/top_level.txt
+[1.313s] reading manifest file '../../../build/joint_state_publisher/joint_state_publisher.egg-info/SOURCES.txt'
+[1.313s] adding license file 'LICENSE'
+[1.314s] writing manifest file '../../../build/joint_state_publisher/joint_state_publisher.egg-info/SOURCES.txt'
+[1.314s] running build
+[1.314s] running build_py
+[1.314s] copying joint_state_publisher/joint_state_publisher.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/joint_state_publisher/build/lib/joint_state_publisher
+[1.315s] copying joint_state_publisher/__init__.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/joint_state_publisher/build/lib/joint_state_publisher
+[1.315s] running install
+[1.319s] running install_lib
+[1.328s] running install_data
+[1.328s] copying resource/joint_state_publisher -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/joint_state_publisher/share/ament_index/resource_index/packages
+[1.328s] copying package.xml -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/joint_state_publisher/share/joint_state_publisher
+[1.329s] running install_egg_info
+[1.339s] removing '/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/joint_state_publisher/lib/python3.11/site-packages/joint_state_publisher-2.4.0-py3.11.egg-info' (and everything under it)
+[1.339s] Copying ../../../build/joint_state_publisher/joint_state_publisher.egg-info to /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/joint_state_publisher/lib/python3.11/site-packages/joint_state_publisher-2.4.0-py3.11.egg-info
+[1.341s] running install_scripts
+[1.481s] Installing joint_state_publisher script to /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/joint_state_publisher/lib/joint_state_publisher
+[1.481s] writing list of installed files to '/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/joint_state_publisher/install.log'
+[1.498s] Invoked command in '/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/src/joint_state_publisher/joint_state_publisher' returned '0': PYTHONPATH=/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/joint_state_publisher/prefix_override:/Users/kamal/miniconda3/envs/ros_hum/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/joint_state_publisher/lib/python3.11/site-packages:${PYTHONPATH} SHLVL=2 _=/Users/kamal/miniconda3/envs/ros_hum/bin/env /Users/kamal/miniconda3/envs/ros_hum/bin/python3.11 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/joint_state_publisher build --build-base /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/joint_state_publisher/build install --record /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/joint_state_publisher/install.log --single-version-externally-managed install_data

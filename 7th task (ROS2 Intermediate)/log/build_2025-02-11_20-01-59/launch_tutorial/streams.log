@@ -1,0 +1,42 @@
+[1.207s] Invoking command in '/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/src/launch_tutorial': PYTHONPATH=/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/launch_tutorial/prefix_override:/Users/kamal/miniconda3/envs/ros_hum/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/launch_tutorial/lib/python3.11/site-packages:${PYTHONPATH} SHLVL=2 _=/Users/kamal/miniconda3/envs/ros_hum/bin/env /Users/kamal/miniconda3/envs/ros_hum/bin/python3.11 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/launch_tutorial build --build-base /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/launch_tutorial/build install --record /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/launch_tutorial/install.log --single-version-externally-managed install_data
+[1.467s] running egg_info
+[1.476s] creating ../../build/launch_tutorial/launch_tutorial.egg-info
+[1.476s] writing ../../build/launch_tutorial/launch_tutorial.egg-info/PKG-INFO
+[1.477s] writing dependency_links to ../../build/launch_tutorial/launch_tutorial.egg-info/dependency_links.txt
+[1.477s] writing requirements to ../../build/launch_tutorial/launch_tutorial.egg-info/requires.txt
+[1.477s] writing top-level names to ../../build/launch_tutorial/launch_tutorial.egg-info/top_level.txt
+[1.477s] writing manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[1.509s] reading manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[1.509s] writing manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[1.509s] running build
+[1.509s] running build_py
+[1.509s] creating /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/launch_tutorial/build/lib/launch_tutorial
+[1.509s] copying launch_tutorial/__init__.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/launch_tutorial/build/lib/launch_tutorial
+[1.509s] running install
+[1.511s] running install_lib
+[1.531s] creating /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/launch_tutorial/lib/python3.11/site-packages/launch_tutorial
+[1.531s] copying /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/launch_tutorial/build/lib/launch_tutorial/__init__.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/launch_tutorial/lib/python3.11/site-packages/launch_tutorial
+[1.531s] byte-compiling /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/launch_tutorial/lib/python3.11/site-packages/launch_tutorial/__init__.py to __init__.cpython-311.pyc
+[1.532s] running install_data
+[1.532s] creating /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/launch_tutorial/share/ament_index/resource_index/packages
+[1.532s] copying resource/launch_tutorial -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/launch_tutorial/share/ament_index/resource_index/packages
+[1.533s] copying package.xml -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/launch_tutorial/share/launch_tutorial
+[1.533s] creating /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/launch_tutorial/share/launch_tutorial/launch
+[1.534s] copying launch/mimic.launch.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/launch_tutorial/share/launch_tutorial/launch
+[1.534s] copying launch/example_event_handlers.launch.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/launch_tutorial/share/launch_tutorial/launch
+[1.534s] copying launch/turtlesim_world_3.launch.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/launch_tutorial/share/launch_tutorial/launch
+[1.534s] copying launch/turtlesim_rviz.launch.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/launch_tutorial/share/launch_tutorial/launch
+[1.535s] copying launch/broadcaster_listener.launch.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/launch_tutorial/share/launch_tutorial/launch
+[1.535s] copying launch/launch_turtlesim.launch.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/launch_tutorial/share/launch_tutorial/launch
+[1.535s] copying launch/turtlesim_world_2.launch.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/launch_tutorial/share/launch_tutorial/launch
+[1.535s] copying launch/example_substitutions.launch.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/launch_tutorial/share/launch_tutorial/launch
+[1.535s] copying launch/turtlesim_world_1.launch.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/launch_tutorial/share/launch_tutorial/launch
+[1.535s] copying launch/fixed_broadcaster.launch.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/launch_tutorial/share/launch_tutorial/launch
+[1.536s] copying launch/example_main.launch.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/launch_tutorial/share/launch_tutorial/launch
+[1.537s] creating /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/launch_tutorial/share/launch_tutorial/config
+[1.537s] copying config/turtlesim.yaml -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/launch_tutorial/share/launch_tutorial/config
+[1.537s] running install_egg_info
+[1.555s] Copying ../../build/launch_tutorial/launch_tutorial.egg-info to /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/launch_tutorial/lib/python3.11/site-packages/launch_tutorial-0.0.0-py3.11.egg-info
+[1.558s] running install_scripts
+[1.640s] writing list of installed files to '/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/launch_tutorial/install.log'
+[1.664s] Invoked command in '/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/src/launch_tutorial' returned '0': PYTHONPATH=/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/launch_tutorial/prefix_override:/Users/kamal/miniconda3/envs/ros_hum/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/launch_tutorial/lib/python3.11/site-packages:${PYTHONPATH} SHLVL=2 _=/Users/kamal/miniconda3/envs/ros_hum/bin/env /Users/kamal/miniconda3/envs/ros_hum/bin/python3.11 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/launch_tutorial build --build-base /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/launch_tutorial/build install --record /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/launch_tutorial/install.log --single-version-externally-managed install_data

@@ -1,0 +1,62 @@
+[1.211s] Invoking command in '/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/src/geometry_tutorials/turtle_tf2_py': PYTHONPATH=/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/turtle_tf2_py/prefix_override:/Users/kamal/miniconda3/envs/ros_hum/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_py/lib/python3.11/site-packages:${PYTHONPATH} SHLVL=2 _=/Users/kamal/miniconda3/envs/ros_hum/bin/env /Users/kamal/miniconda3/envs/ros_hum/bin/python3.11 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/turtle_tf2_py build --build-base /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/turtle_tf2_py/build install --record /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/turtle_tf2_py/install.log --single-version-externally-managed install_data
+[1.351s] /Users/kamal/miniconda3/envs/ros_hum/lib/python3.11/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+[1.351s]   warnings.warn(msg)
+[1.454s] running egg_info
+[1.466s] creating ../../../build/turtle_tf2_py/turtle_tf2_py.egg-info
+[1.466s] writing ../../../build/turtle_tf2_py/turtle_tf2_py.egg-info/PKG-INFO
+[1.467s] writing dependency_links to ../../../build/turtle_tf2_py/turtle_tf2_py.egg-info/dependency_links.txt
+[1.467s] writing entry points to ../../../build/turtle_tf2_py/turtle_tf2_py.egg-info/entry_points.txt
+[1.467s] writing requirements to ../../../build/turtle_tf2_py/turtle_tf2_py.egg-info/requires.txt
+[1.468s] writing top-level names to ../../../build/turtle_tf2_py/turtle_tf2_py.egg-info/top_level.txt
+[1.468s] writing manifest file '../../../build/turtle_tf2_py/turtle_tf2_py.egg-info/SOURCES.txt'
+[1.495s] reading manifest file '../../../build/turtle_tf2_py/turtle_tf2_py.egg-info/SOURCES.txt'
+[1.496s] writing manifest file '../../../build/turtle_tf2_py/turtle_tf2_py.egg-info/SOURCES.txt'
+[1.496s] running build
+[1.496s] running build_py
+[1.497s] creating /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/turtle_tf2_py/build/lib/turtle_tf2_py
+[1.498s] copying turtle_tf2_py/turtle_tf2_message_broadcaster.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/turtle_tf2_py/build/lib/turtle_tf2_py
+[1.498s] copying turtle_tf2_py/fixed_frame_tf2_broadcaster.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/turtle_tf2_py/build/lib/turtle_tf2_py
+[1.499s] copying turtle_tf2_py/static_turtle_tf2_broadcaster.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/turtle_tf2_py/build/lib/turtle_tf2_py
+[1.499s] copying turtle_tf2_py/dynamic_frame_tf2_broadcaster.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/turtle_tf2_py/build/lib/turtle_tf2_py
+[1.499s] copying turtle_tf2_py/__init__.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/turtle_tf2_py/build/lib/turtle_tf2_py
+[1.499s] copying turtle_tf2_py/turtle_tf2_broadcaster.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/turtle_tf2_py/build/lib/turtle_tf2_py
+[1.499s] copying turtle_tf2_py/turtle_tf2_listener.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/turtle_tf2_py/build/lib/turtle_tf2_py
+[1.500s] running install
+[1.503s] running install_lib
+[1.513s] creating /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_py/lib/python3.11/site-packages/turtle_tf2_py
+[1.513s] copying /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/turtle_tf2_py/build/lib/turtle_tf2_py/turtle_tf2_message_broadcaster.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_py/lib/python3.11/site-packages/turtle_tf2_py
+[1.513s] copying /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/turtle_tf2_py/build/lib/turtle_tf2_py/fixed_frame_tf2_broadcaster.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_py/lib/python3.11/site-packages/turtle_tf2_py
+[1.515s] copying /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/turtle_tf2_py/build/lib/turtle_tf2_py/static_turtle_tf2_broadcaster.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_py/lib/python3.11/site-packages/turtle_tf2_py
+[1.516s] copying /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/turtle_tf2_py/build/lib/turtle_tf2_py/dynamic_frame_tf2_broadcaster.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_py/lib/python3.11/site-packages/turtle_tf2_py
+[1.516s] copying /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/turtle_tf2_py/build/lib/turtle_tf2_py/__init__.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_py/lib/python3.11/site-packages/turtle_tf2_py
+[1.516s] copying /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/turtle_tf2_py/build/lib/turtle_tf2_py/turtle_tf2_broadcaster.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_py/lib/python3.11/site-packages/turtle_tf2_py
+[1.516s] copying /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/turtle_tf2_py/build/lib/turtle_tf2_py/turtle_tf2_listener.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_py/lib/python3.11/site-packages/turtle_tf2_py
+[1.516s] byte-compiling /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_py/lib/python3.11/site-packages/turtle_tf2_py/turtle_tf2_message_broadcaster.py to turtle_tf2_message_broadcaster.cpython-311.pyc
+[1.516s] byte-compiling /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_py/lib/python3.11/site-packages/turtle_tf2_py/fixed_frame_tf2_broadcaster.py to fixed_frame_tf2_broadcaster.cpython-311.pyc
+[1.516s] byte-compiling /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_py/lib/python3.11/site-packages/turtle_tf2_py/static_turtle_tf2_broadcaster.py to static_turtle_tf2_broadcaster.cpython-311.pyc
+[1.517s] byte-compiling /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_py/lib/python3.11/site-packages/turtle_tf2_py/dynamic_frame_tf2_broadcaster.py to dynamic_frame_tf2_broadcaster.cpython-311.pyc
+[1.518s] byte-compiling /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_py/lib/python3.11/site-packages/turtle_tf2_py/__init__.py to __init__.cpython-311.pyc
+[1.520s] byte-compiling /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_py/lib/python3.11/site-packages/turtle_tf2_py/turtle_tf2_broadcaster.py to turtle_tf2_broadcaster.cpython-311.pyc
+[1.520s] byte-compiling /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_py/lib/python3.11/site-packages/turtle_tf2_py/turtle_tf2_listener.py to turtle_tf2_listener.cpython-311.pyc
+[1.520s] running install_data
+[1.521s] creating /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_py/share/ament_index/resource_index/packages
+[1.521s] copying resource/turtle_tf2_py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_py/share/ament_index/resource_index/packages
+[1.521s] copying package.xml -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_py/share/turtle_tf2_py
+[1.521s] creating /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_py/share/turtle_tf2_py/launch
+[1.521s] copying launch/turtle_tf2_fixed_frame_demo.launch.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_py/share/turtle_tf2_py/launch
+[1.521s] copying launch/turtle_tf2_sensor_message.launch.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_py/share/turtle_tf2_py/launch
+[1.522s] copying launch/turtle_tf2_demo.launch.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_py/share/turtle_tf2_py/launch
+[1.522s] copying launch/turtle_tf2_dynamic_frame_demo.launch.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_py/share/turtle_tf2_py/launch
+[1.523s] creating /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_py/share/turtle_tf2_py/rviz
+[1.523s] copying rviz/turtle_rviz.rviz -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_py/share/turtle_tf2_py/rviz
+[1.523s] running install_egg_info
+[1.537s] Copying ../../../build/turtle_tf2_py/turtle_tf2_py.egg-info to /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_py/lib/python3.11/site-packages/turtle_tf2_py-0.3.6-py3.11.egg-info
+[1.538s] running install_scripts
+[1.637s] Installing dynamic_frame_tf2_broadcaster script to /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_py/lib/turtle_tf2_py
+[1.637s] Installing fixed_frame_tf2_broadcaster script to /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_py/lib/turtle_tf2_py
+[1.638s] Installing static_turtle_tf2_broadcaster script to /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_py/lib/turtle_tf2_py
+[1.638s] Installing turtle_tf2_broadcaster script to /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_py/lib/turtle_tf2_py
+[1.638s] Installing turtle_tf2_listener script to /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_py/lib/turtle_tf2_py
+[1.638s] Installing turtle_tf2_message_broadcaster script to /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_py/lib/turtle_tf2_py
+[1.639s] writing list of installed files to '/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/turtle_tf2_py/install.log'
+[1.668s] Invoked command in '/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/src/geometry_tutorials/turtle_tf2_py' returned '0': PYTHONPATH=/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/turtle_tf2_py/prefix_override:/Users/kamal/miniconda3/envs/ros_hum/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_py/lib/python3.11/site-packages:${PYTHONPATH} SHLVL=2 _=/Users/kamal/miniconda3/envs/ros_hum/bin/env /Users/kamal/miniconda3/envs/ros_hum/bin/python3.11 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/turtle_tf2_py build --build-base /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/turtle_tf2_py/build install --record /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/turtle_tf2_py/install.log --single-version-externally-managed install_data

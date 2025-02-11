@@ -1,0 +1,31 @@
+[1.110s] Invoking command in '/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/src/urdf_tutorial_r2d2': PYTHONPATH=/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/urdf_tutorial_r2d2/prefix_override:/Users/kamal/miniconda3/envs/ros_hum/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial_r2d2/lib/python3.11/site-packages:${PYTHONPATH} SHLVL=2 _=/Users/kamal/miniconda3/envs/ros_hum/bin/env /Users/kamal/miniconda3/envs/ros_hum/bin/python3.11 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/urdf_tutorial_r2d2 build --build-base /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/urdf_tutorial_r2d2/build install --record /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/urdf_tutorial_r2d2/install.log --single-version-externally-managed install_data
+[1.225s] /Users/kamal/miniconda3/envs/ros_hum/lib/python3.11/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+[1.226s]   warnings.warn(msg)
+[1.301s] running egg_info
+[1.315s] writing ../../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/PKG-INFO
+[1.316s] writing dependency_links to ../../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/dependency_links.txt
+[1.320s] writing entry points to ../../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/entry_points.txt
+[1.321s] writing requirements to ../../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/requires.txt
+[1.321s] writing top-level names to ../../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/top_level.txt
+[1.348s] reading manifest file '../../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/SOURCES.txt'
+[1.349s] adding license file 'LICENSE'
+[1.350s] writing manifest file '../../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/SOURCES.txt'
+[1.350s] running build
+[1.350s] running build_py
+[1.350s] copying urdf_tutorial_r2d2/__init__.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/urdf_tutorial_r2d2/build/lib/urdf_tutorial_r2d2
+[1.351s] copying urdf_tutorial_r2d2/state_publisher.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/urdf_tutorial_r2d2/build/lib/urdf_tutorial_r2d2
+[1.351s] running install
+[1.354s] running install_lib
+[1.372s] running install_data
+[1.372s] copying resource/urdf_tutorial_r2d2 -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial_r2d2/share/ament_index/resource_index/packages
+[1.372s] copying package.xml -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2
+[1.373s] copying launch/demo.launch.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/launch
+[1.375s] copying urdf/r2d2.rviz -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2
+[1.375s] copying urdf/r2d2.urdf.xml -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2
+[1.377s] running install_egg_info
+[1.417s] removing '/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial_r2d2/lib/python3.11/site-packages/urdf_tutorial_r2d2-0.0.0-py3.11.egg-info' (and everything under it)
+[1.417s] Copying ../../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info to /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial_r2d2/lib/python3.11/site-packages/urdf_tutorial_r2d2-0.0.0-py3.11.egg-info
+[1.419s] running install_scripts
+[1.622s] Installing state_publisher script to /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial_r2d2/lib/urdf_tutorial_r2d2
+[1.622s] writing list of installed files to '/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/urdf_tutorial_r2d2/install.log'
+[1.633s] Invoked command in '/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/src/urdf_tutorial_r2d2' returned '0': PYTHONPATH=/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/urdf_tutorial_r2d2/prefix_override:/Users/kamal/miniconda3/envs/ros_hum/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial_r2d2/lib/python3.11/site-packages:${PYTHONPATH} SHLVL=2 _=/Users/kamal/miniconda3/envs/ros_hum/bin/env /Users/kamal/miniconda3/envs/ros_hum/bin/python3.11 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/urdf_tutorial_r2d2 build --build-base /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/urdf_tutorial_r2d2/build install --record /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/urdf_tutorial_r2d2/install.log --single-version-externally-managed install_data

@@ -1,0 +1,17 @@
+Metadata-Version: 2.2
+Name: turtle_tf2_py
+Version: 0.3.6
+Summary: turtle_tf2_py demonstrates how to write a ROS2 Python tf2 broadcaster and listener with the turtlesim. The turtle_tf2_listener commands turtle2 to follow turtle1 around as you drive turtle1 using the keyboard.
+Author: Shyngyskhan Abilkassov
+Author-email: abilkasov@gmail.com
+Maintainer: Alejandro Hernández Cordero, Audrow Nash
+Maintainer-email: alejandro@openrobotics.org, audrow@openrobotics.org
+License: Apache License, Version 2.0
+Requires-Dist: setuptools
+Dynamic: author
+Dynamic: author-email
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: requires-dist
+Dynamic: summary

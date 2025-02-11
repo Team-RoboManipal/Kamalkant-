@@ -1,0 +1,37 @@
+[1.109s] Invoking command in '/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/src/learning_tf2_py': PYTHONPATH=/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/learning_tf2_py/prefix_override:/Users/kamal/miniconda3/envs/ros_hum/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/learning_tf2_py/lib/python3.11/site-packages:${PYTHONPATH} SHLVL=2 _=/Users/kamal/miniconda3/envs/ros_hum/bin/env /Users/kamal/miniconda3/envs/ros_hum/bin/python3.11 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/learning_tf2_py build --build-base /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/learning_tf2_py/build install --record /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/learning_tf2_py/install.log --single-version-externally-managed install_data
+[1.314s] running egg_info
+[1.331s] writing ../../build/learning_tf2_py/learning_tf2_py.egg-info/PKG-INFO
+[1.331s] writing dependency_links to ../../build/learning_tf2_py/learning_tf2_py.egg-info/dependency_links.txt
+[1.331s] writing entry points to ../../build/learning_tf2_py/learning_tf2_py.egg-info/entry_points.txt
+[1.331s] writing requirements to ../../build/learning_tf2_py/learning_tf2_py.egg-info/requires.txt
+[1.331s] writing top-level names to ../../build/learning_tf2_py/learning_tf2_py.egg-info/top_level.txt
+[1.353s] reading manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[1.353s] adding license file 'LICENSE'
+[1.354s] writing manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[1.354s] running build
+[1.354s] running build_py
+[1.355s] copying learning_tf2_py/fixed_frame_tf2_broadcaster.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/learning_tf2_py/build/lib/learning_tf2_py
+[1.355s] copying learning_tf2_py/static_turtle_tf2_broadcaster.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/learning_tf2_py/build/lib/learning_tf2_py
+[1.355s] copying learning_tf2_py/dynamic_frame_tf2_broadcaster.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/learning_tf2_py/build/lib/learning_tf2_py
+[1.355s] copying learning_tf2_py/__init__.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/learning_tf2_py/build/lib/learning_tf2_py
+[1.356s] copying learning_tf2_py/turtle_tf2_broadcaster.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/learning_tf2_py/build/lib/learning_tf2_py
+[1.356s] copying learning_tf2_py/turtle_tf2_listener.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/learning_tf2_py/build/lib/learning_tf2_py
+[1.357s] running install
+[1.360s] running install_lib
+[1.370s] running install_data
+[1.371s] copying resource/learning_tf2_py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/learning_tf2_py/share/ament_index/resource_index/packages
+[1.372s] copying package.xml -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/learning_tf2_py/share/learning_tf2_py
+[1.372s] copying launch/turtle_tf2_fixed_frame_demo.launch.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/learning_tf2_py/share/learning_tf2_py/launch
+[1.376s] copying launch/turtle_tf2_demo.launch.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/learning_tf2_py/share/learning_tf2_py/launch
+[1.377s] copying launch/turtle_tf2_dynamic_frame_demo.launch.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/learning_tf2_py/share/learning_tf2_py/launch
+[1.377s] running install_egg_info
+[1.415s] removing '/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/learning_tf2_py/lib/python3.11/site-packages/learning_tf2_py-0.0.0-py3.11.egg-info' (and everything under it)
+[1.415s] Copying ../../build/learning_tf2_py/learning_tf2_py.egg-info to /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/learning_tf2_py/lib/python3.11/site-packages/learning_tf2_py-0.0.0-py3.11.egg-info
+[1.415s] running install_scripts
+[1.503s] Installing dynamic_frame_tf2_broadcaster script to /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/learning_tf2_py/lib/learning_tf2_py
+[1.503s] Installing fixed_frame_tf2_broadcaster script to /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/learning_tf2_py/lib/learning_tf2_py
+[1.504s] Installing static_turtle_tf2_broadcaster script to /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/learning_tf2_py/lib/learning_tf2_py
+[1.504s] Installing turtle_tf2_broadcaster script to /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/learning_tf2_py/lib/learning_tf2_py
+[1.504s] Installing turtle_tf2_listener script to /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/learning_tf2_py/lib/learning_tf2_py
+[1.505s] writing list of installed files to '/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/learning_tf2_py/install.log'
+[1.640s] Invoked command in '/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/src/learning_tf2_py' returned '0': PYTHONPATH=/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/learning_tf2_py/prefix_override:/Users/kamal/miniconda3/envs/ros_hum/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/learning_tf2_py/lib/python3.11/site-packages:${PYTHONPATH} SHLVL=2 _=/Users/kamal/miniconda3/envs/ros_hum/bin/env /Users/kamal/miniconda3/envs/ros_hum/bin/python3.11 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/learning_tf2_py build --build-base /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/learning_tf2_py/build install --record /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/learning_tf2_py/install.log --single-version-externally-managed install_data

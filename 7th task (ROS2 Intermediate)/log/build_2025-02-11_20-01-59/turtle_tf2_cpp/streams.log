@@ -1,0 +1,134 @@
+[0.662s] Invoking command in '/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/turtle_tf2_cpp': SHLVL=2 _=/Users/kamal/miniconda3/envs/ros_hum/bin/env /Users/kamal/miniconda3/envs/ros_hum/bin/cmake /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/src/geometry_tutorials/turtle_tf2_cpp -DCMAKE_INSTALL_PREFIX=/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_cpp
+[1.044s] -- The C compiler identification is Clang 18.1.7
+[1.189s] -- The CXX compiler identification is Clang 18.1.7
+[1.243s] -- Detecting C compiler ABI info
+[1.584s] -- Detecting C compiler ABI info - done
+[1.585s] -- Check for working C compiler: /Users/kamal/miniconda3/envs/ros_hum/bin/arm64-apple-darwin20.0.0-clang - skipped
+[1.585s] -- Detecting C compile features
+[1.585s] -- Detecting C compile features - done
+[1.625s] -- Detecting CXX compiler ABI info
+[1.833s] -- Detecting CXX compiler ABI info - done
+[1.834s] -- Check for working CXX compiler: /Users/kamal/miniconda3/envs/ros_hum/bin/arm64-apple-darwin20.0.0-clang++ - skipped
+[1.834s] -- Detecting CXX compile features
+[1.834s] -- Detecting CXX compile features - done
+[1.834s] -- Found ament_cmake: 1.3.7 (/Users/kamal/miniconda3/envs/ros_hum/share/ament_cmake/cmake)
+[2.061s] -- Found Python3: /opt/homebrew/Frameworks/Python.framework/Versions/3.13/bin/python3.13 (found version "3.13.2") found components: Interpreter 
+[2.291s] -- Found geometry_msgs: 4.2.3 (/Users/kamal/miniconda3/envs/ros_hum/share/geometry_msgs/cmake)
+[2.440s] -- Found rosidl_generator_c: 3.1.5 (/Users/kamal/miniconda3/envs/ros_hum/share/rosidl_generator_c/cmake)
+[2.465s] -- Found rosidl_adapter: 3.1.5 (/Users/kamal/miniconda3/envs/ros_hum/share/rosidl_adapter/cmake)
+[2.496s] -- Found rosidl_generator_cpp: 3.1.5 (/Users/kamal/miniconda3/envs/ros_hum/share/rosidl_generator_cpp/cmake)
+[2.533s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.586s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.714s] -- Found message_filters: 4.3.3 (/Users/kamal/miniconda3/envs/ros_hum/share/message_filters/cmake)
+[2.936s] -- Checking for module 'yaml-0.1'
+[3.052s] --   Found yaml-0.1, version 0.2.5
+[3.382s] -- Found rmw_implementation_cmake: 6.1.1 (/Users/kamal/miniconda3/envs/ros_hum/share/rmw_implementation_cmake/cmake)
+[3.397s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/Users/kamal/miniconda3/envs/ros_hum/share/rmw_cyclonedds_cpp/cmake)
+[3.478s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.513s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.701s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.702s] -- Found Threads: TRUE  
+[3.835s] -- Found tf2: 0.25.5 (/Users/kamal/miniconda3/envs/ros_hum/share/tf2/cmake)
+[3.858s] -- Found tf2_geometry_msgs: 0.25.5 (/Users/kamal/miniconda3/envs/ros_hum/share/tf2_geometry_msgs/cmake)
+[3.901s] -- Found eigen3_cmake_module: 0.1.1 (/Users/kamal/miniconda3/envs/ros_hum/share/eigen3_cmake_module/cmake)
+[3.902s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.902s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.206s] -- Found turtlesim: 1.4.2 (/Users/kamal/miniconda3/envs/ros_hum/share/turtlesim/cmake)
+[4.715s] -- Found ament_lint_auto: 0.12.10 (/Users/kamal/miniconda3/envs/ros_hum/share/ament_lint_auto/cmake)
+[4.920s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.922s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.922s] -- Configured cppcheck include dirs: 
+[4.922s] -- Configured cppcheck exclude dirs and/or files: 
+[4.923s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.923s] -- Configured cpplint exclude dirs and/or files: 
+[4.924s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.925s] -- Added test 'lint_cmake' to check CMake code style
+[4.925s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.927s] -- Added test 'uncrustify' to check C / C++ code style
+[4.927s] -- Configured uncrustify additional arguments: 
+[4.928s] -- Added test 'xmllint' to check XML markup files
+[4.932s] -- Configuring done (4.3s)
+[5.038s] -- Generating done (0.1s)
+[5.047s] -- Build files have been written to: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/turtle_tf2_cpp
+[5.053s] Invoked command in '/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/turtle_tf2_cpp' returned '0': SHLVL=2 _=/Users/kamal/miniconda3/envs/ros_hum/bin/env /Users/kamal/miniconda3/envs/ros_hum/bin/cmake /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/src/geometry_tutorials/turtle_tf2_cpp -DCMAKE_INSTALL_PREFIX=/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_cpp
+[5.056s] Invoking command in '/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/turtle_tf2_cpp': SHLVL=2 _=/Users/kamal/miniconda3/envs/ros_hum/bin/env /Users/kamal/miniconda3/envs/ros_hum/bin/cmake --build /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/turtle_tf2_cpp -- -j8 -l8
+[5.189s] [  8%] Building CXX object CMakeFiles/static_turtle_tf2_broadcaster.dir/src/static_turtle_tf2_broadcaster.cpp.o
+[5.190s] [ 16%] Building CXX object CMakeFiles/turtle_tf2_listener.dir/src/turtle_tf2_listener.cpp.o
+[5.191s] [ 25%] Building CXX object CMakeFiles/turtle_tf2_broadcaster.dir/src/turtle_tf2_broadcaster.cpp.o
+[5.192s] [ 33%] Building CXX object CMakeFiles/fixed_frame_tf2_broadcaster.dir/src/fixed_frame_tf2_broadcaster.cpp.o
+[5.195s] [ 41%] Building CXX object CMakeFiles/dynamic_frame_tf2_broadcaster.dir/src/dynamic_frame_tf2_broadcaster.cpp.o
+[5.199s] [ 50%] Building CXX object CMakeFiles/turtle_tf2_message_filter.dir/src/turtle_tf2_message_filter.cpp.o
+[10.874s] In file included from /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/src/geometry_tutorials/turtle_tf2_cpp/src/turtle_tf2_broadcaster.cpp:21:
+[10.875s] In file included from /Users/kamal/miniconda3/envs/ros_hum/include/rclcpp/rclcpp/rclcpp.hpp:155:
+[10.875s] In file included from /Users/kamal/miniconda3/envs/ros_hum/include/rclcpp/rclcpp/executors.hpp:21:
+[10.875s] In file included from /Users/kamal/miniconda3/envs/ros_hum/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25:
+[10.875s] In file included from /Users/kamal/miniconda3/envs/ros_hum/include/rclcpp/rclcpp/executor.hpp:37:
+[10.875s] In file included from /Users/kamal/miniconda3/envs/ros_hum/include/rclcpp/rclcpp/executor_options.hpp:20:
+[10.875s] In file included from /Users/kamal/miniconda3/envs/ros_hum/include/rclcpp/rclcpp/memory_strategies.hpp:18:
+[10.875s] In file included from /Users/kamal/miniconda3/envs/ros_hum/include/rclcpp/rclcpp/memory_strategy.hpp:25:
+[10.875s] In file included from /Users/kamal/miniconda3/envs/ros_hum/include/rclcpp/rclcpp/any_executable.hpp:20:
+[10.875s] In file included from /Users/kamal/miniconda3/envs/ros_hum/include/rclcpp/rclcpp/callback_group.hpp:29:
+[10.875s] In file included from /Users/kamal/miniconda3/envs/ros_hum/include/rclcpp/rclcpp/subscription_base.hpp:32:
+[10.875s] /Users/kamal/miniconda3/envs/ros_hum/include/rclcpp/rclcpp/any_subscription_callback.hpp:391:7: warning: 'set_deprecated<turtlesim::msg::Pose_<std::allocator<void>>>' is deprecated: use 'void(std::shared_ptr<const MessageT>)' instead [-Wdeprecated-declarations]
+[10.875s]   391 |       set_deprecated(static_cast<typename scbth::callback_type>(callback));
+[10.876s]       |       ^
+[10.876s] /Users/kamal/miniconda3/envs/ros_hum/include/rclcpp/rclcpp/subscription_factory.hpp:94:29: note: in instantiation of function template specialization 'rclcpp::AnySubscriptionCallback<turtlesim::msg::Pose_<std::allocator<void>>>::set<(lambda at /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/src/geometry_tutorials/turtle_tf2_cpp/src/turtle_tf2_broadcaster.cpp:45:31)>' requested here
+[10.876s]    94 |   any_subscription_callback.set(std::forward<CallbackT>(callback));
+[10.876s]       |                             ^
+[10.876s] /Users/kamal/miniconda3/envs/ros_hum/include/rclcpp/rclcpp/create_subscription.hpp:122:26: note: in instantiation of function template specialization 'rclcpp::create_subscription_factory<turtlesim::msg::Pose_<std::allocator<void>>, (lambda at /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/src/geometry_tutorials/turtle_tf2_cpp/src/turtle_tf2_broadcaster.cpp:45:31) &, std::allocator<void>, rclcpp::Subscription<turtlesim::msg::Pose_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<turtlesim::msg::Pose_<std::allocator<void>>>, turtlesim::msg::Pose_<std::allocator<void>>>' requested here
+[10.876s]   122 |   auto factory = rclcpp::create_subscription_factory<MessageT>(
+[10.876s]       |                          ^
+[10.876s] /Users/kamal/miniconda3/envs/ros_hum/include/rclcpp/rclcpp/create_subscription.hpp:190:26: note: in instantiation of function template specialization 'rclcpp::detail::create_subscription<turtlesim::msg::Pose_<std::allocator<void>>, (lambda at /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/src/geometry_tutorials/turtle_tf2_cpp/src/turtle_tf2_broadcaster.cpp:45:31) &, std::allocator<void>, rclcpp::Subscription<turtlesim::msg::Pose_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<turtlesim::msg::Pose_<std::allocator<void>>>, rclcpp::Node, rclcpp::Node, turtlesim::msg::Pose_<std::allocator<void>>>' requested here
+[10.876s]   190 |   return rclcpp::detail::create_subscription<
+[10.876s]       |                          ^
+[10.877s] /Users/kamal/miniconda3/envs/ros_hum/include/rclcpp/rclcpp/node_impl.hpp:99:18: note: in instantiation of function template specialization 'rclcpp::create_subscription<turtlesim::msg::Pose_<std::allocator<void>>, (lambda at /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/src/geometry_tutorials/turtle_tf2_cpp/src/turtle_tf2_broadcaster.cpp:45:31) &, std::allocator<void>, rclcpp::Subscription<turtlesim::msg::Pose_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<turtlesim::msg::Pose_<std::allocator<void>>>, rclcpp::Node>' requested here
+[10.877s]    99 |   return rclcpp::create_subscription<MessageT>(
+[10.877s]       |                  ^
+[10.877s] /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/src/geometry_tutorials/turtle_tf2_cpp/src/turtle_tf2_broadcaster.cpp:73:27: note: in instantiation of function template specialization 'rclcpp::Node::create_subscription<turtlesim::msg::Pose_<std::allocator<void>>, (lambda at /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/src/geometry_tutorials/turtle_tf2_cpp/src/turtle_tf2_broadcaster.cpp:45:31) &, std::allocator<void>, rclcpp::Subscription<turtlesim::msg::Pose_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<turtlesim::msg::Pose_<std::allocator<void>>>>' requested here
+[10.877s]    73 |     subscription_ = this->create_subscription<turtlesim::msg::Pose>(
+[10.877s]       |                           ^
+[10.877s] /Users/kamal/miniconda3/envs/ros_hum/include/rclcpp/rclcpp/any_subscription_callback.hpp:405:5: note: 'set_deprecated<turtlesim::msg::Pose_<std::allocator<void>>>' has been explicitly marked deprecated here
+[10.877s]   405 |   [[deprecated("use 'void(std::shared_ptr<const MessageT>)' instead")]]
+[10.877s]       |     ^
+[11.813s] [ 58%] Linking CXX executable dynamic_frame_tf2_broadcaster
+[11.826s] [ 66%] Linking CXX executable static_turtle_tf2_broadcaster
+[11.838s] [ 75%] Linking CXX executable fixed_frame_tf2_broadcaster
+[11.914s] [ 75%] Built target dynamic_frame_tf2_broadcaster
+[11.933s] [ 75%] Built target static_turtle_tf2_broadcaster
+[11.946s] [ 75%] Built target fixed_frame_tf2_broadcaster
+[12.511s] [ 83%] Linking CXX executable turtle_tf2_listener
+[12.586s] [ 83%] Built target turtle_tf2_listener
+[13.694s] 1 warning generated.
+[13.713s] [ 91%] Linking CXX executable turtle_tf2_broadcaster
+[13.784s] [ 91%] Built target turtle_tf2_broadcaster
+[14.341s] [100%] Linking CXX executable turtle_tf2_message_filter
+[14.410s] [100%] Built target turtle_tf2_message_filter
+[14.424s] Invoked command in '/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/turtle_tf2_cpp' returned '0': SHLVL=2 _=/Users/kamal/miniconda3/envs/ros_hum/bin/env /Users/kamal/miniconda3/envs/ros_hum/bin/cmake --build /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/turtle_tf2_cpp -- -j8 -l8
+[14.519s] Invoking command in '/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/turtle_tf2_cpp': SHLVL=2 _=/Users/kamal/miniconda3/envs/ros_hum/bin/env /Users/kamal/miniconda3/envs/ros_hum/bin/cmake --install /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/turtle_tf2_cpp
+[14.529s] -- Install configuration: ""
+[14.529s] -- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_cpp/lib/turtle_tf2_cpp/static_turtle_tf2_broadcaster
+[14.529s] -- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_cpp/lib/turtle_tf2_cpp/turtle_tf2_broadcaster
+[14.530s] -- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_cpp/lib/turtle_tf2_cpp/turtle_tf2_listener
+[14.530s] -- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_cpp/lib/turtle_tf2_cpp/fixed_frame_tf2_broadcaster
+[14.530s] -- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_cpp/lib/turtle_tf2_cpp/dynamic_frame_tf2_broadcaster
+[14.530s] -- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_cpp/lib/turtle_tf2_cpp/turtle_tf2_message_filter
+[14.530s] -- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_cpp/share/turtle_tf2_cpp/launch
+[14.530s] -- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_cpp/share/turtle_tf2_cpp/launch/turtle_tf2_fixed_frame_demo.launch.py
+[14.531s] -- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_cpp/share/turtle_tf2_cpp/launch/turtle_tf2_demo.launch.py
+[14.531s] -- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_cpp/share/turtle_tf2_cpp/launch/turtle_tf2_dynamic_frame_demo.launch.py
+[14.531s] -- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_cpp/share/ament_index/resource_index/package_run_dependencies/turtle_tf2_cpp
+[14.531s] -- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_cpp/share/ament_index/resource_index/parent_prefix_path/turtle_tf2_cpp
+[14.532s] -- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_cpp/share/turtle_tf2_cpp/environment/ament_prefix_path.sh
+[14.532s] -- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_cpp/share/turtle_tf2_cpp/environment/ament_prefix_path.dsv
+[14.532s] -- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_cpp/share/turtle_tf2_cpp/environment/path.sh
+[14.532s] -- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_cpp/share/turtle_tf2_cpp/environment/path.dsv
+[14.533s] -- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_cpp/share/turtle_tf2_cpp/local_setup.bash
+[14.533s] -- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_cpp/share/turtle_tf2_cpp/local_setup.sh
+[14.533s] -- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_cpp/share/turtle_tf2_cpp/local_setup.zsh
+[14.533s] -- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_cpp/share/turtle_tf2_cpp/local_setup.dsv
+[14.533s] -- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_cpp/share/turtle_tf2_cpp/package.dsv
+[14.534s] -- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_cpp/share/ament_index/resource_index/packages/turtle_tf2_cpp
+[14.534s] -- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_cpp/share/turtle_tf2_cpp/cmake/turtle_tf2_cppConfig.cmake
+[14.534s] -- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_cpp/share/turtle_tf2_cpp/cmake/turtle_tf2_cppConfig-version.cmake
+[14.534s] -- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/turtle_tf2_cpp/share/turtle_tf2_cpp/package.xml
+[14.536s] Invoked command in '/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/turtle_tf2_cpp' returned '0': SHLVL=2 _=/Users/kamal/miniconda3/envs/ros_hum/bin/env /Users/kamal/miniconda3/envs/ros_hum/bin/cmake --install /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/turtle_tf2_cpp

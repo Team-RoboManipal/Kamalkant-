@@ -1,0 +1,20 @@
+[0.141s] Invoking command in '/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/geometry_tutorials': SHLVL=2 _=/Users/kamal/miniconda3/envs/ros_hum/bin/env /Users/kamal/miniconda3/envs/ros_hum/bin/cmake --build /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/geometry_tutorials -- -j8 -l8
+[0.701s] Invoked command in '/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/geometry_tutorials' returned '0': SHLVL=2 _=/Users/kamal/miniconda3/envs/ros_hum/bin/env /Users/kamal/miniconda3/envs/ros_hum/bin/cmake --build /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/geometry_tutorials -- -j8 -l8
+[0.822s] Invoking command in '/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/geometry_tutorials': SHLVL=2 _=/Users/kamal/miniconda3/envs/ros_hum/bin/env /Users/kamal/miniconda3/envs/ros_hum/bin/cmake --install /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/geometry_tutorials
+[0.844s] -- Install configuration: ""
+[0.844s] -- Up-to-date: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/geometry_tutorials/share/ament_index/resource_index/package_run_dependencies/geometry_tutorials
+[0.844s] -- Up-to-date: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/geometry_tutorials/share/ament_index/resource_index/parent_prefix_path/geometry_tutorials
+[0.844s] -- Up-to-date: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/geometry_tutorials/share/geometry_tutorials/environment/ament_prefix_path.sh
+[0.844s] -- Up-to-date: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/geometry_tutorials/share/geometry_tutorials/environment/ament_prefix_path.dsv
+[0.845s] -- Up-to-date: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/geometry_tutorials/share/geometry_tutorials/environment/path.sh
+[0.845s] -- Up-to-date: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/geometry_tutorials/share/geometry_tutorials/environment/path.dsv
+[0.845s] -- Up-to-date: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/geometry_tutorials/share/geometry_tutorials/local_setup.bash
+[0.845s] -- Up-to-date: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/geometry_tutorials/share/geometry_tutorials/local_setup.sh
+[0.845s] -- Up-to-date: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/geometry_tutorials/share/geometry_tutorials/local_setup.zsh
+[0.846s] -- Up-to-date: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/geometry_tutorials/share/geometry_tutorials/local_setup.dsv
+[0.846s] -- Up-to-date: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/geometry_tutorials/share/geometry_tutorials/package.dsv
+[0.846s] -- Up-to-date: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/geometry_tutorials/share/ament_index/resource_index/packages/geometry_tutorials
+[0.846s] -- Up-to-date: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/geometry_tutorials/share/geometry_tutorials/cmake/geometry_tutorialsConfig.cmake
+[0.846s] -- Up-to-date: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/geometry_tutorials/share/geometry_tutorials/cmake/geometry_tutorialsConfig-version.cmake
+[0.846s] -- Up-to-date: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/geometry_tutorials/share/geometry_tutorials/package.xml
+[0.848s] Invoked command in '/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/geometry_tutorials' returned '0': SHLVL=2 _=/Users/kamal/miniconda3/envs/ros_hum/bin/env /Users/kamal/miniconda3/envs/ros_hum/bin/cmake --install /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/geometry_tutorials

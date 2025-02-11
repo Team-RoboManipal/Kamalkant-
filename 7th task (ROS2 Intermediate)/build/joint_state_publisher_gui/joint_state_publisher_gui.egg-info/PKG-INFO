@@ -1,0 +1,25 @@
+Metadata-Version: 2.2
+Name: joint_state_publisher_gui
+Version: 2.4.0
+Summary: A python node to publish `sensor_msgs/JointState` messages for a robot described with URDF.
+Author: David V. Lu!!
+Author-email: davidvlu@gmail.com
+Maintainer: Chris Lalancette
+Maintainer-email: clalancette@openrobotics.org
+License: BSD
+Keywords: ROS
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+License-File: LICENSE
+Requires-Dist: setuptools
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: keywords
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: requires-dist
+Dynamic: summary

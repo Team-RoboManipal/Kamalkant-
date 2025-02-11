@@ -1,0 +1,59 @@
+-- The C compiler identification is Clang 18.1.7
+-- The CXX compiler identification is Clang 18.1.7
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Users/kamal/miniconda3/envs/ros_hum/bin/arm64-apple-darwin20.0.0-clang - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/kamal/miniconda3/envs/ros_hum/bin/arm64-apple-darwin20.0.0-clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.7 (/Users/kamal/miniconda3/envs/ros_hum/share/ament_cmake/cmake)
+-- Found Python3: /opt/homebrew/Frameworks/Python.framework/Versions/3.13/bin/python3.13 (found version "3.13.2") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.10 (/Users/kamal/miniconda3/envs/ros_hum/share/ament_lint_auto/cmake)
+-- Configuring done (1.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/urdf_tutorial
+-- Install configuration: ""
+-- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial/share/urdf_tutorial/images
+-- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial/share/urdf_tutorial/images/origins.png
+-- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial/share/urdf_tutorial/images/myfirst.png
+-- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial/share/urdf_tutorial/images/visual.png
+-- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial/share/urdf_tutorial/images/multipleshapes.png
+-- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial/share/urdf_tutorial/images/flexible.png
+-- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial/share/urdf_tutorial/images/materials.png
+-- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial/share/urdf_tutorial/launch
+-- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial/share/urdf_tutorial/launch/display.launch.py
+-- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial/share/urdf_tutorial/meshes
+-- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial/share/urdf_tutorial/meshes/l_finger_tip_color.png
+-- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial/share/urdf_tutorial/meshes/l_finger_tip.dae
+-- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial/share/urdf_tutorial/meshes/l_finger_color.png
+-- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial/share/urdf_tutorial/meshes/l_finger.dae
+-- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial/share/urdf_tutorial/rviz
+-- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial/share/urdf_tutorial/rviz/urdf.rviz
+-- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial/share/urdf_tutorial/urdf
+-- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial/share/urdf_tutorial/urdf/07-physics.urdf
+-- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial/share/urdf_tutorial/urdf/08-macroed.urdf.xacro
+-- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial/share/urdf_tutorial/urdf/05-visual.urdf
+-- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial/share/urdf_tutorial/urdf/01-myfirst.urdf
+-- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial/share/urdf_tutorial/urdf/02-multipleshapes.urdf
+-- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial/share/urdf_tutorial/urdf/06-flexible.urdf
+-- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial/share/urdf_tutorial/urdf/04-materials.urdf
+-- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial/share/urdf_tutorial/urdf/03-origins.urdf
+-- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial/share/ament_index/resource_index/package_run_dependencies/urdf_tutorial
+-- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial/share/ament_index/resource_index/parent_prefix_path/urdf_tutorial
+-- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial/share/urdf_tutorial/environment/ament_prefix_path.sh
+-- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial/share/urdf_tutorial/environment/ament_prefix_path.dsv
+-- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial/share/urdf_tutorial/environment/path.sh
+-- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial/share/urdf_tutorial/environment/path.dsv
+-- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial/share/urdf_tutorial/local_setup.bash
+-- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial/share/urdf_tutorial/local_setup.sh
+-- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial/share/urdf_tutorial/local_setup.zsh
+-- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial/share/urdf_tutorial/local_setup.dsv
+-- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial/share/urdf_tutorial/package.dsv
+-- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial/share/ament_index/resource_index/packages/urdf_tutorial
+-- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial/share/urdf_tutorial/cmake/urdf_tutorialConfig.cmake
+-- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial/share/urdf_tutorial/cmake/urdf_tutorialConfig-version.cmake
+-- Installing: /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/urdf_tutorial/share/urdf_tutorial/package.xml

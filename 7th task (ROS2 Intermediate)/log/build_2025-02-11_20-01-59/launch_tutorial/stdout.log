@@ -1,0 +1,40 @@
+running egg_info
+creating ../../build/launch_tutorial/launch_tutorial.egg-info
+writing ../../build/launch_tutorial/launch_tutorial.egg-info/PKG-INFO
+writing dependency_links to ../../build/launch_tutorial/launch_tutorial.egg-info/dependency_links.txt
+writing requirements to ../../build/launch_tutorial/launch_tutorial.egg-info/requires.txt
+writing top-level names to ../../build/launch_tutorial/launch_tutorial.egg-info/top_level.txt
+writing manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+reading manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+writing manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/launch_tutorial/build/lib/launch_tutorial
+copying launch_tutorial/__init__.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/launch_tutorial/build/lib/launch_tutorial
+running install
+running install_lib
+creating /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/launch_tutorial/lib/python3.11/site-packages/launch_tutorial
+copying /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/launch_tutorial/build/lib/launch_tutorial/__init__.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/launch_tutorial/lib/python3.11/site-packages/launch_tutorial
+byte-compiling /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/launch_tutorial/lib/python3.11/site-packages/launch_tutorial/__init__.py to __init__.cpython-311.pyc
+running install_data
+creating /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/launch_tutorial/share/ament_index/resource_index/packages
+copying resource/launch_tutorial -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/launch_tutorial/share/ament_index/resource_index/packages
+copying package.xml -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/launch_tutorial/share/launch_tutorial
+creating /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/launch_tutorial/share/launch_tutorial/launch
+copying launch/mimic.launch.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/launch_tutorial/share/launch_tutorial/launch
+copying launch/example_event_handlers.launch.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/launch_tutorial/share/launch_tutorial/launch
+copying launch/turtlesim_world_3.launch.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/launch_tutorial/share/launch_tutorial/launch
+copying launch/turtlesim_rviz.launch.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/launch_tutorial/share/launch_tutorial/launch
+copying launch/broadcaster_listener.launch.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/launch_tutorial/share/launch_tutorial/launch
+copying launch/launch_turtlesim.launch.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/launch_tutorial/share/launch_tutorial/launch
+copying launch/turtlesim_world_2.launch.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/launch_tutorial/share/launch_tutorial/launch
+copying launch/example_substitutions.launch.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/launch_tutorial/share/launch_tutorial/launch
+copying launch/turtlesim_world_1.launch.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/launch_tutorial/share/launch_tutorial/launch
+copying launch/fixed_broadcaster.launch.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/launch_tutorial/share/launch_tutorial/launch
+copying launch/example_main.launch.py -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/launch_tutorial/share/launch_tutorial/launch
+creating /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/launch_tutorial/share/launch_tutorial/config
+copying config/turtlesim.yaml -> /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/launch_tutorial/share/launch_tutorial/config
+running install_egg_info
+Copying ../../build/launch_tutorial/launch_tutorial.egg-info to /Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/install/launch_tutorial/lib/python3.11/site-packages/launch_tutorial-0.0.0-py3.11.egg-info
+running install_scripts
+writing list of installed files to '/Users/kamal/git_/Kamalkant-/7th task (ROS2 Intermediate)/build/launch_tutorial/install.log'
