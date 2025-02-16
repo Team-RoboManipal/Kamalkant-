@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>urdf_sim_tutorial</name>
+  <version>1.0.1</version>
+  <description>The urdf_sim_tutorial package</description>
+  <author email="davidvlu@gmail.com">David V. Lu!!</author>
+  <author email="paul@bovbel.com">Paul Bovbel</author>
+
+  <maintainer email="davidvlu@gmail.com">David V. Lu!!</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <exec_depend>controller_manager</exec_depend>
+  <exec_depend>diff_drive_controller</exec_depend>
+  <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend>position_controllers</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>rqt_robot_steering</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+  <exec_depend>urdf_tutorial</exec_depend>
+  <exec_depend>xacro</exec_depend>
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+
+</package>
