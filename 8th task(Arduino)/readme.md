@@ -166,6 +166,17 @@ SPI uses a controller-peripheral architecture with four main signals:
 
 The controller initiates communication by pulling the CS line low for the desired peripheral. Data is then transmitted synchronously with the clock signal, allowing for full-duplex communication.
 
+#### SPI Modes
+
+SPI operates in four different modes, depending on the Clock Polarity (CPOL) and Clock Phase (CPHA) settings:
+
+| Mode | Clock Polarity (CPOL) | Clock Phase (CPHA) | Output Edge | Data Capture |
+|------|------------------------|---------------------|-------------|--------------|
+| SPI_MODE0 | 0 | 0 | Falling | Rising |
+| SPI_MODE1 | 0 | 1 | Rising | Falling |
+| SPI_MODE2 | 1 | 0 | Rising | Falling |
+| SPI_MODE3 | 1 | 1 | Falling | Rising |
+
 #### Key Features
 - Full-duplex communication (simultaneous data transmission and reception).
 - Higher speeds than protocols like I2C or UART.
