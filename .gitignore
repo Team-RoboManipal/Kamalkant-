@@ -1,2 +1,17 @@
 #ignore macos Files
 .DS_Store
+# Ignore Python files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+*.env
+*.venv
+.env/
+.venv/
+*.log
+*.sqlite3
